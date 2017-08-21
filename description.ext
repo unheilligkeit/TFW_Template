@@ -1,0 +1,66 @@
+﻿/* ================ Metadaten =============== */
+class header
+{
+   gameType = COOP;
+   minPlayers = 1;
+   maxPlayers = 78;
+};
+
+/* ================ Ladebildschirm =============== */
+onLoadName = "TFW Template";
+author = "TFW Florian";
+OnLoadMission = "";
+Respawn = "BASE";
+respawnTemplates[]  = {"Base"};
+respawnDelay    = 300;
+respawnOnStart    = 0;
+DisabledAI = true;
+loadScreen = "images\loadscreen.jpg";
+overviewPicture = "";
+enableDebugConsole = 1;
+
+
+/* ================ Includes =============== */
+#include "taw_vd\GUI.h"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
+	#include "functions\CfgFunctions.hpp"
+};
+
+class ACE_Settings
+{
+	#include "settings\CfgACE.hpp"
+};
+
+
+/*================== Prameter ============ */
+
+class Params
+{
+
+	class param_loadout
+	{
+		title="Loadout Fraktion";
+		values[] = {0,1,2};
+		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP"};
+		default = 0;
+	};
+
+};
+
+
+
+class CfgDebriefing
+{
+	class End2
+	{
+		title = "Mission Erfolgreich";
+		subtitle = "";
+		description = "Toll Leistung ..";
+		pictureBackground = "images\loadscreen.jpg";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+};
