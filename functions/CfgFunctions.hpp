@@ -7,6 +7,7 @@ class TFW
 	{
 		file = "functions\server";
 		class drohnspawn {};
+		class radiochatter {};
 
 	};
 

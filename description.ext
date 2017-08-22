@@ -48,6 +48,14 @@ class Params
 		default = 0;
 	};
 
+		class param_radiochatter
+	{
+		title="Radio Chatter";
+		values[] = {0,1};
+		texts[] = {"Nein","Ja"};
+		default = 0;
+	};
+
 };
 
 
