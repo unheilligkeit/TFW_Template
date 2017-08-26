@@ -95,6 +95,20 @@ class TFW
 
 	};
 
+	class bw_tropen
+	{
+		file = "functions\loadouts\bw_tropen";
+		class bw_tropen_riflemann {};
+		class bw_tropen_grenadier {};
+		class bw_tropen_riflemannpanzer {};
+		class bw_tropen_lmg {};
+		class bw_tropen_teamleader {};
+		class bw_tropen_squadleader {};
+		class bw_tropen_medic {};
+		class bw_tropen_offizier {};
+
+	};
+
 
 };
 

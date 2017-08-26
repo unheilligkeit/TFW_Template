@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15162.999,32.337254,17211.818};
-		dir[]={-0.31114534,0.022523025,0.95021069};
-		up[]={0.0068917028,0.99922222,-0.02100605};
-		aside[]={0.95086634,-5.7205762e-006,0.31134191};
+		pos[]={15158.396,27.666922,17234.443};
+		dir[]={-0.5822655,-0.49732864,0.64331377};
+		up[]={-0.33374271,0.86693126,0.36875322};
+		aside[]={0.74182308,3.9541628e-006,0.67140287};
 	};
 };
 binarizationWanted=0;
@@ -47,14 +47,13 @@ addons[]=
 	"ace_chemlights",
 	"UK3CB_BAF_Equipment_Glasses",
 	"A3_Characters_F_Mark",
-	"A3_Modules_F_Curator_Curator",
-	"A3_Soft_F_MRAP_01"
+	"A3_Modules_F_Curator_Curator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=22;
+		items=21;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -200,13 +199,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
-		{
-			className="A3_Soft_F";
-			name="Arma 3 Alpha - Unarmored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 	};
 };
 randomSeed=1010751;
@@ -240,7 +232,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=4;
+		items=3;
 		class Item0
 		{
 			dataType="Group";
@@ -1202,21 +1194,6 @@ class Mission
 				};
 				nAttributes=4;
 			};
-		};
-		class Item3
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15147.799,20.115946,17263.361};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=83;
-			type="B_MRAP_01_F";
 		};
 	};
 };

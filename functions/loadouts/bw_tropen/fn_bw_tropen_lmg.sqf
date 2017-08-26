@@ -12,24 +12,25 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["PBW_Uniform1_fleck","PBW_Uniform1H_fleck","PBW_Uniform3K_fleck","PBW_Uniform4K_fleck","PBW_Uniform4_fleck","PBW_Uniform3K_fleck","BWA3_Uniform_Fleck","BWA3_Uniform2_Fleck","BWA3_Uniform_idz_Fleck","BWA3_Uniform3_idz_Fleck"];
+_uniformarray = selectRandom ["PBW_Uniform1_tropen","PBW_Uniform1H_tropen","PBW_Uniform3K_tropen","PBW_Uniform4K_tropen","PBW_Uniform4_tropen","PBW_Uniform3K_tropen","BWA3_Uniform_Tropen","BWA3_Uniform2_Tropen","BWA3_Uniform_idz_Tropen","BWA3_Uniform3_idz_Tropen"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
-_westenarray = selectRandom ["BWA3_Vest_Fleck","BWA3_Vest_Grenadier_Fleck","BWA3_Vest_Leader_Fleck","BWA3_Vest_Marksman_Fleck","BWA3_Vest_Autorifleman_Fleck","BWA3_Vest_Rifleman1_Fleck"];
+_westenarray = selectRandom ["BWA3_Vest_Tropen","BWA3_Vest_Grenadier_Tropen","BWA3_Vest_Leader_Tropen","BWA3_Vest_Marksman_Tropen","BWA3_Vest_Autorifleman_Tropen","BWA3_Vest_Rifleman1_Tropen"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["BWA3_Kitbag_Fleck","BWA3_PatrolPack_Fleck"];
+_rucksackearray = selectRandom ["BWA3_Kitbag_Tropen","BWA3_AssaultPack_Tropen","BWA3_PatrolPack_Tropen"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
-_helmearray = selectRandom ["BWA3_M92_Fleck","PBW_Helm4_fleck","PBW_Helm4_fleck_HBO","PBW_Helm4_fleck_HBOD","PBW_Helm5_fleck","PBW_Helm5_fleck_H","PBW_Helm4_fleck_H","PBW_Helm3_fleck","PBW_Helm1_fleck_HBO"];
+_helmearray = selectRandom ["BWA3_M92_Tropen","PBW_Helm4_tropen","PBW_Helm4_tropen_HBO","PBW_Helm4_tropen_HBOD","PBW_Helm4_tropen_H","PBW_Helm3_tropen","PBW_Helm1_tropen_HBO"];
 _unit addHeadgear _helmearray;
 
 // Brillen
 _brillenarray = selectRandom [ "" , "PBW_Balaclava_schwarz","PBW_Balaclava_schwarzR","PBW_Balaclava_beige","PBW_shemagh_gruen","BWA3_G_Combat_Clear","BWA3_G_Combat_Black","BWA3_G_Combat_Orange"];
 _unit addGoggles _brillenarray;
+
 
 
 

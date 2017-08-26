@@ -107,7 +107,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
     };
 
 
-//=================================================== US Army OCP ================================================================//
+//=================================================== BW Fleck ================================================================//
 
     if(_loadoutfraktion == 3) then
     {
@@ -131,6 +131,39 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_medic_F": { [_unit] call TFW_fnc_bw_fleck_medic; };
 
                     case "B_officer_F": { [_unit] call TFW_fnc_bw_fleck_offizier; };
+
+
+                    default { [_unit] call TFW_fnc_loadoutentfernen ; };
+
+            };
+
+    };
+
+
+//=================================================== BW Tropen ================================================================//
+
+    if(_loadoutfraktion == 4) then
+    {
+
+            switch (_playerclass) do
+            {
+
+
+                    case "B_Soldier_F": { [_unit] call TFW_fnc_bw_tropen_riflemann; };
+
+                    case "B_Soldier_GL_F": { [_unit] call TFW_fnc_bw_tropen_grenadier; };
+
+                    case "B_soldier_LAT_F": { [_unit] call TFW_fnc_bw_tropen_riflemannpanzer; };
+
+                    case "B_soldier_AR_F": { [_unit] call TFW_fnc_bw_tropen_lmg; };
+
+                    case "B_Soldier_TL_F": { [_unit] call TFW_fnc_bw_tropen_teamleader; };
+
+                    case "B_Soldier_SL_F": { [_unit] call TFW_fnc_bw_tropen_squadleader; };
+
+                    case "B_medic_F": { [_unit] call TFW_fnc_bw_tropen_medic; };
+
+                    case "B_officer_F": { [_unit] call TFW_fnc_bw_tropen_offizier; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
