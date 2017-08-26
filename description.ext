@@ -43,8 +43,8 @@ class Params
 	class param_loadout
 	{
 		title="Loadout Fraktion";
-		values[] = {0,1,2};
-		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP"};
+		values[] = {0,1,2,3};
+		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP","BW Flecktarn"};
 		default = 0;
 	};
 

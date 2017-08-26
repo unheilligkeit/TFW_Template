@@ -105,3 +105,36 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
             };
 
     };
+
+
+//=================================================== US Army OCP ================================================================//
+
+    if(_loadoutfraktion == 3) then
+    {
+
+            switch (_playerclass) do
+            {
+
+
+                    case "B_Soldier_F": { [_unit] call TFW_fnc_bw_fleck_riflemann; };
+
+                    case "B_Soldier_GL_F": { [_unit] call TFW_fnc_bw_fleck_grenadier; };
+
+                    case "B_soldier_LAT_F": { [_unit] call TFW_fnc_bw_fleck_riflemannpanzer; };
+
+                    case "B_soldier_AR_F": { [_unit] call TFW_fnc_bw_fleck_lmg; };
+
+                    case "B_Soldier_TL_F": { [_unit] call TFW_fnc_bw_fleck_teamleader; };
+
+                    case "B_Soldier_SL_F": { [_unit] call TFW_fnc_bw_fleck_squadleader; };
+
+                    case "B_medic_F": { [_unit] call TFW_fnc_bw_fleck_medic; };
+
+                    case "B_officer_F": { [_unit] call TFW_fnc_bw_fleck_offizier; };
+
+
+                    default { [_unit] call TFW_fnc_loadoutentfernen ; };
+
+            };
+
+    };

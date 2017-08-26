@@ -81,6 +81,20 @@ class TFW
 
 	};
 
+	class bw_fleck
+	{
+		file = "functions\loadouts\bw_fleck";
+		class bw_fleck_riflemann {};
+		class bw_fleck_grenadier {};
+		class bw_fleck_riflemannpanzer {};
+		class bw_fleck_lmg {};
+		class bw_fleck_teamleader {};
+		class bw_fleck_squadleader {};
+		class bw_fleck_medic {};
+		class bw_fleck_offizier {};
+
+	};
+
 
 };
 
