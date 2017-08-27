@@ -18,6 +18,13 @@ Das heisst es basiert auf denn Einheiten Classname.
 Die verschieden Fraktionen können einfach in der Lobby bei denn Parameter geändert werden. 
 Oder in der Description.ext
 
+### Fraktionen
+- Vanilla Nato
+- US Army OCP
+- US Army UCP
+- Bundeswehr Flecktarn
+- Bundeswehr Tropentarn
+
  
 ### Loadouts / Classnames
 
