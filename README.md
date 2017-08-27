@@ -22,6 +22,7 @@ Oder in der Description.ext
 ### Loadouts / Classnames
 
 Loadout | Classname
+------------ | -------------
 Schütze | B_Soldier_F
 Grenadier | B_Soldier_GL_F
 Schütze Anti Tank | B_soldier_LAT_F
