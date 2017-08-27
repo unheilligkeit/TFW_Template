@@ -21,16 +21,16 @@ Oder in der Description.ext
  
 ### Loadouts / Classnames
 
-Loadout | Classname
------------- | -------------
-Schütze | B_Soldier_F
-Grenadier | B_Soldier_GL_F
-Schütze Anti Tank | B_soldier_LAT_F
-LMG Schütze | B_soldier_AR_F
-Teamleader | B_Soldier_TL_F
-Squadleader | B_Soldier_SL_F
-Medic | B_medic_F
-Offizier | B_officer_F
+Loadout | Classname | Editor Name
+------------ | ------------- | -------------
+Schütze | B_Soldier_F | Schütze
+Grenadier | B_Soldier_GL_F | Grenadier
+Schütze Anti Tank | B_soldier_LAT_F | Schütze (Panzerabwehr)
+LMG Schütze | B_soldier_AR_F | Automatik-Schütze 
+Teamleader | B_Soldier_TL_F | Teamleader
+Squadleader | B_Soldier_SL_F | Truppführer
+Medic | B_medic_F | Sanitäter
+Offizier | B_officer_F | Offizier
 
 
 
