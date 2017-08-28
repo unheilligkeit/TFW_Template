@@ -35,6 +35,8 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_officer_F": { [_unit] call TFW_fnc_nato_offizier; };
 
+                    case "B_soldier_M_F": { [_unit] call TFW_fnc_nato_marksman; };
+
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
             };

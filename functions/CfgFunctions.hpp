@@ -50,6 +50,7 @@ class TFW
 		class nato_squadleader {};
 		class nato_medic {};
 		class nato_offizier {};
+		class nato_marksman {};
 
 	};
 
