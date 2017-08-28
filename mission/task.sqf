@@ -1,0 +1,1 @@
+[["001"], true,["Ihr Spielt mit dem TFW Template viel spass","Viel Spass","Viel Spass"], [] , "ASSIGNED" , 100 , false , true , "whiteboard" , false ] call BIS_fnc_setTask;

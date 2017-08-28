@@ -22,6 +22,11 @@ setViewDistance 3500; //Max. Sichtweite setzen
 
 if (isServer) then {execVM "mission\storyline.sqf"};
 
+// Tasks
+
+if (isServer) then {execVM "mission\task.sqf"};
+
+
 // Mission Extras
 
 
