@@ -68,6 +68,8 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_officer_F": { [_unit] call TFW_fnc_us_ocp_offizier; };
 
+                    case "B_soldier_M_F": { [_unit] call TFW_fnc_us_ocp_marksman; };
+
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
 
@@ -76,7 +78,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
     };
 
 
-//=================================================== US Army OCP ================================================================//
+//=================================================== US Army UCP ================================================================//
 
     if(_loadoutfraktion == 2) then
     {
@@ -100,6 +102,8 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_medic_F": { [_unit] call TFW_fnc_us_ucp_medic; };
 
                     case "B_officer_F": { [_unit] call TFW_fnc_us_ucp_offizier; };
+
+                    case "B_soldier_M_F": { [_unit] call TFW_fnc_us_ucp_marksman; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
@@ -134,6 +138,8 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_officer_F": { [_unit] call TFW_fnc_bw_fleck_offizier; };
 
+                    case "B_soldier_M_F": { [_unit] call TFW_fnc_bw_fleck_marksman; };
+
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
 
@@ -166,6 +172,8 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_medic_F": { [_unit] call TFW_fnc_bw_tropen_medic; };
 
                     case "B_officer_F": { [_unit] call TFW_fnc_bw_tropen_offizier; };
+
+                    case "B_soldier_M_F": { [_unit] call TFW_fnc_bw_tropen_marksman; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };

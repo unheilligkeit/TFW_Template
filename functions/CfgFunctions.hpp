@@ -65,6 +65,7 @@ class TFW
 		class us_ocp_squadleader {};
 		class us_ocp_medic {};
 		class us_ocp_offizier {};
+		class us_ocp_marksman {};
 
 	};
 
@@ -79,6 +80,8 @@ class TFW
 		class us_ucp_squadleader {};
 		class us_ucp_medic {};
 		class us_ucp_offizier {};
+		class us_ucp_marksman {};
+
 
 	};
 
@@ -93,6 +96,7 @@ class TFW
 		class bw_fleck_squadleader {};
 		class bw_fleck_medic {};
 		class bw_fleck_offizier {};
+		class bw_fleck_marksman {};
 
 	};
 
@@ -107,6 +111,7 @@ class TFW
 		class bw_tropen_squadleader {};
 		class bw_tropen_medic {};
 		class bw_tropen_offizier {};
+		class bw_tropen_marksman {};
 
 	};
 
