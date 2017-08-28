@@ -1,3 +1,5 @@
+![](https://task-force-wolf.de/styles/elegance_ed/theme/images/logo_neu.png)
+
 # Task Force Wolf Missions Template
 
 Das Offizielle TFW Mission Template gebaut von Florian.
