@@ -40,7 +40,7 @@ Teamleader | B_Soldier_TL_F | Teamleader
 Squadleader | B_Soldier_SL_F | Truppführer
 Medic | B_medic_F | Sanitäter
 Offizier | B_officer_F | Offizier
-
+Marksman | B_soldier_M_F | Scharfschütze
 
 
 
