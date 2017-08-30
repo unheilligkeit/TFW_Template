@@ -51,6 +51,10 @@ class TFW
 		class nato_medic {};
 		class nato_offizier {};
 		class nato_marksman {};
+		class nato_crewman {};
+		class nato_helipilot {};
+		class nato_helicrew {};
+		class nato_logistiker {};
 
 	};
 
