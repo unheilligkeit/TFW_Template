@@ -41,6 +41,25 @@ Squadleader | B_Soldier_SL_F | Truppführer
 Medic | B_medic_F | Sanitäter
 Offizier | B_officer_F | Offizier
 Marksman | B_soldier_M_F | Scharfschütze
+Besatzung | B_crew_F | Besatzungsmitglied
+Helipilot | B_Helipilot_F | Helikopterpilot
+Helicrew | B_Helicrew_F | Helikopterbesatzung
+Logistiker | B_Soldier_unarmed_F | Schütze (Unbewaffnet)
 
+### Loadouts / Fraktionen
 
-
+Loadouts | Vanilla Nato| US OCP | US UCP | BW Fleck | BW Tropen |
+------------ | ------------- | -------------| -------------| -------------| -------------
+Schütze |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Grenadier |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Schütze Anti Tank |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+LMG Schütze |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Teamleader |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Squadleader |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Medic |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Offizier |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Marksman |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
+Besatzung |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: 
+Helipilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: 
+Helicrew |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: 
+Logistiker |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: 
