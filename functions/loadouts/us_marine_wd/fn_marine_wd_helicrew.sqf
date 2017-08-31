@@ -12,11 +12,11 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["rhs_uniform_FROG01_wd"];
+_uniformarray = selectRandom ["U_B_HeliPilotCoveralls"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
-_westenarray = selectRandom ["rhsusf_spc_rifleman","rhsusf_spc_light","rhsusf_spc","rhsusf_spc_patchless_radio","rhsusf_spc_patchless"];
+_westenarray = selectRandom ["V_TacVest_oli","V_TacVest_khk","V_TacVest_brn","V_TacVest_blk"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
@@ -24,7 +24,7 @@ _rucksackearray = selectRandom ["rhsusf_falconii_coy"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
-_helmearray = selectRandom ["rhsusf_lwh_helmet_marpatwd","rhsusf_lwh_helmet_marpatwd_blk_ess","rhsusf_lwh_helmet_marpatwd_headset_blk","rhsusf_lwh_helmet_marpatwd_headset","rhsusf_lwh_helmet_marpatwd_ess"];
+_helmearray = selectRandom ["H_CrewHelmetHeli_B"];
 _unit addHeadgear _helmearray;
 
 // Brillen

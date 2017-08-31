@@ -12,11 +12,11 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["rhs_uniform_FROG01_wd"];
+_uniformarray = selectRandom ["U_B_HeliPilotCoveralls"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
-_westenarray = selectRandom ["rhsusf_spc_rifleman","rhsusf_spc_light","rhsusf_spc","rhsusf_spc_patchless_radio","rhsusf_spc_patchless"];
+_westenarray = selectRandom ["V_TacVest_oli","V_TacVest_khk","V_TacVest_brn","V_TacVest_blk"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
@@ -44,6 +44,8 @@ _unit addGoggles _brillenarray;
 
 // Funkgeräte
 _unit addItemToUniform "ACRE_PRC152";
+_unit addItemToUniform "ACRE_PRC152";
+_unit addItemToBackpack "ACRE_PRC117F";
 
 
 // Sonstiges - Zusatzausrüstung

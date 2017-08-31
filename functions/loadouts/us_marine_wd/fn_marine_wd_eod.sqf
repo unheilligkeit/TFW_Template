@@ -12,11 +12,11 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["U_B_PilotCoveralls"];
+_uniformarray = selectRandom ["rhs_uniform_FROG01_wd"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
-_westenarray = selectRandom ["V_TacVest_oli","V_TacVest_khk","V_TacVest_brn","V_TacVest_blk"];
+_westenarray = selectRandom ["rhsusf_spc_rifleman","rhsusf_spc_light","rhsusf_spc","rhsusf_spc_patchless_radio","rhsusf_spc_patchless"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
@@ -24,7 +24,7 @@ _rucksackearray = selectRandom ["rhsusf_falconii_coy"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
-_helmearray = selectRandom ["H_PilotHelmetHeli_B"];
+_helmearray = selectRandom ["rhsusf_lwh_helmet_marpatwd","rhsusf_lwh_helmet_marpatwd_blk_ess","rhsusf_lwh_helmet_marpatwd_headset_blk","rhsusf_lwh_helmet_marpatwd_headset","rhsusf_lwh_helmet_marpatwd_ess"];
 _unit addHeadgear _helmearray;
 
 // Brillen
@@ -44,12 +44,14 @@ _unit addGoggles _brillenarray;
 
 // Funkgeräte
 _unit addItemToUniform "ACRE_PRC152";
-_unit addItemToUniform "ACRE_PRC152";
-_unit addItemToBackpack "ACRE_PRC117F";
 
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
+_unit addItemToBackpack "ACE_DefusalKit";
+_unit addItemToBackpack "ACE_M26_Clacker";
+_unit addItemToBackpack "ACE_Clacker";
+for "_i" from 1 to 4 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
 
 
 
@@ -60,7 +62,7 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["rhsusf_weap_MP7A2","UK3CB_BAF_9_17Rnd"]];
+_waffenarray = selectRandom [["rhs_weap_m16a4_carryhandle","rhs_mag_30Rnd_556x45_Mk318_Stanag"],["rhs_weap_m16a4","30Rnd_65x39_caseless_mag"],["rhs_weap_m16a4_carryhandle_pmag","30Rnd_65x39_caseless_mag"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
@@ -78,13 +80,7 @@ _unit addPrimaryWeaponItem  _visierarray;
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 
 
-// Sekundär Waffe und Munition
-_sekwaffenarray = selectRandom [["rhsusf_weap_m1911a1","rhsusf_mag_7x45acp_MHP"]];
-_sekwaffe = _sekwaffenarray select 0;
-_sekmunition = _sekwaffenarray select 1;
-
-_unit addWeapon _sekwaffe ;
-for "_i" from 1 to 2 do {_unit addMagazine _sekmunition;};
+_unit addWeapon "ACE_VMM3";
 
 
 

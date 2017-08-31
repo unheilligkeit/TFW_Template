@@ -152,6 +152,14 @@ class TFW
 		class marine_wd_uav {};
 		class marine_wd_jetpilot {};
 		class marine_wd_jtac {};
+		class marine_wd_logistiker {};
+		class marine_wd_atsolider {};
+		class marine_wd_atassist {};
+		class marine_wd_aasolider {};
+		class marine_wd_aaassist {};
+		class marine_wd_eod {};
+		class marine_wd_sniper {};
+		class marine_wd_spotter {};
 
 
 	};

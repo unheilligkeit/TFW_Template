@@ -12,19 +12,19 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["U_B_PilotCoveralls"];
+_uniformarray = selectRandom ["U_B_GhillieSuit","U_B_FullGhillie_sard","U_B_FullGhillie_lsh","U_B_FullGhillie_ard"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
-_westenarray = selectRandom ["V_TacVest_oli","V_TacVest_khk","V_TacVest_brn","V_TacVest_blk"];
+_westenarray = selectRandom ["rhsusf_spc_rifleman","rhsusf_spc_light","rhsusf_spc","rhsusf_spc_patchless_radio","rhsusf_spc_patchless"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["rhsusf_falconii_coy"];
+_rucksackearray = selectRandom ["B_Kitbag_mcamo"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
-_helmearray = selectRandom ["H_PilotHelmetHeli_B"];
+_helmearray = selectRandom ["rhsusf_lwh_helmet_marpatwd","rhsusf_lwh_helmet_marpatwd_blk_ess","rhsusf_lwh_helmet_marpatwd_headset_blk","rhsusf_lwh_helmet_marpatwd_headset","rhsusf_lwh_helmet_marpatwd_ess"];
 _unit addHeadgear _helmearray;
 
 // Brillen
@@ -44,12 +44,19 @@ _unit addGoggles _brillenarray;
 
 // Funkgeräte
 _unit addItemToUniform "ACRE_PRC152";
-_unit addItemToUniform "ACRE_PRC152";
-_unit addItemToBackpack "ACRE_PRC117F";
 
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
+_unit addItemToBackpack "ACE_Tripod";
+_unit addItemToVest "ACE_SpraypaintRed";
+_unit addItemToVest "ACE_DAGR";
+_unit addItemToVest "ACE_Kestrel4500";
+_unit addItemToVest "ACE_RangeCard";
+_unit addItemToUniform "ACE_ATragMX";
+for "_i" from 1 to 8 do {_unit addItemToBackpack "7Rnd_408_Mag";};
+
+_unit setVariable ["ACE_medical_medicClass", 2];
 
 
 
@@ -60,7 +67,7 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["rhsusf_weap_MP7A2","UK3CB_BAF_9_17Rnd"]];
+_waffenarray = selectRandom [["rhs_weap_m16a4_carryhandle","rhs_mag_30Rnd_556x45_Mk318_Stanag"],["rhs_weap_m16a4","30Rnd_65x39_caseless_mag"],["rhs_weap_m16a4_carryhandle_pmag","30Rnd_65x39_caseless_mag"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
@@ -86,8 +93,13 @@ _sekmunition = _sekwaffenarray select 1;
 _unit addWeapon _sekwaffe ;
 for "_i" from 1 to 2 do {_unit addMagazine _sekmunition;};
 
-
-
+// Waffentasche Snipergewehr
+private _gunbag = backpackContainer _unit;
+private _weapon = "srifle_LRR_camo_F";
+private _items =  ["optic_LRPS"];
+private _mass = getNumber (configFile >> "CfgWeapons" >> _weapon >> "WeaponSlotsInfo" >> "mass");
+[_unit, _gunbag, _mass] call ace_movement_fnc_addLoadToUnitContainer;
+_gunbag setVariable ["ace_gunbag_gunbagWeapon", [_weapon, _items,[]], true];
 
 
 
@@ -95,7 +107,7 @@ for "_i" from 1 to 2 do {_unit addMagazine _sekmunition;};
 // =========== Items Linked verteilen ============ //
 
 // Feldstecher
-_unit addWeapon "Binocular";
+_unit addWeapon "ACE_Vector";
 
 // Karte
 _unit linkItem "ItemMap";
@@ -104,7 +116,7 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 
 // Uhr
-_unit linkItem "ItemWatch";
+_unit linkItem "ACE_Altimeter";
 
 // GPS
 _unit linkItem "ItemMicroDAGR";
