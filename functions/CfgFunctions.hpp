@@ -55,6 +55,15 @@ class TFW
 		class nato_helipilot {};
 		class nato_helicrew {};
 		class nato_logistiker {};
+		class nato_mmg {};
+		class nato_mmgassist {};
+		class nato_atsoldier {};
+		class nato_atassist {};
+		class nato_aasoldier {};
+		class nato_aaassist {};
+		class nato_uav {};
+		class nato_eod {};
+		class nato_jetpilot {};
 
 	};
 

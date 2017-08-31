@@ -8,27 +8,30 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=113;
+		nextID=121;
 	};
 	class Camera
 	{
-		pos[]={15131.278,22.366968,17306.186};
-		dir[]={-0.17140329,-0.21118464,-0.96241874};
-		up[]={-0.03704375,0.97728866,-0.20800769};
-		aside[]={-0.98468268,2.3255452e-006,0.17537621};
+		pos[]={15113.408,21.409756,17295.063};
+		dir[]={0.69014794,-0.34571052,-0.63593084};
+		up[]={0.2542865,0.93803954,-0.23431274};
+		aside[]={-0.67780322,2.2824679e-006,-0.73557997};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"A3_Modules_F_Curator_Curator",
-	"A3_Characters_F"
+	"A3_Characters_F",
+	"A3_Characters_F_Mark",
+	"A3_Characters_F_Jets",
+	"ace_explosives"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=2;
+		items=5;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -42,6 +45,27 @@ class AddonsMetaData
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Characters_F_Mark";
+			name="Arma 3 Marksmen - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Characters_F_Jets";
+			name="Arma 3 Jets - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
 		};
 	};
 };
@@ -173,7 +197,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=8;
+				items=16;
 				class Item0
 				{
 					dataType="Object";
@@ -643,6 +667,132 @@ class Mission
 						};
 						nAttributes=2;
 					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15126.23,17.892317,17277.244};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=113;
+					type="B_soldier_AT_F";
+					atlOffset=1.5258789e-005;
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15125.134,17.892332,17278.33};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=114;
+					type="B_soldier_AAT_F";
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15123.81,17.892187,17279.711};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=115;
+					type="B_soldier_AA_F";
+					atlOffset=5.7220459e-006;
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15122.593,17.891201,17280.883};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=116;
+					type="B_HeavyGunner_F";
+					atlOffset=1.1444092e-005;
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15121.664,17.888927,17282.068};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=117;
+					type="B_soldier_AAR_F";
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15120.358,17.887899,17283.197};
+						angles[]={0,0.4273898,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=118;
+					type="B_Fighter_Pilot_F";
+					atlOffset=9.5367432e-006;
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15119.08,17.878403,17284.889};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=119;
+					type="B_soldier_UAV_F";
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15117.773,17.867147,17286.396};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=120;
+					type="B_soldier_exp_F";
+					atlOffset=-1.9073486e-006;
 				};
 			};
 			class Attributes
