@@ -45,6 +45,24 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_Soldier_unarmed_F": { [_unit] call TFW_fnc_nato_logistiker; };
 
+                    case "B_HeavyGunner_F": { [_unit] call TFW_fnc_nato_mmg; };
+
+                    case "B_soldier_AAR_F": { [_unit] call TFW_fnc_nato_mmgassist; };
+
+                    case "B_soldier_AT_F": { [_unit] call TFW_fnc_nato_atsoldier; };
+
+                    case "B_soldier_AAT_F": { [_unit] call TFW_fnc_nato_atassist; };
+
+                    case "B_soldier_AA_F": { [_unit] call TFW_fnc_nato_aasoldier; };
+
+                    case "B_soldier_AAA_F": { [_unit] call TFW_fnc_nato_aaassist; };
+
+                    case "B_soldier_UAV_F": { [_unit] call TFW_fnc_nato_uav; };
+
+                    case "B_soldier_exp_F": { [_unit] call TFW_fnc_nato_eod; };
+
+                    case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_nato_jetpilot; };
+
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
             };
