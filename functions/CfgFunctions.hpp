@@ -145,6 +145,13 @@ class TFW
 		class marine_wd_offizier {};
 		class marine_wd_marksman {};
 		class marine_wd_crewman {};
+		class marine_wd_helipilot {};
+		class marine_wd_helicrew {};
+		class marine_wd_mmg {};
+		class marine_wd_mmgassist {};
+		class marine_wd_uav {};
+		class marine_wd_jetpilot {};
+		class marine_wd_jtac {};
 
 
 	};

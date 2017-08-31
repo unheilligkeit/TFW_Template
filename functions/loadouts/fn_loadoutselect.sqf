@@ -244,6 +244,20 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 					case "B_soldier_M_F": { [_unit] call TFW_fnc_marine_wd_marksman; };
 
 					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_crewman; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_helipilot; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_helicrew; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_mmg; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_mmgassist; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_uav; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_jetpilot; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_jtac; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
