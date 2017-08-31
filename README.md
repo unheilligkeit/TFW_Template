@@ -76,16 +76,16 @@ Marksman |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :h
 Besatzung |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Helipilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Helicrew |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
-Logistiker |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Logistiker |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 MMG |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 MMG Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
-AT Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-AT Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-AA Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-AA Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+AT Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
+AT Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
+AA Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
+AA Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 UAV Operator |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
-Eod |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Eod |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark::
 Jet Pilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
-Sniper|  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-Spotter |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Sniper|  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
+Spotter |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Jtac  |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
