@@ -43,7 +43,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_Helicrew_F": { [_unit] call TFW_fnc_nato_helicrew; };
 
-                    case "B_Soldier_unarmed_F": { [_unit] call TFW_fnc_nato_logistiker; };
+                    case "B_soldier_repair_F": { [_unit] call TFW_fnc_nato_logistiker; };
 
                     case "B_HeavyGunner_F": { [_unit] call TFW_fnc_nato_mmg; };
 
@@ -226,23 +226,23 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
 
                     case "B_Soldier_F": { [_unit] call TFW_fnc_marine_wd_riflemann; };
-					
+
 					case "B_Soldier_GL_F": { [_unit] call TFW_fnc_marine_wd_grenadier; };
 
 					case "B_soldier_LAT_F": { [_unit] call TFW_fnc_marine_wd_riflemannpanzer; };
-					
+
 					case "B_soldier_AR_F": { [_unit] call TFW_fnc_marine_wd_lmg; };
-					
+
 					case "B_Soldier_TL_F": { [_unit] call TFW_fnc_marine_wd_teamleader; };
-					
+
 					case "B_Soldier_SL_F": { [_unit] call TFW_fnc_marine_wd_squadleader; };
-					
+
 					case "B_medic_F": { [_unit] call TFW_fnc_marine_wd_medic; };
-					
+
 					case "B_officer_F": { [_unit] call TFW_fnc_marine_wd_offizier; };
-					
+
 					case "B_soldier_M_F": { [_unit] call TFW_fnc_marine_wd_marksman; };
-					
+
 					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_crewman; };
 
 
