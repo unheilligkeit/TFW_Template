@@ -74,18 +74,18 @@ Medic |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heav
 Offizier |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark: 
 Marksman |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark:
 Besatzung |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
-Helipilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-Helicrew |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Helipilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
+Helicrew |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Logistiker |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-MMG |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-MMG Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+MMG |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
+MMG Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 AT Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
 AT Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
 AA Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
 AA Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-UAV Operator |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+UAV Operator |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Eod |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-Jet Pilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Jet Pilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Sniper|  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
 Spotter |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
-Jtac  |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Jtac  |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
