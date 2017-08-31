@@ -136,6 +136,15 @@ class TFW
 	{
 		file = "functions\loadouts\us_marine_wd";
 		class marine_wd_riflemann {};
+		class marine_wd_grenadier {};
+		class marine_wd_riflemannpanzer {};
+		class marine_wd_lmg {};
+		class marine_wd_teamleader {};
+		class marine_wd_squadleader {};
+		class marine_wd_medic {};
+		class marine_wd_offizier {};
+		class marine_wd_marksman {};
+		class marine_wd_crewman {};
 
 
 	};
