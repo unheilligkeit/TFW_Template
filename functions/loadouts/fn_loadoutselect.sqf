@@ -201,6 +201,9 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
 
                     case "B_Soldier_F": { [_unit] call TFW_fnc_marine_wd_riflemann; };
+					case "B_soldier_AR_F": { [_unit] call TFW_fnc_marine_wd_lmg; };
+					case "B_Soldier_GL_F": { [_unit] call TFW_fnc_marine_wd_grenadier; };
+					case "B_soldier_LAT_F": { [_unit] call TFW_fnc_marine_wd_riflemannpanzer; };
 
 
 

@@ -124,6 +124,9 @@ class TFW
 	{
 		file = "functions\loadouts\us_marine_wd";
 		class marine_wd_riflemann {};
+		class marine_wd_lmg {};
+		class marine_wd_grenadier {};
+		class marine_wd_riflemannpanzer {};
 
 
 	};
