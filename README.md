@@ -45,7 +45,7 @@ Marksman | B_soldier_M_F | Scharfschütze
 Besatzung | B_crew_F | Besatzungsmitglied
 Helipilot | B_Helipilot_F | Helikopterpilot
 Helicrew | B_Helicrew_F | Helikopterbesatzung
-Logistiker | B_Soldier_unarmed_F | Schütze (Unbewaffnet)
+Logistiker | B_soldier_repair_F | Reperaturspezialist
 MMG | B_HeavyGunner_F | Schwerer Schütze
 MMG Assist | B_soldier_AAR_F | Zweiter Automatik-Schütze
 AT Spezialist | B_soldier_AT_F | Raketenspezialist (Panzerabwehr)
