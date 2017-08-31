@@ -120,6 +120,15 @@ class TFW
 	};
 
 
+		class marine_wd
+	{
+		file = "functions\loadouts\us_marine_wd";
+		class marine_wd_riflemann {};
+
+
+	};
+
+
 };
 
 class ADV

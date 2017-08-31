@@ -75,6 +75,10 @@ if (isClass (configFile >> "CfgPatches" >> "acre_main")) then {
 	["ACRE_PRC117F", "example1"] call acre_api_fnc_setPreset;
 };
 
+
+
+
+
 // Radio Chatter
 
 _radiochattervar = "param_radiochatter" call BIS_fnc_getParamValue;

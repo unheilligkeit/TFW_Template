@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15130.417,21.000935,17278.574};
-		dir[]={-0.32787952,-0.25671881,-0.90929186};
-		up[]={-0.087107688,0.96634251,-0.24157384};
-		aside[]={-0.94085693,1.8539722e-006,0.33926302};
+		pos[]={15131.278,22.366968,17306.186};
+		dir[]={-0.17140329,-0.21118464,-0.96241874};
+		up[]={-0.03704375,0.97728866,-0.20800769};
+		aside[]={-0.98468268,2.3255452e-006,0.17537621};
 	};
 };
 binarizationWanted=0;
@@ -180,16 +180,59 @@ class Mission
 					class PositionInfo
 					{
 						position[]={15135.816,17.910978,17265.395};
-						angles[]={0,0.73936027,0};
+						angles[]={0,0.73935634,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						name="zeus";
 						isPlayer=1;
 					};
 					id=100;
 					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{

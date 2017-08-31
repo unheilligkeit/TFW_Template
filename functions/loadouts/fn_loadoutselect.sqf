@@ -189,3 +189,24 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
             };
 
     };
+
+
+//=================================================== US Marine WD ================================================================//
+
+    if(_loadoutfraktion == 5) then
+    {
+
+            switch (_playerclass) do
+            {
+
+
+                    case "B_Soldier_F": { [_unit] call TFW_fnc_marine_wd_riflemann; };
+
+
+
+
+                    default { [_unit] call TFW_fnc_loadoutentfernen ; };
+
+            };
+
+    };
