@@ -46,15 +46,25 @@ Besatzung | B_crew_F | Besatzungsmitglied
 Helipilot | B_Helipilot_F | Helikopterpilot
 Helicrew | B_Helicrew_F | Helikopterbesatzung
 Logistiker | B_Soldier_unarmed_F | Schütze (Unbewaffnet)
+MMG | B_HeavyGunner_F | Schwerer Schütze
+MMG Assist | B_soldier_AAR_F | Zweiter Automatik-Schütze
+AT Spezialist | B_soldier_AT_F | Raketenspezialist (Panzerabwehr)
+AT Assist | B_soldier_AAT_F | Zweiter Raketenspezialist (Panzerabwehr)
+AA Spezialist | B_soldier_AA_F | Raketenspezialist (Flugabwehr)
+AA Assist | B_soldier_AAA_F | Zweiter Raketenspezialist (Flugabwehr)
+UAV Operator | B_soldier_UAV_F | UAV Operator
+Eod | B_soldier_exp_F | Sprengmeister
+Jet Pilot | B_Fighter_Pilot_F | Kampfpilot
+
 
 ### Loadouts / Fraktionen
 
 Loadouts | Vanilla Nato| US OCP | US UCP | BW Fleck | BW Tropen | Marine WD
 ------------ | ------------- | -------------| -------------| -------------| ------------- | -------------
 Schütze |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: 
-Grenadier |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_multiplication_x: |  
-Schütze Anti Tank |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_multiplication_x:   
-LMG Schütze |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark:| :heavy_multiplication_x:   
+Grenadier |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark: |  
+Schütze Anti Tank |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark:   
+LMG Schütze |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark:| :heavy_check_mark:   
 Teamleader |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_multiplication_x: 
 Squadleader |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_multiplication_x: 
 Medic |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_multiplication_x:
@@ -64,3 +74,12 @@ Besatzung |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multipli
 Helipilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
 Helicrew |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
 Logistiker |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+MMG |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+MMG Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+AT Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+AT Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+AA Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+AA Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+UAV Operator |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Eod |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
+Jet Pilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_multiplication_x:
