@@ -84,7 +84,7 @@ AT Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplica
 AA Spezialist |  :heavy_check_mark: |  :heavy_multiplication_x:  |   :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 AA Assist |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 UAV Operator |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
-Eod |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark::
+Eod |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Jet Pilot |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Sniper|  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
 Spotter |  :heavy_check_mark: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: |  :heavy_multiplication_x: | :heavy_check_mark:
