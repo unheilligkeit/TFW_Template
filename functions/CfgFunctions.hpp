@@ -64,6 +64,9 @@ class TFW
 		class nato_uav {};
 		class nato_eod {};
 		class nato_jetpilot {};
+		class nato_sniper {};
+		class nato_spotter {};
+		class nato_jtac {};
 
 	};
 
@@ -133,9 +136,6 @@ class TFW
 	{
 		file = "functions\loadouts\us_marine_wd";
 		class marine_wd_riflemann {};
-		class marine_wd_lmg {};
-		class marine_wd_grenadier {};
-		class marine_wd_riflemannpanzer {};
 
 
 	};
