@@ -83,7 +83,7 @@ _unit addPrimaryWeaponItem "acc_pointer_IR";
 // Sekundär Waffe und Munition
 
 
-_unit addWeapon ACE_VMM3 ;
+_unit addWeapon "ACE_VMM3" ;
 
 
 
