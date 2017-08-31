@@ -245,19 +245,19 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
 					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_crewman; };
 					
-					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_helipilot; };
+					case "B_Helipilot_F": { [_unit] call TFW_fnc_marine_wd_helipilot; };
 					
-					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_helicrew; };
+					case "B_Helicrew_F": { [_unit] call TFW_fnc_marine_wd_helicrew; };
 					
-					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_mmg; };
+					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_marine_wd_mmg; };
 					
-					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_mmgassist; };
+					case "B_soldier_AAR_F": { [_unit] call TFW_fnc_marine_wd_mmgassist; };
 					
-					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_uav; };
+					case "B_soldier_UAV_F": { [_unit] call TFW_fnc_marine_wd_uav; };
 					
-					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_jetpilot; };
+					case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_marine_wd_jetpilot; };
 					
-					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_jtac; };
+					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_marine_wd_jtac; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
