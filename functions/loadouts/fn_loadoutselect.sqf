@@ -207,6 +207,24 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_officer_F": { [_unit] call TFW_fnc_bw_tropen_offizier; };
 
                     case "B_soldier_M_F": { [_unit] call TFW_fnc_bw_tropen_marksman; };
+					
+					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_bw_tropen_mmg; };
+					
+					case "B_soldier_AAR_F": { [_unit] call TFW_fnc_bw_tropen_mmgassist; };
+					
+					case "B_soldier_AT_F": { [_unit] call TFW_fnc_bw_tropen_atsolider; };
+
+					case "B_soldier_AAT_F": { [_unit] call TFW_fnc_bw_tropen_atassist; };
+					
+					case "B_soldier_AA_F": { [_unit] call TFW_fnc_bw_tropen_aasolider; };
+					
+					case "B_soldier_AAA_F": { [_unit] call TFW_fnc_bw_tropen_aaassist; };
+					
+					case "B_soldier_UAV_F": { [_unit] call TFW_fnc_bw_tropen_uav; };
+					
+					case "B_soldier_exp_F": { [_unit] call TFW_fnc_bw_tropen_eod; };
+					
+					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_bw_tropen_jtac; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };

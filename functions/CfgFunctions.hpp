@@ -128,6 +128,15 @@ class TFW
 		class bw_tropen_medic {};
 		class bw_tropen_offizier {};
 		class bw_tropen_marksman {};
+		class bw_tropen_mmg {};
+		class bw_tropen_mmgassist {};
+		class bw_tropen_atsolider {};
+		class bw_tropen_atassist {};
+		class bw_tropen_aasolider {};
+		class bw_tropen_aaassist {};
+		class bw_tropen_uav {};
+		class bw_tropen_eod {};
+		class bw_tropen_jtac {};
 
 	};
 
