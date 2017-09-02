@@ -236,6 +236,38 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_officer_F": { [_unit] call TFW_fnc_bw_fleck_offizier; };
 
                     case "B_soldier_M_F": { [_unit] call TFW_fnc_bw_fleck_marksman; };
+					
+					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_bw_fleck_mmg; };
+
+					case "B_soldier_AAR_F": { [_unit] call TFW_fnc_bw_fleck_mmgassist; };
+
+					case "B_soldier_AT_F": { [_unit] call TFW_fnc_bw_fleck_atsolider; };
+
+					case "B_soldier_AAT_F": { [_unit] call TFW_fnc_bw_fleck_atassist; };
+
+					case "B_soldier_AA_F": { [_unit] call TFW_fnc_bw_fleck_aasolider; };
+
+					case "B_soldier_AAA_F": { [_unit] call TFW_fnc_bw_fleck_aaassist; };
+
+					case "B_soldier_UAV_F": { [_unit] call TFW_fnc_bw_fleck_uav; };
+
+					case "B_soldier_exp_F": { [_unit] call TFW_fnc_bw_fleck_eod; };
+
+					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_bw_fleck_jtac; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_bw_fleck_crewman; };
+					
+					case "B_Helipilot_F": { [_unit] call TFW_fnc_bw_fleck_helipilot; };
+					
+					case "B_Helicrew_F": { [_unit] call TFW_fnc_bw_fleck_helicrew; };
+					
+					case "B_soldier_repair_F": { [_unit] call TFW_fnc_bw_fleck_logistiker; };
+					
+					case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_bw_fleck_jetpilot; };
+					
+					case "B_sniper_F": { [_unit] call TFW_fnc_bw_fleck_sniper; };
+					
+					case "B_spotter_F": { [_unit] call TFW_fnc_bw_fleck_spotter; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
@@ -289,6 +321,20 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 					case "B_soldier_exp_F": { [_unit] call TFW_fnc_bw_tropen_eod; };
 
 					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_bw_tropen_jtac; };
+					
+					case "B_crew_F": { [_unit] call TFW_fnc_bw_tropen_crewman; };
+					
+					case "B_Helipilot_F": { [_unit] call TFW_fnc_bw_tropen_helipilot; };
+					
+					case "B_Helicrew_F": { [_unit] call TFW_fnc_bw_tropen_helicrew; };
+					
+					case "B_soldier_repair_F": { [_unit] call TFW_fnc_bw_tropen_logistiker; };
+					
+					case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_bw_tropen_jetpilot; };
+					
+					case "B_sniper_F": { [_unit] call TFW_fnc_bw_tropen_sniper; };
+					
+					case "B_spotter_F": { [_unit] call TFW_fnc_bw_tropen_spotter; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };

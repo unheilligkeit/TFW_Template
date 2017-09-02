@@ -146,6 +146,22 @@ class TFW
 		class bw_fleck_medic {};
 		class bw_fleck_offizier {};
 		class bw_fleck_marksman {};
+		class bw_fleck_mmg {};
+		class bw_fleck_mmgassist {};
+		class bw_fleck_atsolider {};
+		class bw_fleck_atassist {};
+		class bw_fleck_aasolider {};
+		class bw_fleck_aaassist {};
+		class bw_fleck_uav {};
+		class bw_fleck_eod {};
+		class bw_fleck_jtac {};
+		class bw_fleck_crewman {};
+		class bw_fleck_helipilot {};
+		class bw_fleck_helicrew {};
+		class bw_fleck_logistiker {};
+		class bw_fleck_jetpilot {};
+		class bw_fleck_sniper {};
+		class bw_fleck_spotter {};
 
 	};
 
@@ -170,6 +186,13 @@ class TFW
 		class bw_tropen_uav {};
 		class bw_tropen_eod {};
 		class bw_tropen_jtac {};
+		class bw_tropen_crewman {};
+		class bw_tropen_helipilot {};
+		class bw_tropen_helicrew {};
+		class bw_tropen_logistiker {};
+		class bw_tropen_jetpilot {};
+		class bw_tropen_sniper {};
+		class bw_tropen_spotter {};
 
 	};
 
