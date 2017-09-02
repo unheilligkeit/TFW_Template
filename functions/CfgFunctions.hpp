@@ -82,6 +82,23 @@ class TFW
 		class us_ocp_medic {};
 		class us_ocp_offizier {};
 		class us_ocp_marksman {};
+		class us_ocp_crewman {};
+		class us_ocp_helipilot {};
+		class us_ocp_helicrew {};
+		class us_ocp_logistiker {};
+		class us_ocp_mmg {};
+		class us_ocp_mmgassist {};
+		class us_ocp_atsoldier {};
+		class us_ocp_atassist {};
+		class us_ocp_aasoldier {};
+		class us_ocp_aaassist {};
+		class us_ocp_uav {};
+		class us_ocp_eod {};
+		class us_ocp_jetpilot {};
+		class us_ocp_sniper {};
+		class us_ocp_spotter {};
+		class us_ocp_jtac {};
+
 
 	};
 
@@ -97,6 +114,22 @@ class TFW
 		class us_ucp_medic {};
 		class us_ucp_offizier {};
 		class us_ucp_marksman {};
+		class us_ucp_crewman {};
+		class us_ucp_helipilot {};
+		class us_ucp_helicrew {};
+		class us_ucp_logistiker {};
+		class us_ucp_mmg {};
+		class us_ucp_mmgassist {};
+		class us_ucp_atsoldier {};
+		class us_ucp_atassist {};
+		class us_ucp_aasoldier {};
+		class us_ucp_aaassist {};
+		class us_ucp_uav {};
+		class us_ucp_eod {};
+		class us_ucp_jetpilot {};
+		class us_ucp_sniper {};
+		class us_ucp_spotter {};
+		class us_ucp_jtac {};
 
 
 	};

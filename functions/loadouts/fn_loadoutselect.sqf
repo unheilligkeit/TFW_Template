@@ -103,6 +103,38 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_soldier_M_F": { [_unit] call TFW_fnc_us_ocp_marksman; };
 
+                    case "B_crew_F": { [_unit] call TFW_fnc_us_ocp_crewman; };
+
+                    case "B_Helipilot_F": { [_unit] call TFW_fnc_us_ocp_helipilot; };
+
+                    case "B_Helicrew_F": { [_unit] call TFW_fnc_us_ocp_helicrew; };
+
+                    case "B_soldier_repair_F": { [_unit] call TFW_fnc_us_ocp_logistiker; };
+
+                    case "B_HeavyGunner_F": { [_unit] call TFW_fnc_us_ocp_mmg; };
+
+                    case "B_soldier_AAR_F": { [_unit] call TFW_fnc_us_ocp_mmgassist; };
+
+                    case "B_soldier_AT_F": { [_unit] call TFW_fnc_us_ocp_atsoldier; };
+
+                    case "B_soldier_AAT_F": { [_unit] call TFW_fnc_us_ocp_atassist; };
+
+                    case "B_soldier_AA_F": { [_unit] call TFW_fnc_us_ocp_aasoldier; };
+
+                    case "B_soldier_AAA_F": { [_unit] call TFW_fnc_us_ocp_aaassist; };
+
+                    case "B_soldier_UAV_F": { [_unit] call TFW_fnc_us_ocp_uav; };
+
+                    case "B_soldier_exp_F": { [_unit] call TFW_fnc_us_ocp_eod; };
+
+                    case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_us_ocp_jetpilot; };
+
+                    case "B_sniper_F": { [_unit] call TFW_fnc_us_ocp_sniper; };
+
+                    case "B_spotter_F": { [_unit] call TFW_fnc_us_ocp_spotter; };
+
+                    case "B_recon_JTAC_F": { [_unit] call TFW_fnc_us_ocp_jtac; };
+
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
 
@@ -137,6 +169,38 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_officer_F": { [_unit] call TFW_fnc_us_ucp_offizier; };
 
                     case "B_soldier_M_F": { [_unit] call TFW_fnc_us_ucp_marksman; };
+
+                    case "B_crew_F": { [_unit] call TFW_fnc_us_ucp_crewman; };
+
+                    case "B_Helipilot_F": { [_unit] call TFW_fnc_us_ucp_helipilot; };
+
+                    case "B_Helicrew_F": { [_unit] call TFW_fnc_us_ucp_helicrew; };
+
+                    case "B_soldier_repair_F": { [_unit] call TFW_fnc_us_ucp_logistiker; };
+
+                    case "B_HeavyGunner_F": { [_unit] call TFW_fnc_us_ucp_mmg; };
+
+                    case "B_soldier_AAR_F": { [_unit] call TFW_fnc_us_ucp_mmgassist; };
+
+                    case "B_soldier_AT_F": { [_unit] call TFW_fnc_us_ucp_atsoldier; };
+
+                    case "B_soldier_AAT_F": { [_unit] call TFW_fnc_us_ucp_atassist; };
+
+                    case "B_soldier_AA_F": { [_unit] call TFW_fnc_us_ucp_aasoldier; };
+
+                    case "B_soldier_AAA_F": { [_unit] call TFW_fnc_us_ucp_aaassist; };
+
+                    case "B_soldier_UAV_F": { [_unit] call TFW_fnc_us_ucp_uav; };
+
+                    case "B_soldier_exp_F": { [_unit] call TFW_fnc_us_ucp_eod; };
+
+                    case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_us_ucp_jetpilot; };
+
+                    case "B_sniper_F": { [_unit] call TFW_fnc_us_ucp_sniper; };
+
+                    case "B_spotter_F": { [_unit] call TFW_fnc_us_ucp_spotter; };
+
+                    case "B_recon_JTAC_F": { [_unit] call TFW_fnc_us_ucp_jtac; };
 
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
@@ -207,23 +271,23 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_officer_F": { [_unit] call TFW_fnc_bw_tropen_offizier; };
 
                     case "B_soldier_M_F": { [_unit] call TFW_fnc_bw_tropen_marksman; };
-					
+
 					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_bw_tropen_mmg; };
-					
+
 					case "B_soldier_AAR_F": { [_unit] call TFW_fnc_bw_tropen_mmgassist; };
-					
+
 					case "B_soldier_AT_F": { [_unit] call TFW_fnc_bw_tropen_atsolider; };
 
 					case "B_soldier_AAT_F": { [_unit] call TFW_fnc_bw_tropen_atassist; };
-					
+
 					case "B_soldier_AA_F": { [_unit] call TFW_fnc_bw_tropen_aasolider; };
-					
+
 					case "B_soldier_AAA_F": { [_unit] call TFW_fnc_bw_tropen_aaassist; };
-					
+
 					case "B_soldier_UAV_F": { [_unit] call TFW_fnc_bw_tropen_uav; };
-					
+
 					case "B_soldier_exp_F": { [_unit] call TFW_fnc_bw_tropen_eod; };
-					
+
 					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_bw_tropen_jtac; };
 
 
@@ -262,35 +326,35 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 					case "B_soldier_M_F": { [_unit] call TFW_fnc_marine_wd_marksman; };
 
 					case "B_crew_F": { [_unit] call TFW_fnc_marine_wd_crewman; };
-					
+
 					case "B_Helipilot_F": { [_unit] call TFW_fnc_marine_wd_helipilot; };
-					
+
 					case "B_Helicrew_F": { [_unit] call TFW_fnc_marine_wd_helicrew; };
-					
+
 					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_marine_wd_mmg; };
-					
+
 					case "B_soldier_AAR_F": { [_unit] call TFW_fnc_marine_wd_mmgassist; };
-					
+
 					case "B_soldier_UAV_F": { [_unit] call TFW_fnc_marine_wd_uav; };
-					
+
 					case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_marine_wd_jetpilot; };
-					
+
 					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_marine_wd_jtac; };
-					
+
 					case "B_soldier_repair_F": { [_unit] call TFW_fnc_marine_wd_logister; };
-					
+
 					case "B_soldier_AT_F": { [_unit] call TFW_fnc_marine_wd_atsolider; };
-					
+
 					case "B_soldier_AAT_F": { [_unit] call TFW_fnc_marine_wd_atassist; };
-					
+
 					case "B_soldier_AA_F": { [_unit] call TFW_fnc_marine_wd_aasolider; };
-					
+
 					case "B_soldier_AAA_F": { [_unit] call TFW_fnc_marine_wd_aaassist; };
-					
+
 					case "B_soldier_exp_F": { [_unit] call TFW_fnc_marine_wd_eod; };
-					
+
 					case "B_sniper_F": { [_unit] call TFW_fnc_marine_wd_sniper; };
-					
+
 					case "B_spotter_F": { [_unit] call TFW_fnc_marine_wd_spotter; };
 
 
