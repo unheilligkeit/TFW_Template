@@ -16,6 +16,7 @@ class TFW
 		file = "functions\ai";
 		class groupattack {};
 		class groupdefens {};
+		class grouppatrol {};
 		class hunting {};
 		class spawnjet {};
 	};
