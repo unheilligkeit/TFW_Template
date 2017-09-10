@@ -55,7 +55,6 @@ for "_i" from 1 to 4 do {_unit addItemToVest "ACE_HuntIR_M203";};
 _unit addItemToVest "SmokeShellGreen";
 _unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
 _unit addItemToVest "ItemcTabHCam";
-_unit addItemToBackpack "ACE_HuntIR_monitor";
 _unit addItemToBackpack "ACE_MapTools";
 _unit addItemToBackpack "ItemcTab";
 _unit addItemToBackpack "dsk_nsv";

@@ -103,7 +103,7 @@ _unit addHandgunItem "optic_MRD";
 // =========== Items Linked verteilen ============ //
 
 // Feldstecher
-_unit addWeapon "Laserdesignator";
+_unit addWeapon "ACE_Vector";
 
 // Karte
 _unit linkItem "ItemMap";

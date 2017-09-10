@@ -88,7 +88,7 @@ _unit addPrimaryWeaponItem  _visierarray;
 // =========== Items Linked verteilen ============ //
 
 // Feldstecher
-_unit addWeapon "Binocular";
+_unit addWeapon "Rangefinder";
 
 // Karte
 _unit linkItem "ItemMap";

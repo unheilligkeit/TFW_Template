@@ -103,7 +103,7 @@ for "_i" from 1 to 2 do {_unit addMagazine _sekmunition;};
 // =========== Items Linked verteilen ============ //
 
 // Feldstecher
-_unit addWeapon "Laserdesignator";
+_unit addWeapon "ACE_Vector";
 
 // Karte
 _unit linkItem "ItemMap";
