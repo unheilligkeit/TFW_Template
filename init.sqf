@@ -29,7 +29,12 @@ if (isServer) then {execVM "mission\task.sqf"};
 
 // Mission Extras
 
-
+schild1 setObjectTextureGlobal [0, "images\campwolfpack.paa"];
+schild2 setObjectTextureGlobal [0, "images\campwolfpack.paa"];
+schild3 setObjectTextureGlobal [0, "images\wolf1.paa"];
+schild4 setObjectTextureGlobal [0, "images\wolf2.paa"];
+schild5 setObjectTextureGlobal [0, "images\wolf3.paa"];
+schild6 setObjectTextureGlobal [0, "images\wolf.paa"];
 
 //ACRE Settings
 if (isClass (configFile >> "CfgPatches" >> "acre_main")) then {
