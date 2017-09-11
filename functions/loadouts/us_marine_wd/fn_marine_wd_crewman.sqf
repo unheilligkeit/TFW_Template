@@ -20,11 +20,11 @@ _westenarray = selectRandom ["rhsusf_spc_rifleman","rhsusf_spc_light","rhsusf_sp
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["rhsusf_falconii_coy"];
+_rucksackearray = selectRandom [""];
 _unit addBackpack _rucksackearray ;
 
 // Helme
-_helmearray = selectRandom ["rhsusf_lwh_helmet_marpatwd","rhsusf_lwh_helmet_marpatwd_blk_ess","rhsusf_lwh_helmet_marpatwd_headset_blk","rhsusf_lwh_helmet_marpatwd_headset","rhsusf_lwh_helmet_marpatwd_ess"];
+_helmearray = selectRandom ["rhsusf_cvc_green_helmet","rhsusf_lwh_helmet_marpatwd_blk_ess","rhsusf_lwh_helmet_marpatwd_headset_blk","rhsusf_lwh_helmet_marpatwd_headset","rhsusf_lwh_helmet_marpatwd_ess"];
 _unit addHeadgear _helmearray;
 
 // Brillen
@@ -58,22 +58,17 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["rhsusf_weap_MP7A2","UK3CB_BAF_9_17Rnd"]];
+_waffenarray = selectRandom [["rhsusf_weap_MP7A2","rhsusf_mag_40Rnd_46x30_FMJ"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
 _unit addWeapon _waffe;
-for "_i" from 1 to 8 do {_unit addMagazine _munition;};
+for "_i" from 1 to 5 do {_unit addMagazine _munition;};
 
 
 
 
-// Primär Waffe Visire
-_visierarray = selectRandom ["optic_aco","optic_aco_grn",""];
-_unit addPrimaryWeaponItem  _visierarray;
 
-// Primär Waffe Items
-_unit addPrimaryWeaponItem "acc_pointer_IR";
 
 
 // Sekundär Waffe und Munition

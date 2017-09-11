@@ -20,7 +20,7 @@ _westenarray = selectRandom ["BWA3_Vest_Tropen","BWA3_Vest_Grenadier_Tropen","BW
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["BWA3_PatrolPack_Tropen"];
+_rucksackearray = selectRandom ["ace_gunbag_Tan"];
 _unit addBackpack _rucksackearray ;
 
 // Helme

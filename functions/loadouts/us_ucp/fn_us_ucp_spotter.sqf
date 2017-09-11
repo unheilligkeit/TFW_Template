@@ -57,6 +57,8 @@ _unit addItemToUniform "ACE_ATragMX";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "ACE_packingBandage";};
+_unit addItemToBackpack "rhsusf_mag_10Rnd_STD_50BMG_M33";
+_unit addItemToVest "rhsusf_mag_10Rnd_STD_50BMG_M33";
 
 _unit setVariable ["ACE_medical_medicClass", 2];
 

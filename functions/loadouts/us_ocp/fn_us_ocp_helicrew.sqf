@@ -44,7 +44,7 @@ _unit addGoggles _brillenarray;
 
 // Funkgeräte
 _unit addItemToUniform "ACRE_PRC152";
-
+_unit addItemToUniform "ACRE_PRC152";
 
 
 // Sonstiges - Zusatzausrüstung

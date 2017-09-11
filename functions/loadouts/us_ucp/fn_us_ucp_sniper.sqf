@@ -54,7 +54,8 @@ _unit addItemToVest "ACE_DAGR";
 _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "ACE_RangeCard";
 _unit addItemToUniform "ACE_ATragMX";
-for "_i" from 1 to 8 do {_unit addItemToBackpack "rhsusf_mag_10Rnd_STD_50BMG_M33";};
+_unit addItemToBackpack "rhsusf_mag_10Rnd_STD_50BMG_M33";
+_unit addItemToVest "rhsusf_mag_10Rnd_STD_50BMG_M33";
 
 
 _unit setVariable ["ACE_medical_medicClass", 2];

@@ -12,7 +12,7 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["U_B_HeliPilotCoverall"];
+_uniformarray = selectRandom ["PBW_Uniform1_fleck","PBW_Uniform1H_fleck","PBW_Uniform3K_fleck","PBW_Uniform4K_fleck","PBW_Uniform4_fleck","PBW_Uniform3K_fleck","BWA3_Uniform_Fleck","BWA3_Uniform2_Fleck","BWA3_Uniform_idz_Fleck","BWA3_Uniform3_idz_Fleck"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
@@ -28,7 +28,7 @@ _helmearray = selectRandom ["H_CrewHelmetHeli_B"];
 _unit addHeadgear _helmearray;
 
 // Brillen
-_brillenarray = selectRandom [ "" , "PBW_Balaclava_schwarz","PBW_Balaclava_schwarzR","PBW_Balaclava_beige","PBW_shemagh_gruen","BWA3_G_Combat_Clear","BWA3_G_Combat_Black","BWA3_G_Combat_Orange"];
+_brillenarray = selectRandom [ "" ];
 _unit addGoggles _brillenarray;
 
 
@@ -58,18 +58,18 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["rhsusf_weap_MP7A2","UK3CB_BAF_9_17Rnd"]];
+_waffenarray = selectRandom [["hlc_rifle_G36V","hlc_30rnd_556x45_EPR_G36"],["hlc_rifle_G36KV","hlc_30rnd_556x45_EPR_G36"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
 _unit addWeapon _waffe;
-for "_i" from 1 to 5 do {_unit addMagazine _munition;};
+for "_i" from 1 to 8 do {_unit addMagazine _munition;};
 
 
 
 
 // Primär Waffe Visire
-_visierarray = selectRandom ["optic_aco","optic_aco_grn",""];
+_visierarray = selectRandom ["BWA3_optic_EOTech_Mag_Off","BWA3_optic_ZO4x30","BWA3_optic_RSAS","BWA3_optic_EOTech","BWA3_optic_ZO4x30_Single"];
 _unit addPrimaryWeaponItem  _visierarray;
 
 // Primär Waffe Items

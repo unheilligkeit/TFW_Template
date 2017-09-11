@@ -20,7 +20,7 @@ _westenarray = selectRandom ["rhsusf_spc_rifleman","rhsusf_spc_light","rhsusf_sp
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["rhsusf_falconii_coy"];
+_rucksackearray = selectRandom ["B_Kitbag_mcamo"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -50,11 +50,11 @@ _unit addItemToBackpack "ACRE_PRC117F";
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-for "_i" from 1 to 6 do {_unit addItemToVest "rhs_mag_M433_HEDP";};
+for "_i" from 1 to 4 do {_unit addItemToVest "rhs_mag_M433_HEDP";};
 _unit addItemToVest "SmokeShellGreen";
-_unit addItemToVest "3Rnd_SmokeRed_Grenade_shell";
+_unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
 _unit addItemToVest "ItemcTabHCam";
-_unit addItemToBackpack "ACE_HuntIR_monitor";
+
 
 
 

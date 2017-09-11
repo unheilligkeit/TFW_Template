@@ -20,7 +20,7 @@ _westenarray = selectRandom [""];
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["BWA3_AssaultPack_Tropen"];
+_rucksackearray = selectRandom ["B_AssaultPack_mcamo"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -28,7 +28,7 @@ _helmearray = selectRandom ["H_PilotHelmetFighter_B"];
 _unit addHeadgear _helmearray;
 
 // Brillen
-_brillenarray = selectRandom [ "" , "PBW_Balaclava_schwarz","PBW_Balaclava_schwarzR","PBW_Balaclava_beige","PBW_shemagh_gruen","BWA3_G_Combat_Clear","BWA3_G_Combat_Black","BWA3_G_Combat_Orange"];
+_brillenarray = selectRandom [ "" ];
 _unit addGoggles _brillenarray;
 
 
@@ -39,11 +39,12 @@ _unit addGoggles _brillenarray;
 // Medikit
 [_unit] call TFW_fnc_loadoutmedickit ;
 
-// Grantenkit
-[_unit] call TFW_fnc_loadoutgranaten ;
+
 
 // Funkgeräte
 _unit addItemToUniform "ACRE_PRC152";
+_unit addItemToUniform "ACRE_PRC152";
+_unit addItemToBackpack "ACRE_PRC117F";
 
 
 // Sonstiges - Zusatzausrüstung
@@ -57,22 +58,7 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 
 // =========== Waffen verteilen ============ //
 
-// Primär Waffe und Munition
-_waffenarray = selectRandom [["rhsusf_weap_MP7A2","UK3CB_BAF_9_17Rnd"]];
-_waffe = _waffenarray select 0;
-_munition = _waffenarray select 1;
 
-_unit addWeapon _waffe;
-for "_i" from 1 to 5 do {_unit addMagazine _munition;};
-
-
-
-
-// Primär Waffe Visire
-_visierarray = selectRandom ["optic_aco","optic_aco_grn",""];
-_unit addPrimaryWeaponItem  _visierarray;
-
-// Primär Waffe Items
 
 
 
@@ -83,7 +69,6 @@ _sekmunition = _sekwaffenarray select 1;
 
 _unit addWeapon _sekwaffe ;
 for "_i" from 1 to 2 do {_unit addMagazine _sekmunition;};
-
 
 
 
@@ -105,7 +90,9 @@ _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
 
 // GPS
-_unit linkItem "ItemMicroDAGR";
+_unit linkItem "ItemAndroid";
 
 // Nachtsichtgeräte
-_unit linkItem "dsk_nsv";
+_unit linkItem "ACE_NVG_Wide";
+
+

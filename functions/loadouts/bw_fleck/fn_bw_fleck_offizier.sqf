@@ -50,7 +50,6 @@ _unit addItemToBackpack "ACRE_PRC117F";
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-for "_i" from 1 to 4 do {_unit addItemToVest "ACE_HuntIR_M203";};
 _unit addItemToVest "SmokeShellGreen";
 _unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
 _unit addItemToVest "ItemcTabHCam";

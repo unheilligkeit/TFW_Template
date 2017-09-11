@@ -77,7 +77,7 @@ _unit addPrimaryWeaponItem "rhsusf_acc_grip1";
 
 
 // Sekundär Waffe und Munition
-_sekwaffenarray = selectRandom [["rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP"]];
+_sekwaffenarray = selectRandom [["rhsusf_weap_m1911a1","rhsusf_mag_7x45acp_MHP"]];
 _sekwaffe = _sekwaffenarray select 0;
 _sekmunition = _sekwaffenarray select 1;
 

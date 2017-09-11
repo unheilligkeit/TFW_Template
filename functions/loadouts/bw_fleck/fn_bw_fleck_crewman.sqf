@@ -12,23 +12,23 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["PBW_Uniform1_fleck","PBW_Uniform1H_fleck","PBW_Uniform3K_fleck","PBW_Uniform4K_fleck","PBW_Uniform4_fleck","PBW_Uniform3K_fleck","BWA3_Uniform_Fleck","BWA3_Uniform2_Fleck","BWA3_Uniform_idz_Fleck","BWA3_Uniform3_idz_Fleck"];
+_uniformarray = selectRandom ["BWA3_Uniform_Crew_Fleck"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
-_westenarray = selectRandom ["BWA3_Vest_Fleck","BWA3_Vest_Grenadier_Fleck","BWA3_Vest_Leader_Fleck","BWA3_Vest_Marksman_Fleck","BWA3_Vest_Autorifleman_Fleck","BWA3_Vest_Rifleman1_Fleck"];
+_westenarray = selectRandom ["BWA3_Vest_Fleck"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["BWA3_Kitbag_Fleck","BWA3_AssaultPack_Fleck","BWA3_PatrolPack_Fleck"];
+_rucksackearray = selectRandom [""];
 _unit addBackpack _rucksackearray ;
 
 // Helme
-_helmearray = selectRandom ["BWA3_M92_Fleck","PBW_Helm4_fleck","PBW_Helm4_fleck_HBO","PBW_Helm4_fleck_HBOD","PBW_Helm5_fleck","PBW_Helm5_fleck_H","PBW_Helm4_fleck_H","PBW_Helm3_fleck","PBW_Helm1_fleck_HBO"];
+_helmearray = selectRandom ["BWA3_CrewmanKSK_Fleck_Headset"];
 _unit addHeadgear _helmearray;
 
 // Brillen
-_brillenarray = selectRandom [ "" , "PBW_Balaclava_schwarz","PBW_Balaclava_schwarzR","PBW_Balaclava_beige","PBW_shemagh_gruen","BWA3_G_Combat_Clear","BWA3_G_Combat_Black","BWA3_G_Combat_Orange"];
+_brillenarray = selectRandom [ "" ,"BWA3_G_Combat_Clear","BWA3_G_Combat_Black","BWA3_G_Combat_Orange"];
 _unit addGoggles _brillenarray;
 
 
@@ -58,7 +58,7 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["rhsusf_weap_MP7A2","UK3CB_BAF_9_17Rnd"]];
+_waffenarray = selectRandom [["BWA3_MP7","BWA3_40Rnd_46x30_MP7"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
@@ -69,7 +69,7 @@ for "_i" from 1 to 5 do {_unit addMagazine _munition;};
 
 
 // Primär Waffe Visire
-_visierarray = selectRandom ["optic_aco","optic_aco_grn",""];
+_visierarray = selectRandom ["BWA3_optic_RSAS"];
 _unit addPrimaryWeaponItem  _visierarray;
 
 // Primär Waffe Items

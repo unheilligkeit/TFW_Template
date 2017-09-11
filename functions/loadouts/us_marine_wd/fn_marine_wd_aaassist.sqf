@@ -59,7 +59,7 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_fim92_mag";};
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["rhs_weap_m16a4_carryhandle","rhs_mag_30Rnd_556x45_Mk318_Stanag"],["rhs_weap_m16a4","30Rnd_65x39_caseless_mag"],["rhs_weap_m16a4_carryhandle_pmag","30Rnd_65x39_caseless_mag"]];
+_waffenarray = selectRandom [["rhs_weap_m16a4_carryhandle","rhs_mag_30Rnd_556x45_Mk318_Stanag"],["rhs_weap_m16a4","rhs_mag_30Rnd_556x45_Mk318_Stanag"],["rhs_weap_m16a4_carryhandle_pmag","rhs_mag_30Rnd_556x45_Mk318_Stanag"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
