@@ -9,11 +9,19 @@ setViewDistance 3500; //Max. Sichtweite setzen
 
 // Zeus Settings
 
-[] spawn {
+_zeusvar = "param_zeus" call BIS_fnc_getParamValue;
+
+if ( _zeusvar == 1 ) then {
+
+	[] spawn {
 	waitUntil {time > 1};
 	[true] spawn ADV_fnc_zeusObjects;
 
 };
+
+};
+
+
 
 
 

@@ -48,6 +48,22 @@ class Params
 		default = 0;
 	};
 
+		class param_intro
+	{
+		title="Intro Video";
+		values[] = {0,1};
+		texts[] = {"Nein","Ja"};
+		default = 0;
+	};
+
+		class param_zeus
+	{
+		title="Zeus";
+		values[] = {0,1};
+		texts[] = {"Nein","Ja"};
+		default = 1;
+	};
+
 		class param_radiochatter
 	{
 		title="Radio Chatter";
