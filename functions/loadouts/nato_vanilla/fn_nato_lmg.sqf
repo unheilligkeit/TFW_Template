@@ -58,7 +58,7 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["arifle_MX_SW_F","100Rnd_65x39_caseless_mag",5],["arifle_MX_SW_Black_F","100Rnd_65x39_caseless_mag",5],["LMG_Mk200_F","200Rnd_65x39_cased_Box",3]];
+_waffenarray = selectRandom [["LMG_Mk200_F","200Rnd_65x39_cased_Box",3]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 _anzahl =  _waffenarray select 2;
