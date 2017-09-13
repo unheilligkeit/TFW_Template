@@ -11,6 +11,8 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_tourniquet";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 20 do {_unit addItemToBackpack "ACE_epinephrine";};
-_unit addItemToBackpack "ACE_personalAidKit";
+_unit addItemToBackpack "ACE_surgicalKit";
+_unit addItemToBackpack "adv_aceCPR_AED";
+
 
 _unit setVariable ["ACE_medical_medicClass", 2];
