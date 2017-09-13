@@ -21,7 +21,10 @@ if ( _zeusvar == 1 ) then {
 
 };
 
+// ADV CPR Settings
 
+adv_aceCPR_quotient = 1;
+adv_aceCPR_probabilities = [30,10,5,85];
 
 
 
@@ -33,6 +36,10 @@ if (isServer) then {execVM "mission\storyline.sqf"};
 // Tasks
 
 if (isServer) then {execVM "mission\task.sqf"};
+
+// Logistik Init
+
+[drohnenterminal] call TFW_fnc_al6_init;
 
 
 // Mission Extras
