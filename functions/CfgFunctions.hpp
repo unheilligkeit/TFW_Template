@@ -198,7 +198,7 @@ class TFW
 	};
 
 
-		class marine_wd
+	class marine_wd
 	{
 		file = "functions\loadouts\us_marine_wd";
 		class marine_wd_riflemann {};
@@ -229,6 +229,30 @@ class TFW
 
 
 	};
+
+	class logistic
+	{
+		file = "functions\logistic"
+		class al6_spawn {};
+		class al6_init {};
+		class clearcargo {};
+
+	};
+
+	class al_6
+	{
+		file = "functions\logistic\al_6"
+		class al6_munition {};
+		class al6_medizin {};
+		class al6_mgmunition {};
+		class al6_granaten {};
+		class al6_sprengstoff {};
+		class al6_support {};
+		class al6_fruchtkorb {};
+
+	}
+
+
 
 
 };
