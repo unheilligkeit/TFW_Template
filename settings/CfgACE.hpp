@@ -497,7 +497,7 @@ class ace_repair_autoShutOffEngineWhenStartingRepair {
     force = 0;
 };
 class ace_respawn_savePreDeathGear {
-    value = 0;
+    value = 1;
     typeName = "BOOL";
     force = 0;
 };
