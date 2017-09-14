@@ -236,6 +236,8 @@ class TFW
 		class al6_spawn {};
 		class al6_init {};
 		class clearcargo {};
+		class sto_init {};
+		class sto_spawn {};
 
 	};
 
@@ -250,9 +252,19 @@ class TFW
 		class al6_support {};
 		class al6_fruchtkorb {};
 
-	}
+	};
 
+		class sto
+	{
+		file = "functions\logistic\sto"
+		class sto_munition {};
+		class sto_medizin {};
+		class sto_atmunition {};
+		class sto_granaten {};
+		class sto_sprengstoff {};
+		class sto_support {};
 
+	};
 
 
 };

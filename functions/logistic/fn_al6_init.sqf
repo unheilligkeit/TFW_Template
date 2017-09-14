@@ -1,6 +1,9 @@
 _controller = _this select 0;
 
-
+if (isServer) then
+{
+	al6count = 0
+};
 
 
 

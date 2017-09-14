@@ -39,7 +39,8 @@ if (isServer) then {execVM "mission\task.sqf"};
 
 // Logistik Init
 
-[drohnenterminal] call TFW_fnc_al6_init;
+[drohnenterminal1] call TFW_fnc_al6_init;
+[drohnenterminal2] call TFW_fnc_sto_init;
 
 
 // Mission Extras
