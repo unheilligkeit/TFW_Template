@@ -83,7 +83,7 @@ https://github.com/unheilligkeit/TFW_Template/blob/master/LICENSE
 Aber es ist auch ein Script von Belbo [SeL] vorhanden. 
 https://github.com/unheilligkeit/TFW_Template/tree/master/functions/adv
 
-Ich bitte darum die License einzuhalten oder ansonsten zu Entfernen.
+Ich bitte darum die License einzuhalten oder ansonsten die Funktion zu Entfernen.
 
 https://github.com/Pergor/ADV_MissionTemplate/blob/master/licence.txt
 
