@@ -23,7 +23,7 @@ Gibt es ein Wiki ?
 
 ***
 
-##### Autoren
+##### Autoren / Credits
 
 - Unheilligkeit / Florian [TFW]
 - Isaac  [TFW]
