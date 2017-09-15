@@ -65,3 +65,26 @@ Jede einzelen Logistikart ist seperatiert so das man sie für Missionen abschalt
 Gründsätlich ist es eine Sammlung von Funktionen die für Missionenbau nützlich sind.
 Wie Spawn scripts. 
 
+
+## Fehler und Bugs.
+
+Natürlich testen wir immer unser Template aber es können immer Fehler auftauchen.
+Darum bitten wir die Fehler zu Melden
+Am besten mit so vielen Infos wie möglich.
+https://github.com/unheilligkeit/TFW_Template/issues
+
+Verbesserungs Vorschläge sind gerne gesehn aber wir garantiere nicht das sie umgesetzt werden. 
+
+##License
+
+Grundsätlich läuft das Template unter der MIT LICENSE also jeder kann es verwenden und modifizieren ohne Autoren angaben.
+https://github.com/unheilligkeit/TFW_Template/blob/master/LICENSE
+
+Aber es ist auch ein Script von Belbo [SeL] vorhanden. 
+https://github.com/unheilligkeit/TFW_Template/tree/master/functions/adv
+
+Ich bitte darum die License einzuhalten oder ansonsten zu Entfernen.
+
+https://github.com/Pergor/ADV_MissionTemplate/blob/master/licence.txt
+
+
