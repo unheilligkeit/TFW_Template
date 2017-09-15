@@ -71,6 +71,13 @@ class Params
 		texts[] = {"Nein","Ja"};
 		default = 0;
 	};
+		class param_ti
+	{
+		title="Thermalsicht";
+		values[] = {0,1};
+		texts[] = {"Ja","Nein"};
+		default = 0;
+	};
 
 };
 

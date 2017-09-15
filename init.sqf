@@ -22,6 +22,19 @@ if ( _zeusvar == 1 ) then {
 };
 
 
+// Disable Thermal View
+
+_tivar = "param_ti" call BIS_fnc_getParamValue;
+
+if ( _tivar == 1 ) then {
+
+{
+    _x disableTIEquipment true;
+} forEach vehicles;
+
+};
+
+};
 
 
 
