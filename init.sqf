@@ -41,6 +41,8 @@ if (isServer) then {execVM "mission\task.sqf"};
 
 [drohnenterminal1] call TFW_fnc_al6_init;
 [drohnenterminal2] call TFW_fnc_sto_init;
+[drohnenterminal3] call TFW_fnc_airlog_init;
+[drohnenterminal4] call TFW_fnc_kistelog_init;
 
 
 // Mission Extras

@@ -238,6 +238,10 @@ class TFW
 		class clearcargo {};
 		class sto_init {};
 		class sto_spawn {};
+		class airlog_init {};
+		class airlog_spawn {};
+		class kistelog_init {};
+		class kistelog_spawn {};
 
 	};
 
@@ -263,6 +267,35 @@ class TFW
 		class sto_granaten {};
 		class sto_sprengstoff {};
 		class sto_support {};
+
+	};
+
+		class airlog
+	{
+		file = "functions\logistic\airlog"
+		class airlog_munition {};
+		class airlog_medizin {};
+		class airlog_atmunition {};
+		class airlog_granaten {};
+		class airlog_sprengairstoff {};
+		class airlog_support {};
+		class airlog_fob {};
+		class airlog_lazarett {};
+		class airlog_repair {};
+
+	};
+
+		class kistelog
+	{
+		file = "functions\logistic\kistelog"
+		class kistelog_munition {};
+		class kistelog_medizin {};
+		class kistelog_atmunition {};
+		class kistelog_mgmunition {};
+		class kistelog_granaten {};
+		class kistelog_sprengairstoff {};
+		class kistelog_support {};
+		class kistelog_zigarette {};
 
 	};
 
