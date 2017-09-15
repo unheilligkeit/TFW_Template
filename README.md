@@ -75,7 +75,7 @@ https://github.com/unheilligkeit/TFW_Template/issues
 
 Verbesserungs Vorschläge sind gerne gesehn aber wir garantiere nicht das sie umgesetzt werden. 
 
-##License
+## License
 
 Grundsätlich läuft das Template unter der MIT LICENSE also jeder kann es verwenden und modifizieren ohne Autoren angaben.
 https://github.com/unheilligkeit/TFW_Template/blob/master/LICENSE
