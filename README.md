@@ -25,8 +25,8 @@ Gibt es ein Wiki ?
 
 ##### Autoren
 
-Unheilligkeit / Florian [TFW]
-Isaac  [TFW]
+-Unheilligkeit / Florian [TFW]
+-Isaac  [TFW]
 
 
 
