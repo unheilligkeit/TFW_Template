@@ -27,6 +27,8 @@ Gibt es ein Wiki ?
 
 - Unheilligkeit / Florian [TFW]
 - Isaac  [TFW]
+- Belbo [SeL]
+- Buur [SeL]
 
 
 
