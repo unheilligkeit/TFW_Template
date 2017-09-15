@@ -34,8 +34,6 @@ if ( _tivar == 1 ) then {
 
 };
 
-};
-
 
 
 // Storyline
