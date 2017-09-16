@@ -29,15 +29,13 @@ switch (_kistefraktion) do
 
 	case 3: //---- BW Flecktarn ----
 	{
-		_log_kiste addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 15];
-		_log_kiste addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 5];
+		_log_kiste addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 20];
 		_log_kiste addMagazineCargoGlobal ["BWA3_10Rnd_762x51_G28", 10];
 	};
 
 	case 4: //---- BW Tropentarn ----
 	{
-		_log_kiste addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 15];
-		_log_kiste addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 5];
+		_log_kiste addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 20];
 		_log_kiste addMagazineCargoGlobal ["BWA3_10Rnd_762x51_G28", 10];
 	};
 

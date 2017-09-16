@@ -27,13 +27,11 @@ switch (_kistefraktion) do
 	case 3: //---- BW Flecktarn ----
 	{
 		_fm_drohen addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 8];
-		_fm_drohen addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 4];
 	};
 
 	case 4: //---- BW Tropentarn ----
 	{
 		_fm_drohen addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 8];
-		_fm_drohen addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 4];
 	};
 
 	case 5: //---- US Marine Woodland ----

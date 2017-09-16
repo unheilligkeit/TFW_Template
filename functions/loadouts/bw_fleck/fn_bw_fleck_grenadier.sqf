@@ -57,7 +57,7 @@ for "_i" from 1 to 6 do {_unit addItemToVest "1Rnd_HE_Grenade_shell";};
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["hlc_rifle_G36VAG36","hlc_30rnd_556x45_EPR_G36"],["hlc_rifle_G36MLIAG36","30Rnd_65x39_caseless_mag"]];
+_waffenarray = selectRandom ["hlc_rifle_G36VAG36","hlc_30rnd_556x45_EPR_G36"];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 

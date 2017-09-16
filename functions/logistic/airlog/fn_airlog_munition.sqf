@@ -38,7 +38,6 @@ switch (_kistefraktion) do
 	case 3: //---- BW Flecktarn ----
 	{
 		_fm_drohen addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 30];
-		_fm_drohen addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 10];
 		_fm_drohen addMagazineCargoGlobal ["hlc_100rnd_556x45_EPR_G36", 10];
 		_fm_drohen addMagazineCargoGlobal ["BWA3_120Rnd_762x51", 10];
 		_fm_drohen addMagazineCargoGlobal ["BWA3_10Rnd_127x99_G82", 10];
@@ -48,7 +47,6 @@ switch (_kistefraktion) do
 	case 4: //---- BW Tropentarn ----
 	{
 		_fm_drohen addMagazineCargoGlobal ["hlc_30rnd_556x45_EPR_G36", 30];
-		_fm_drohen addMagazineCargoGlobal ["30Rnd_65x39_caseless_mag", 10];
 		_fm_drohen addMagazineCargoGlobal ["hlc_100rnd_556x45_EPR_G36", 10];
 		_fm_drohen addMagazineCargoGlobal ["BWA3_120Rnd_762x51", 10];
 		_fm_drohen addMagazineCargoGlobal ["BWA3_10Rnd_127x99_G82", 10];
