@@ -67,7 +67,7 @@ _unit addItemToBackpack "dsk_nsv";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom ["hlc_rifle_G36VAG36","hlc_30rnd_556x45_EPR_G36"];
+_waffenarray = selectRandom [["hlc_rifle_G36VAG36","hlc_30rnd_556x45_EPR_G36"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
