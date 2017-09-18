@@ -69,5 +69,14 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["SmokeShellGreen", 4];
 	};
 
+	case 6: //---- '68s Vietnam Army ----
+	{
+		_fm_drohen addMagazineCargoGlobal ["uns_m34gren", 8];
+		_fm_drohen addMagazineCargoGlobal ["uns_m18white", 15];
+		_fm_drohen addMagazineCargoGlobal ["Uns_1Rnd_HE_M381", 12];
+		_fm_drohen addMagazineCargoGlobal ["uns_m61gren", 10];
+		_fm_drohen addMagazineCargoGlobal ["uns_m18Purple", 4];
+	};
+	
 
 };

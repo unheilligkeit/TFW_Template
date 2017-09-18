@@ -36,6 +36,7 @@ class TFW
 		class loadoutentfernen {};
 		class loadoutmedickit {};
 		class loadoutgranaten {};
+		class loadoutgranaten_vietnam {};
 		class loadoutmedicpack {};
 
 	};
@@ -227,6 +228,41 @@ class TFW
 		class marine_wd_sniper {};
 		class marine_wd_spotter {};
 
+
+	};
+	
+			
+	class vietnam_army
+	{
+		file = "functions\loadouts\vietnam_army";
+		class vietnam_army_rifleman {};
+		class vietnam_army_grenadier {};
+		class vietnam_army_lmg {};
+		class vietnam_army_teamleader {};
+		class vietnam_army_squadleader {};
+		class vietnam_army_medic {};
+		class vietnam_army_officer {};
+		class vietnam_army_marksman {};
+		class vietnam_army_crewman {};
+		class vietnam_army_helipilot {};
+		class vietnam_army_helicrew {};
+		class vietnam_army_mmg {};
+		class vietnam_army_mmgassist {};
+		class vietnam_army_paramedic {};
+		class vietnam_army_riflemanscout {};
+		class vietnam_army_jetpilot {};
+		class vietnam_army_jtac {};
+		class vietnam_army_logistic {};
+		class vietnam_army_atsoldier {};
+		class vietnam_army_eod {};
+		class vietnam_army_sniper {};
+		class vietnam_army_spotter {};
+		
+		//Keine Verwendung in Vietnam-Loadouts
+		//class vietnam_army_aasolider {};
+		//class vietnam_army_aaassist {};
+		//class vietnam_army_atassist {};
+		//class vietnam_army_riflemanpanzer {};
 
 	};
 

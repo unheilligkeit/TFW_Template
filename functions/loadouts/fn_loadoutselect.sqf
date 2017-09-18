@@ -409,3 +409,69 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
             };
 
     };
+	
+//=================================================== Vietnam US Army '68s (Air Cav) ================================================================//
+
+    if(_loadoutfraktion == 6) then
+    {
+
+            switch (_playerclass) do
+            {
+
+
+                    case "B_Soldier_F": { [_unit] call TFW_fnc_vietnam_army_rifleman; };
+
+					case "B_Soldier_GL_F": { [_unit] call TFW_fnc_vietnam_army_grenadier; };
+
+					case "B_soldier_LAT_F": { [_unit] call TFW_fnc_vietnam_army_atsoldier; };
+
+					case "B_soldier_AR_F": { [_unit] call TFW_fnc_vietnam_army_lmg; };
+
+					case "B_Soldier_TL_F": { [_unit] call TFW_fnc_vietnam_army_teamleader; };
+
+					case "B_Soldier_SL_F": { [_unit] call TFW_fnc_vietnam_army_squadleader; };
+
+					case "B_medic_F": { [_unit] call TFW_fnc_vietnam_army_medic; };
+
+					case "B_officer_F": { [_unit] call TFW_fnc_vietnam_army_officer; };
+
+					case "B_soldier_M_F": { [_unit] call TFW_fnc_vietnam_army_marksman; };
+
+					case "B_crew_F": { [_unit] call TFW_fnc_vietnam_army_crewman; };
+
+					case "B_Helipilot_F": { [_unit] call TFW_fnc_vietnam_army_helipilot; };
+
+					case "B_helicrew_F": { [_unit] call TFW_fnc_vietnam_army_helicrew; };
+
+					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_vietnam_army_mmg; };
+
+					case "B_soldier_AAR_F": { [_unit] call TFW_fnc_vietnam_army_mmgassist; };
+
+					case "B_Soldier_lite_F": { [_unit] call TFW_fnc_vietnam_army_riflemanscout; };
+
+					case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_vietnam_army_jetpilot; };
+
+					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_vietnam_army_jtac; };
+
+					case "B_soldier_repair_F": { [_unit] call TFW_fnc_vietnam_army_logistic; };
+
+					case "B_Soldier_unarmed_F": { [_unit] call TFW_fnc_vietnam_army_paramedic; };
+
+					case "B_soldier_exp_F": { [_unit] call TFW_fnc_vietnam_army_eod; };
+
+					case "B_sniper_F": { [_unit] call TFW_fnc_vietnam_army_sniper; };
+
+					case "B_spotter_F": { [_unit] call TFW_fnc_vietnam_army_spotter; };
+					
+					//Keine Verwendung in Vietnam-Loadouts
+					//case "B_soldier_AA_F": { [_unit] call TFW_fnc_vietnam_army_aasolider; };
+
+					//case "B_soldier_AAA_F": { [_unit] call TFW_fnc_vietnam_army_aaassist; };
+
+					//case "B_soldier_AAT_F": { [_unit] call TFW_fnc_vietnam_army_atassist; };
+					
+                    default { [_unit] call TFW_fnc_loadoutentfernen ; };
+
+            };
+
+    };

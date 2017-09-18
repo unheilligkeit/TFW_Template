@@ -106,6 +106,9 @@ if (isClass (configFile >> "CfgPatches" >> "acre_main")) then {
 	["ACRE_PRC117F", "example1"] call acre_api_fnc_setPreset;
 };
 
+//TFAR Settings
+TF_give_microdagr_to_soldier = false; //MicroDagr an Schützen austeilen? - ja ^ nein
+publicVariable "TF_give_microdagr_to_soldier";
 
 
 

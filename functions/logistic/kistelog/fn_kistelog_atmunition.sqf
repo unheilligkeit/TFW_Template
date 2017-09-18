@@ -61,5 +61,12 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["rhs_fgm148_magazine_AT", 3];
 		_fm_drohen addMagazineCargoGlobal ["rhs_fim92_mag", 3];
 	};
+	
+	case 6: //---- '68s Vietnam Army ----
+	{
+		_fm_drohen addWeaponCargoGlobal ["uns_m72", 5];
+		_fm_drohen addMagazineCargoGlobal ["uns_m72rocket", 5];
+	};
+	
 
 };

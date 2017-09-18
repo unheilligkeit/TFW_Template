@@ -44,4 +44,10 @@ switch (_kistefraktion) do
 		_log_kiste addMagazineCargoGlobal ["rhsusf_100Rnd_762x51_m61_ap", 5];
 	};
 
+	case 6: //---- '68s Vietnam Army ----
+	{
+		_log_kiste addMagazineCargoGlobal ["uns_m60mag_200", 8];
+		_log_kiste addMagazineCargoGlobal ["uns_30Rnd_556x45_Stanag_T", 15];
+	};
+
 };
