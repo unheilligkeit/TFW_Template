@@ -49,6 +49,7 @@ Die verschieden Fraktionen können einfach in der Lobby bei denn Parameter geän
 - Bundeswehr Flecktarn
 - Bundeswehr Tropentarn
 - US Marine Woodland
+- 1968s US Army Vietnam Unsung  
 
 ### Logistik System
 
