@@ -48,7 +48,6 @@ _unit addItemToUniform "";
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-_unit addItemToUniform "ACE_EarPlugs";
 for "_i" from 1 to 2 do {_unit addItemToVest "uns_m18red";};
 _unit addItemToVest "uns_m18Purple";
 _unit addItemToVest "uns_m34gren";

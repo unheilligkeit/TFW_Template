@@ -48,7 +48,6 @@ _unit addItemToUniform "";
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-_unit addItemToUniform "ACE_EarPlugs";
 _unit addItemToVest "uns_m18Purple";
 
 [_unit] call TFW_fnc_loadoutmedicpack ;

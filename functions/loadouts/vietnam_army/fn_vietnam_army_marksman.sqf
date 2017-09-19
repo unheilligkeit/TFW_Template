@@ -47,7 +47,6 @@ _unit addGoggles _brillenarray;
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-_unit addItemToUniform "ACE_EarPlugs";
 _unit addItemToVest "ACE_MapTools";
 _unit addItemToVest "ACE_RangeCard";
 

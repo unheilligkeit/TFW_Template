@@ -48,7 +48,6 @@ _unit addItemToBackpack "ACE_DefusalKit";
 _unit addItemToBackpack "ACE_M26_Clacker";
 _unit addItemToBackpack "ACE_Clacker";
 _unit addItemToBackpack "ACE_EntrenchingTool";
-_unit addItemToUniform "ACE_EarPlugs";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ClaymoreDirectionalMine_Remote_Mag";};
 

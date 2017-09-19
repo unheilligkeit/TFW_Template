@@ -50,7 +50,6 @@ _unit addItemToUniform "";
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-_unit addItemToUniform "ACE_EarPlugs";
 _unit addItemToUniform "uns_s_M14";
 _unit addItemToUniform "ACE_RangeCard";
 _unit addItemToUniform "uns_m18white";

@@ -48,7 +48,6 @@ _unit linkItem "tf_anprc152";
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-_unit addItemToUniform "ACE_EarPlugs";
 for "_i" from 1 to 3 do {_unit addItemToVest "uns_m18white";};
 for "_i" from 1 to 3 do {_unit addItemToBackpack "uns_m34gren";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "uns_m18Purple";};
