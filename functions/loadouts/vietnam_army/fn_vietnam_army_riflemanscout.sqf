@@ -46,7 +46,7 @@ _unit addItemToUniform "";
 _unit addItemToUniform "ACE_Flashlight_XL50";
 _unit addItemToUniform "ACE_EarPlugs";
 	//Classnames müssten noch ersetzt werden
-for "_i" from 1 to 6 do {_unit addItemToVest "rhsusf_5Rnd_doomsday_Buck";};
+for "_i" from 1 to 6 do {_unit addItemToVest "uns_12gaugemag_6f";};
 
 
 
@@ -55,7 +55,7 @@ for "_i" from 1 to 6 do {_unit addItemToVest "rhsusf_5Rnd_doomsday_Buck";};
 
 // Primär Waffe und Munition
 	//Classnames müssten noch ersetzt werden
-_waffenarray = selectRandom [["rhs_weap_M590_5RD","rhsusf_5Rnd_00Buck"]];
+_waffenarray = selectRandom [["uns_m870_mk1","uns_m870mag"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
