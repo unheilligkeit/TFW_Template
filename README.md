@@ -27,6 +27,7 @@ Gibt es ein Wiki ?
 
 - Unheilligkeit / Florian [TFW]
 - Isaac  [TFW]
+- LiquidBlaze [TacCorp]
 - Belbo [SeL]
 - Buur [SeL]
 - DriftingNitro
@@ -49,6 +50,7 @@ Die verschieden Fraktionen können einfach in der Lobby bei denn Parameter geän
 - Bundeswehr Flecktarn
 - Bundeswehr Tropentarn
 - US Marine Woodland
+- 1968s US Army Vietnam Unsung  
 
 ### Logistik System
 
