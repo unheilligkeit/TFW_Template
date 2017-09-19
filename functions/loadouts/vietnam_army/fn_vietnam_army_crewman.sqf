@@ -57,7 +57,7 @@ _unit setVariable ["ACE_IsEngineer", 1];
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom ["uns_m16","uns_20Rnd_556x45_Stanag"];
+_waffenarray = selectRandom [["uns_m16","uns_20Rnd_556x45_Stanag"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
