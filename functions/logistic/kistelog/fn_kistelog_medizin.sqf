@@ -14,7 +14,7 @@ _fm_drohen addItemCargoGlobal ["ACE_tourniquet", 4];
 _fm_drohen addItemCargoGlobal ["ACE_epinephrine", 10];
 _fm_drohen addItemCargoGlobal ["ACE_morphine", 10];
 _fm_drohen addItemCargoGlobal ["ACE_surgicalKit", 1];
-_fm_drohen addItemCargoGlobal ["adv_aceCPR_AED", 1];
+_fm_drohen addItemCargoGlobal ["ACE_personalAidKit", 1];
 
 
 

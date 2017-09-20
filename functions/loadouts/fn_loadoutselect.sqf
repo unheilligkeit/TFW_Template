@@ -41,7 +41,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_Helipilot_F": { [_unit] call TFW_fnc_nato_helipilot; };
 
-                    case "B_Helicrew_F": { [_unit] call TFW_fnc_nato_helicrew; };
+                    case "B_helicrew_F": { [_unit] call TFW_fnc_nato_helicrew; };
 
                     case "B_soldier_repair_F": { [_unit] call TFW_fnc_nato_logistiker; };
 
@@ -107,7 +107,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_Helipilot_F": { [_unit] call TFW_fnc_us_ocp_helipilot; };
 
-                    case "B_Helicrew_F": { [_unit] call TFW_fnc_us_ocp_helicrew; };
+                    case "B_helicrew_F": { [_unit] call TFW_fnc_us_ocp_helicrew; };
 
                     case "B_soldier_repair_F": { [_unit] call TFW_fnc_us_ocp_logistiker; };
 
@@ -174,7 +174,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "B_Helipilot_F": { [_unit] call TFW_fnc_us_ucp_helipilot; };
 
-                    case "B_Helicrew_F": { [_unit] call TFW_fnc_us_ucp_helicrew; };
+                    case "B_helicrew_F": { [_unit] call TFW_fnc_us_ucp_helicrew; };
 
                     case "B_soldier_repair_F": { [_unit] call TFW_fnc_us_ucp_logistiker; };
 
@@ -236,7 +236,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_officer_F": { [_unit] call TFW_fnc_bw_fleck_offizier; };
 
                     case "B_soldier_M_F": { [_unit] call TFW_fnc_bw_fleck_marksman; };
-					
+
 					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_bw_fleck_mmg; };
 
 					case "B_soldier_AAR_F": { [_unit] call TFW_fnc_bw_fleck_mmgassist; };
@@ -254,19 +254,19 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 					case "B_soldier_exp_F": { [_unit] call TFW_fnc_bw_fleck_eod; };
 
 					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_bw_fleck_jtac; };
-					
+
 					case "B_crew_F": { [_unit] call TFW_fnc_bw_fleck_crewman; };
-					
+
 					case "B_Helipilot_F": { [_unit] call TFW_fnc_bw_fleck_helipilot; };
-					
-					case "B_Helicrew_F": { [_unit] call TFW_fnc_bw_fleck_helicrew; };
-					
+
+					case "B_helicrew_F": { [_unit] call TFW_fnc_bw_fleck_helicrew; };
+
 					case "B_soldier_repair_F": { [_unit] call TFW_fnc_bw_fleck_logistiker; };
-					
+
 					case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_bw_fleck_jetpilot; };
-					
+
 					case "B_sniper_F": { [_unit] call TFW_fnc_bw_fleck_sniper; };
-					
+
 					case "B_spotter_F": { [_unit] call TFW_fnc_bw_fleck_spotter; };
 
 
@@ -321,19 +321,19 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 					case "B_soldier_exp_F": { [_unit] call TFW_fnc_bw_tropen_eod; };
 
 					case "B_recon_JTAC_F": { [_unit] call TFW_fnc_bw_tropen_jtac; };
-					
+
 					case "B_crew_F": { [_unit] call TFW_fnc_bw_tropen_crewman; };
-					
+
 					case "B_Helipilot_F": { [_unit] call TFW_fnc_bw_tropen_helipilot; };
-					
-					case "B_Helicrew_F": { [_unit] call TFW_fnc_bw_tropen_helicrew; };
-					
+
+					case "B_helicrew_F": { [_unit] call TFW_fnc_bw_tropen_helicrew; };
+
 					case "B_soldier_repair_F": { [_unit] call TFW_fnc_bw_tropen_logistiker; };
-					
+
 					case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_bw_tropen_jetpilot; };
-					
+
 					case "B_sniper_F": { [_unit] call TFW_fnc_bw_tropen_sniper; };
-					
+
 					case "B_spotter_F": { [_unit] call TFW_fnc_bw_tropen_spotter; };
 
 
@@ -375,7 +375,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
 					case "B_Helipilot_F": { [_unit] call TFW_fnc_marine_wd_helipilot; };
 
-					case "B_Helicrew_F": { [_unit] call TFW_fnc_marine_wd_helicrew; };
+					case "B_helicrew_F": { [_unit] call TFW_fnc_marine_wd_helicrew; };
 
 					case "B_HeavyGunner_F": { [_unit] call TFW_fnc_marine_wd_mmg; };
 
@@ -409,7 +409,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
             };
 
     };
-	
+
 //=================================================== Vietnam US Army '68s (Air Cav) ================================================================//
 
     if(_loadoutfraktion == 6) then
@@ -462,14 +462,14 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 					case "B_sniper_F": { [_unit] call TFW_fnc_vietnam_army_sniper; };
 
 					case "B_spotter_F": { [_unit] call TFW_fnc_vietnam_army_spotter; };
-					
+
 					//Keine Verwendung in Vietnam-Loadouts
 					//case "B_soldier_AA_F": { [_unit] call TFW_fnc_vietnam_army_aasolider; };
 
 					//case "B_soldier_AAA_F": { [_unit] call TFW_fnc_vietnam_army_aaassist; };
 
 					//case "B_soldier_AAT_F": { [_unit] call TFW_fnc_vietnam_army_atassist; };
-					
+
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
 
             };
