@@ -79,6 +79,14 @@ class Params
 		default = 0;
 	};
 
+		class param_techcheck
+	{
+		title="Techcheck Modus";
+		values[] = {0,1,2};
+		texts[] = {"Test Modus","Missions Modus","Deaktiviert"};
+		default = 2;
+	};
+
 };
 
 
@@ -92,6 +100,16 @@ class CfgDebriefing
 		description = "Toll Leistung ..";
 		pictureBackground = "images\loadscreen.jpg";
 		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End6
+	{
+		title = "Kein Techcheck";
+		subtitle = "Keine Mission";
+		description = "Leider hast du kein Techcheck gemacht. Darum kannst du in dieser Mission nicht mitmachen";
+		pictureBackground = "images\loadscreen.jpg";
+		picture = "KIA";
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 };

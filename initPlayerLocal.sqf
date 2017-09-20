@@ -12,13 +12,48 @@
 // Intro Film
 
 _introvar = "param_intro" call BIS_fnc_getParamValue;
-
+waitUntil {!(isNull (findDisplay 46))};
 if ( _introvar == 1 ) then {
 
-		waitUntil {!(isNull (findDisplay 46))};
+
 		["intro.ogv"] call BIS_fnc_playVideo;
 
 };
+
+// Techcheck Funktion
+
+_techcheckvar = "param_techcheck" call BIS_fnc_getParamValue;
+_techcheckcode = profileNamespace getVariable "tfw_techcheck";
+sleep 10;
+
+
+if (_techcheckvar == 0) then
+{
+
+	profileNamespace setVariable ["tfw_techcheck",0];
+	profileNamespace setVariable ["tfw_techcheck",12345];
+	saveProfileNamespace;
+	sleep 10;
+	systemChat "Techcheck Abgeschlossen";
+
+};
+
+if (_techcheckvar == 1) then
+{
+
+	if (_techcheckcode == 12345) then
+	{
+
+		systemChat "Techcheck Code Akzeptiert";
+
+	} else {
+
+		systemChat "Techcheck Code nicht Akzeptiert";
+		sleep 10;
+		endMission "END6";
+	};
+};
+
 
 
 
