@@ -12,15 +12,6 @@ Die Parameter sind diese [spawnobjekt,seite,["Einheiten oder einheit"],Marschtem
 
 
 
-
-
-
-
-
-
-
-
-
 params ["_start", "_side", "_units", "_speed"];
 
 private _dogclass = selectRandom ["Alsatian_Sandblack_F","Alsatian_Black_F","Alsatian_Sand_F","Fin_tricolour_F","Fin_ocherwhite_F","Fin_blackwhite_F","Fin_sand_F"];
