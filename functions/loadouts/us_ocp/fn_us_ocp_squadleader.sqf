@@ -20,7 +20,7 @@ _westenarray = selectRandom ["rhsusf_iotv_ocp_Squadleader"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["tfw_ilbe_blade_wd"];
+_rucksackearray = selectRandom ["tfw_ilbe_blade_coy"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -43,9 +43,7 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit addItemToUniform "ACRE_PRC152";
-_unit addItemToUniform "ACRE_PRC152";
-_unit addItemToBackpack "ACRE_PRC117F";
+_unit linkItem "tf_anprc152";
 
 
 // Sonstiges - Zusatzausrüstung

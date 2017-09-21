@@ -8,14 +8,14 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=1103;
+		nextID=1105;
 	};
 	class Camera
 	{
-		pos[]={15311.917,51.28899,17197.021};
-		dir[]={-0.66839987,-0.24040721,0.70404428};
-		up[]={-0.16559751,0.97054142,0.17443818};
-		aside[]={0.72531915,-2.7746428e-006,0.6885736};
+		pos[]={15193.244,31.872524,17361.875};
+		dir[]={-0.51592749,-0.29076222,-0.80592847};
+		up[]={-0.15682824,0.95665485,-0.2449678};
+		aside[]={-0.84229302,-2.5921036e-006,0.53923029};
 	};
 };
 binarizationWanted=0;
@@ -329,8 +329,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15174.926,17.958927,17371.025};
-				angles[]={0.0013372133,0,6.2791886};
+				angles[]={0.0013439035,0,6.2791882};
 			};
+			name="z1";
 			id=70;
 			type="ModuleCurator_F";
 			class CustomAttributes
@@ -6694,6 +6695,25 @@ class Mission
 					{
 						class Attribute0
 						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
 							property="speaker";
 							expression="_this setspeaker _value;";
 							class Value
@@ -6711,7 +6731,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute1
+						class Attribute2
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -6730,7 +6750,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						nAttributes=3;
 					};
 				};
 			};
@@ -8857,7 +8877,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=512;
-					type="B_Helicrew_F";
+					type="B_helicrew_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8916,7 +8936,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=513;
-					type="B_Helicrew_F";
+					type="B_helicrew_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9111,7 +9131,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=517;
-					type="B_Helicrew_F";
+					type="B_helicrew_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9170,7 +9190,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=518;
-					type="B_Helicrew_F";
+					type="B_helicrew_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9480,9 +9500,10 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={15175.977,17.956013,17370.059};
-				angles[]={0.0013372133,0,6.2791886};
+				position[]={15175.977,17.956007,17370.061};
+				angles[]={0.0013439035,0,6.2791882};
 			};
+			name="z2";
 			id=524;
 			type="ModuleCurator_F";
 			class CustomAttributes

@@ -20,7 +20,7 @@ _westenarray = selectRandom ["BWA3_Vest_Tropen","BWA3_Vest_Grenadier_Tropen","BW
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["BWA3_PatrolPack_Tropen"];
+_rucksackearray = selectRandom ["tf_rt1523g_big_bwmod_tropen"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -44,7 +44,8 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit addItemToUniform "ACRE_PRC152";
+_unit linkItem "tf_anprc152";
+
 
 
 // Sonstiges - Zusatzausrüstung

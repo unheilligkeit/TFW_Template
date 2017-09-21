@@ -8,6 +8,7 @@ class TFW
 		file = "functions\server";
 		class drohnspawn {};
 		class radiochatter {};
+		class tfarsettings {};
 
 	};
 
@@ -230,8 +231,8 @@ class TFW
 
 
 	};
-	
-			
+
+
 	class vietnam_army
 	{
 		file = "functions\loadouts\vietnam_army";
@@ -257,7 +258,7 @@ class TFW
 		class vietnam_army_eod {};
 		class vietnam_army_sniper {};
 		class vietnam_army_spotter {};
-		
+
 		//Keine Verwendung in Vietnam-Loadouts
 		//class vietnam_army_aasolider {};
 		//class vietnam_army_aaassist {};
