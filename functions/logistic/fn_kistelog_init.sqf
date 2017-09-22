@@ -35,8 +35,8 @@ if ((_controller isKindOf "Man") or (_controller isKindOf "LandVehicle")) then
 		_log_kistelog_support = ["log_kistelog_support", "Support Kisten", "", { [ 6 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
 		[_controller, 1, ["ACE_SelfActions", "log_kistelog_main"], _log_kistelog_support] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_kistelog_leer = ["log_kistelog_zigarette", "Zigartten Kisten", "", { [ 7 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_kistelog_main"], _log_kistelog_leer] call ace_interact_menu_fnc_addActionToObject;
+		_log_kistelog_zigi = ["log_kistelog_zigarette", "Zigartten Kisten", "", { [ 7 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller, 1, ["ACE_SelfActions", "log_kistelog_main"], _log_kistelog_zigi] call ace_interact_menu_fnc_addActionToObject;
 
 		_log_kistelog_leer = ["log_kistelog_leer", "Leeres Kisten", "", { [ 8 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
 		[_controller, 1, ["ACE_SelfActions", "log_kistelog_main"], _log_kistelog_leer] call ace_interact_menu_fnc_addActionToObject;
@@ -76,8 +76,8 @@ if ((_controller isKindOf "Man") or (_controller isKindOf "LandVehicle")) then
 		_log_kistelog_support = ["log_kistelog_support", "Support Kisten", "", { [ 6 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
 		[_controller, 0, ["ACE_MainActions", "log_kistelog_main"], _log_kistelog_support] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_kistelog_leer = ["log_kistelog_leer", "Leeres Kisten", "", { [ 7 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_kistelog_main"], _log_kistelog_leer] call ace_interact_menu_fnc_addActionToObject;
+		_log_kistelog_zigi = ["log_kistelog_zigarette", "Zigartten Kisten", "", { [ 7 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller, 0, ["ACE_MainActions", "log_kistelog_main"], _log_kistelog_zigi] call ace_interact_menu_fnc_addActionToObject;
 
 		_log_kistelog_leer = ["log_kistelog_leer", "Leeres Kisten", "", { [ 8 ] call TFW_fnc_kistelog_spawn }, {true}] call ace_interact_menu_fnc_createAction;
 		[_controller, 0, ["ACE_MainActions", "log_kistelog_main"], _log_kistelog_leer] call ace_interact_menu_fnc_addActionToObject;

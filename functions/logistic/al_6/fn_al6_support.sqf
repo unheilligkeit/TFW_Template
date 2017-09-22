@@ -7,7 +7,7 @@ _fm_drohen = _this select 0;
 
 
 
-_fm_drohen addItemCargoGlobal ["ACRE_PRC152", 2];
+_fm_drohen addItemCargoGlobal ["tf_anprc152", 2];
 _fm_drohen addItemCargoGlobal ["ACE_SpraypaintGreen", 2];
 _fm_drohen addItemCargoGlobal ["ACE_SpraypaintRed", 2];
 _fm_drohen addItemCargoGlobal ["ACE_CableTie", 5];

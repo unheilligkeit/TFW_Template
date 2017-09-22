@@ -6,8 +6,8 @@ _fm_drohen = _this select 0;
 [_fm_drohen] call TFW_fnc_clearcargo ;
 
 
-_fm_drohen addItemCargoGlobal ["ACRE_PRC152", 2];
-_fm_drohen addItemCargoGlobal ["ACRE_PRC117F", 2];
+_fm_drohen addItemCargoGlobal ["tf_anprc152", 2];
+_fm_drohen addBackpackCargoGlobal ["tf_rt1523g_big", 2];
 _fm_drohen addWeaponCargoGlobal ["ACE_Vector", 2];
 _fm_drohen addWeaponCargoGlobal ["Laserdesignator", 2];
 _fm_drohen addItemCargoGlobal ["Laserbatteries", 2];
