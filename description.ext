@@ -103,6 +103,16 @@ class CfgDebriefing
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 
+	class End5
+	{
+		title = "Techcheck Erfolgreich";
+		subtitle = "Keine Mission";
+		description = "Dein Techcheck war Erfolgreich! Bitte sei pünktlich zur Mission wieder da!";
+		pictureBackground = "images\loadscreen.jpg";
+		picture = "KIA";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	
 	class End6
 	{
 		title = "Kein Techcheck";

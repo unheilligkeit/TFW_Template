@@ -35,6 +35,7 @@ if (_techcheckvar == 0) then
 	saveProfileNamespace;
 	sleep 10;
 	systemChat "Techcheck Abgeschlossen";
+	endMission "END5";
 
 };
 
