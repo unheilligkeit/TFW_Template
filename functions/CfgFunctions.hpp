@@ -314,7 +314,7 @@ class TFW
 		class airlog_medizin {};
 		class airlog_atmunition {};
 		class airlog_granaten {};
-		class airlog_sprengairstoff {};
+		class airlog_sprengstoff {};
 		class airlog_support {};
 		class airlog_fob {};
 		class airlog_lazarett {};
@@ -330,7 +330,7 @@ class TFW
 		class kistelog_atmunition {};
 		class kistelog_mgmunition {};
 		class kistelog_granaten {};
-		class kistelog_sprengairstoff {};
+		class kistelog_sprengstoff {};
 		class kistelog_support {};
 		class kistelog_zigarette {};
 
