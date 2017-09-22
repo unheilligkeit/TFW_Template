@@ -26,8 +26,9 @@ _techcheckvar = "param_techcheck" call BIS_fnc_getParamValue;
 _techcheckcode = profileNamespace getVariable "tfw_techcheck";
 if (isNil "_techcheckcode") then
 {
-	missionNamespace setVariable ["tfw_techcheck", 0];
-	_techcheckcode = 0
+	profileNamespace setVariable ["tfw_techcheck", 0];
+	saveProfileNamespace;
+	_techcheckcode = 0;
 };
 sleep 10;
 
