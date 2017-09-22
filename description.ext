@@ -106,7 +106,7 @@ class CfgDebriefing
 	class End5
 	{
 		title = "Techcheck Erfolgreich";
-		subtitle = "Keine Mission";
+		subtitle = "";
 		description = "Dein Techcheck war Erfolgreich! Bitte sei pünktlich zur Mission wieder da!";
 		pictureBackground = "images\loadscreen.jpg";
 		picture = "KIA";
