@@ -109,10 +109,10 @@ class CfgDebriefing
 		subtitle = "";
 		description = "Dein Techcheck war Erfolgreich! Bitte sei pünktlich zur Mission wieder da!";
 		pictureBackground = "images\loadscreen.jpg";
-		picture = "KIA";
+		picture = "b_service";
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
-	
+
 	class End6
 	{
 		title = "Kein Techcheck";
