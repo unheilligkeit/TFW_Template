@@ -68,7 +68,7 @@ class TFW
 	
 	class nato_vanilla
 	{
-		file = "functions\loadouts\nato_vanilla";
+		file = "functions\loadouts_blu\nato_vanilla";
 		class nato_riflemann {};
 		class nato_grenadier {};
 		class nato_riflemannpanzer {};
@@ -99,7 +99,7 @@ class TFW
 
 	class us_ocp
 	{
-		file = "functions\loadouts\us_ocp";
+		file = "functions\loadouts_blu\us_ocp";
 		class us_ocp_riflemann {};
 		class us_ocp_grenadier {};
 		class us_ocp_riflemannpanzer {};
@@ -131,7 +131,7 @@ class TFW
 
 	class us_ucp
 	{
-		file = "functions\loadouts\us_ucp";
+		file = "functions\loadouts_blu\us_ucp";
 		class us_ucp_riflemann {};
 		class us_ucp_grenadier {};
 		class us_ucp_riflemannpanzer {};
@@ -163,7 +163,7 @@ class TFW
 
 	class bw_fleck
 	{
-		file = "functions\loadouts\bw_fleck";
+		file = "functions\loadouts_blu\bw_fleck";
 		class bw_fleck_riflemann {};
 		class bw_fleck_grenadier {};
 		class bw_fleck_riflemannpanzer {};
@@ -194,7 +194,7 @@ class TFW
 
 	class bw_tropen
 	{
-		file = "functions\loadouts\bw_tropen";
+		file = "functions\loadouts_blu\bw_tropen";
 		class bw_tropen_riflemann {};
 		class bw_tropen_grenadier {};
 		class bw_tropen_riflemannpanzer {};
@@ -226,7 +226,7 @@ class TFW
 
 	class marine_wd
 	{
-		file = "functions\loadouts\us_marine_wd";
+		file = "functions\loadouts_blu\us_marine_wd";
 		class marine_wd_riflemann {};
 		class marine_wd_grenadier {};
 		class marine_wd_riflemannpanzer {};
@@ -259,7 +259,7 @@ class TFW
 
 	class vietnam_army
 	{
-		file = "functions\loadouts\vietnam_army";
+		file = "functions\loadouts_blu\vietnam_army";
 		class vietnam_army_rifleman {};
 		class vietnam_army_grenadier {};
 		class vietnam_army_lmg {};
@@ -295,6 +295,9 @@ class TFW
 	
 		
 		//=============GREENFOR Loadouts=============
+		
+		
+
 	class logistic
 	{
 		file = "functions\logistic"
@@ -353,14 +356,32 @@ class TFW
 		class kistelog
 	{
 		file = "functions\logistic\kistelog"
-		class kistelog_munition {};
-		class kistelog_medizin {};
-		class kistelog_atmunition {};
-		class kistelog_mgmunition {};
-		class kistelog_granaten {};
-		class kistelog_sprengstoff {};
-		class kistelog_support {};
-		class kistelog_zigarette {};
+		class kistelog_munition_blu {};
+		class kistelog_medizin_blu {};
+		class kistelog_atmunition_blu {};
+		class kistelog_mgmunition_blu {};
+		class kistelog_granaten_blu {};
+		class kistelog_sprengstoff_blu {};
+		class kistelog_support_blu {};
+		class kistelog_zigarette_blu {};
+		
+		class kistelog_munition_opf {};
+		class kistelog_medizin_opf {};
+		class kistelog_atmunition_opf {};
+		class kistelog_mgmunition_opf {};
+		class kistelog_granaten_opf {};
+		class kistelog_sprengstoff_opf {};
+		class kistelog_support_opf {};
+		class kistelog_zigarette_opf {};
+		
+		class kistelog_munition_gre {};
+		class kistelog_medizin_gre {};
+		class kistelog_atmunition_gre {};
+		class kistelog_mgmunition_gre {};
+		class kistelog_granaten_gre {};
+		class kistelog_sprengstoff_gre {};
+		class kistelog_support_gre {};
+		class kistelog_zigarette_gre {};
 
 	};
 
