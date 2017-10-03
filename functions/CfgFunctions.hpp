@@ -321,11 +321,70 @@ class TFW
 		class csat_vanilla_eod {};
 		class csat_vanilla_sniper {};
 		class csat_vanilla_spotter {};
-
+	};
+	
+	class rus_emr
+	{
+		file = "functions\loadouts_opf\rus_emr";
+		class rus_emr_riflemann {};
+		class rus_emr_grenadier {};
+		class rus_emr_riflemannpanzer {};
+		class rus_emr_lmg {};
+		class rus_emr_teamleader {};
+		class rus_emr_squadleader {};
+		class rus_emr_medic {};
+		class rus_emr_offizier {};
+		class rus_emr_marksman {};
+		class rus_emr_crewman {};
+		class rus_emr_helipilot {};
+		class rus_emr_helicrew {};
+		class rus_emr_mmg {};
+		class rus_emr_mmgassist {};
+		class rus_emr_uav {};
+		class rus_emr_jetpilot {};
+		class rus_emr_jtac {};
+		class rus_emr_logistiker {};
+		class rus_emr_atsolider {};
+		class rus_emr_atassist {};
+		class rus_emr_aasolider {};
+		class rus_emr_aaassist {};
+		class rus_emr_eod {};
+		class rus_emr_sniper {};
+		class rus_emr_spotter {};
+	};
 			
 		
 		//=============GREENFOR Loadouts=============
-
+		
+	class aaf
+	{
+		file = "functions\loadouts_gre\aaf";
+		class aaf_riflemann {};
+		class aaf_grenadier {};
+		class aaf_riflemannpanzer {};
+		class aaf_lmg {};
+		class aaf_teamleader {};
+		class aaf_squadleader {};
+		class aaf_medic {};
+		class aaf_offizier {};
+		class aaf_marksman {};
+		class aaf_crewman {};
+		class aaf_helipilot {};
+		class aaf_helicrew {};
+		class aaf_mmg {};
+		class aaf_mmgassist {};
+		class aaf_uav {};
+		class aaf_jetpilot {};
+		class aaf_jtac {};
+		class aaf_logistiker {};
+		class aaf_atsolider {};
+		class aaf_atassist {};
+		class aaf_aasolider {};
+		class aaf_aaassist {};
+		class aaf_eod {};
+		class aaf_sniper {};
+		class aaf_spotter {};		
+	};		
 	class syndikat
 	{
 		file = "functions\loadouts_gre\syndikat";
@@ -354,7 +413,7 @@ class TFW
 		class syndikat_eod {};
 		class syndikat_sniper {};
 		class syndikat_spotter {};		
-		
+	};		
 
 	class logistic
 	{
