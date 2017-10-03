@@ -40,14 +40,30 @@ class ACE_Settings
 class Params
 {
 
-	class param_loadout
+	class param_loadout_blu
 	{
-		title="Loadout Fraktion";
+		title="Loadout Fraktion Blufor";
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP","BW Flecktarn","BW Tropentarn","US Marine Woodland","'68s Vietnam US Army (Air Cav)"};
 		default = 0;
 	};
+	
+	class param_loadout_opf
+	{
+		title="Loadout Fraktion Opfor";
+		values[] = {0,1};
+		texts[] = {"Vanilla AAF","US Army OCP"};
+		default = 0;
+	};
 
+	class param_loadout_gre
+	{
+		title="Loadout Fraktion Greenfor";
+		values[] = {0,1,2,3,4,5,6};
+		texts[] = {"Vanilla CSAT","US Army OCP"};
+		default = 0;
+	};
+	
 		class param_intro
 	{
 		title="Intro Video";

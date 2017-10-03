@@ -30,9 +30,9 @@ class TFW
 		class fpszeus {};
 	};
 
-	class loadouts
+	class loadouts_blu
 	{
-		file = "functions\loadouts";
+		file = "functions\loadouts_blu";
 		class loadoutselect {};
 		class loadoutentfernen {};
 		class loadoutmedickit {};
@@ -41,7 +41,30 @@ class TFW
 		class loadoutmedicpack {};
 
 	};
+	
+	class loadouts_opf
+	{
+		file = "functions\loadouts_opf";
+		class loadoutselect {};
+		class loadoutentfernen {};
+		class loadoutmedickit {};
+		class loadoutgranaten {};
+		class loadoutmedicpack {};
 
+	};
+
+	class loadouts_gre
+	{
+		file = "functions\loadouts_gre";
+		class loadoutselect {};
+		class loadoutentfernen {};
+		class loadoutmedickit {};
+		class loadoutgranaten {};
+		class loadoutmedicpack {};
+
+	};
+
+	
 	class nato_vanilla
 	{
 		file = "functions\loadouts\nato_vanilla";
