@@ -292,10 +292,68 @@ class TFW
 	};
 
 		//=============OPFOR Loadouts=============
-	
+
+	class csat_vanilla
+	{
+		file = "functions\loadouts_opf\csat_vanilla";
+		class csat_vanilla_riflemann {};
+		class csat_vanilla_grenadier {};
+		class csat_vanilla_riflemannpanzer {};
+		class csat_vanilla_lmg {};
+		class csat_vanilla_teamleader {};
+		class csat_vanilla_squadleader {};
+		class csat_vanilla_medic {};
+		class csat_vanilla_offizier {};
+		class csat_vanilla_marksman {};
+		class csat_vanilla_crewman {};
+		class csat_vanilla_helipilot {};
+		class csat_vanilla_helicrew {};
+		class csat_vanilla_mmg {};
+		class csat_vanilla_mmgassist {};
+		class csat_vanilla_uav {};
+		class csat_vanilla_jetpilot {};
+		class csat_vanilla_jtac {};
+		class csat_vanilla_logistiker {};
+		class csat_vanilla_atsolider {};
+		class csat_vanilla_atassist {};
+		class csat_vanilla_aasolider {};
+		class csat_vanilla_aaassist {};
+		class csat_vanilla_eod {};
+		class csat_vanilla_sniper {};
+		class csat_vanilla_spotter {};
+
+			
 		
 		//=============GREENFOR Loadouts=============
-		
+
+	class syndikat
+	{
+		file = "functions\loadouts_gre\syndikat";
+		class syndikat_riflemann {};
+		class syndikat_grenadier {};
+		class syndikat_riflemannpanzer {};
+		class syndikat_lmg {};
+		class syndikat_teamleader {};
+		class syndikat_squadleader {};
+		class syndikat_medic {};
+		class syndikat_offizier {};
+		class syndikat_marksman {};
+		class syndikat_crewman {};
+		class syndikat_helipilot {};
+		class syndikat_helicrew {};
+		class syndikat_mmg {};
+		class syndikat_mmgassist {};
+		class syndikat_uav {};
+		class syndikat_jetpilot {};
+		class syndikat_jtac {};
+		class syndikat_logistiker {};
+		class syndikat_atsolider {};
+		class syndikat_atassist {};
+		class syndikat_aasolider {};
+		class syndikat_aaassist {};
+		class syndikat_eod {};
+		class syndikat_sniper {};
+		class syndikat_spotter {};		
 		
 
 	class logistic
@@ -356,6 +414,7 @@ class TFW
 		class kistelog
 	{
 		file = "functions\logistic\kistelog"
+		//Blufor Logistik
 		class kistelog_munition_blu {};
 		class kistelog_medizin_blu {};
 		class kistelog_atmunition_blu {};
@@ -364,7 +423,7 @@ class TFW
 		class kistelog_sprengstoff_blu {};
 		class kistelog_support_blu {};
 		class kistelog_zigarette_blu {};
-		
+		//Opfor Logistik
 		class kistelog_munition_opf {};
 		class kistelog_medizin_opf {};
 		class kistelog_atmunition_opf {};
@@ -373,7 +432,7 @@ class TFW
 		class kistelog_sprengstoff_opf {};
 		class kistelog_support_opf {};
 		class kistelog_zigarette_opf {};
-		
+		//Greenfor Logistik
 		class kistelog_munition_gre {};
 		class kistelog_medizin_gre {};
 		class kistelog_atmunition_gre {};

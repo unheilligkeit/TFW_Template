@@ -6,7 +6,7 @@
 
 _unit = _this select 0;
 _playerclass = typeOf _unit;
-_loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
+_loadoutfraktion = "param_loadout_blu" call BIS_fnc_getParamValue;
 
 
 
