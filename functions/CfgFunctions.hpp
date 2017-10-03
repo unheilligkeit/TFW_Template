@@ -64,6 +64,7 @@ class TFW
 
 	};
 
+	//=============BLUFOR Loadouts=============
 	
 	class nato_vanilla
 	{
@@ -290,6 +291,10 @@ class TFW
 
 	};
 
+		//=============OPFOR Loadouts=============
+	
+		
+		//=============GREENFOR Loadouts=============
 	class logistic
 	{
 		file = "functions\logistic"
