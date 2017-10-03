@@ -1,5 +1,5 @@
 _sto_drohen = _this select 0;
-_kistefraktion = "param_loadout" call BIS_fnc_getParamValue;
+_kistefraktion = "param_loadout_blu" call BIS_fnc_getParamValue;
 
 // Löscht inhalt der Drohne
 

@@ -446,13 +446,28 @@ class TFW
 		class sto
 	{
 		file = "functions\logistic\sto"
-		class sto_munition {};
-		class sto_medizin {};
-		class sto_atmunition {};
-		class sto_granaten {};
-		class sto_sprengstoff {};
-		class sto_support {};
-
+		//Blufor Logistik		
+		class sto_munition_blu {};
+		class sto_medizin_blu {};
+		class sto_atmunition_blu {};
+		class sto_granaten_blu {};
+		class sto_sprengstoff_blu {};
+		class sto_support_blu {};
+		//Opfor Logistik		
+		class sto_munition_opf {};
+		class sto_medizin_opf {};
+		class sto_atmunition_opf {};
+		class sto_granaten_opf {};
+		class sto_sprengstoff_opf {};
+		class sto_support_opf {};
+		//Greenfor Logistik
+		class sto_munition_gre {};
+		class sto_medizin_gre {};
+		class sto_atmunition_gre {};
+		class sto_granaten_gre {};
+		class sto_sprengstoff_gre {};
+		class sto_support_gre {};
+		
 	};
 
 		class airlog
