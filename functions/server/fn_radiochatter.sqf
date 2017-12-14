@@ -30,6 +30,6 @@ while {true} do
 
       };
 
-   sleep random 60;
+   sleep (300 + (random 900));
 
    };

@@ -30,9 +30,9 @@ class TFW
 		class fpszeus {};
 	};
 
-	class loadouts
+	class loadouts_blu
 	{
-		file = "functions\loadouts";
+		file = "functions\loadouts_blu";
 		class loadoutselect {};
 		class loadoutentfernen {};
 		class loadoutmedickit {};
@@ -41,10 +41,34 @@ class TFW
 		class loadoutmedicpack {};
 
 	};
+	
+	class loadouts_opf
+	{
+		file = "functions\loadouts_opf";
+		class loadoutselect {};
+		class loadoutentfernen {};
+		class loadoutmedickit {};
+		class loadoutgranaten {};
+		class loadoutmedicpack {};
 
+	};
+
+	class loadouts_gre
+	{
+		file = "functions\loadouts_gre";
+		class loadoutselect {};
+		class loadoutentfernen {};
+		class loadoutmedickit {};
+		class loadoutgranaten {};
+		class loadoutmedicpack {};
+
+	};
+
+	//=============BLUFOR Loadouts=============
+	
 	class nato_vanilla
 	{
-		file = "functions\loadouts\nato_vanilla";
+		file = "functions\loadouts_blu\nato_vanilla";
 		class nato_riflemann {};
 		class nato_grenadier {};
 		class nato_riflemannpanzer {};
@@ -75,7 +99,7 @@ class TFW
 
 	class us_ocp
 	{
-		file = "functions\loadouts\us_ocp";
+		file = "functions\loadouts_blu\us_ocp";
 		class us_ocp_riflemann {};
 		class us_ocp_grenadier {};
 		class us_ocp_riflemannpanzer {};
@@ -107,7 +131,7 @@ class TFW
 
 	class us_ucp
 	{
-		file = "functions\loadouts\us_ucp";
+		file = "functions\loadouts_blu\us_ucp";
 		class us_ucp_riflemann {};
 		class us_ucp_grenadier {};
 		class us_ucp_riflemannpanzer {};
@@ -139,7 +163,7 @@ class TFW
 
 	class bw_fleck
 	{
-		file = "functions\loadouts\bw_fleck";
+		file = "functions\loadouts_blu\bw_fleck";
 		class bw_fleck_riflemann {};
 		class bw_fleck_grenadier {};
 		class bw_fleck_riflemannpanzer {};
@@ -170,7 +194,7 @@ class TFW
 
 	class bw_tropen
 	{
-		file = "functions\loadouts\bw_tropen";
+		file = "functions\loadouts_blu\bw_tropen";
 		class bw_tropen_riflemann {};
 		class bw_tropen_grenadier {};
 		class bw_tropen_riflemannpanzer {};
@@ -202,7 +226,7 @@ class TFW
 
 	class marine_wd
 	{
-		file = "functions\loadouts\us_marine_wd";
+		file = "functions\loadouts_blu\us_marine_wd";
 		class marine_wd_riflemann {};
 		class marine_wd_grenadier {};
 		class marine_wd_riflemannpanzer {};
@@ -235,7 +259,7 @@ class TFW
 
 	class vietnam_army
 	{
-		file = "functions\loadouts\vietnam_army";
+		file = "functions\loadouts_blu\vietnam_army";
 		class vietnam_army_rifleman {};
 		class vietnam_army_grenadier {};
 		class vietnam_army_lmg {};
@@ -266,6 +290,130 @@ class TFW
 		//class vietnam_army_riflemanpanzer {};
 
 	};
+
+		//=============OPFOR Loadouts=============
+
+	class csat_vanilla
+	{
+		file = "functions\loadouts_opf\csat_vanilla";
+		class csat_vanilla_riflemann {};
+		class csat_vanilla_grenadier {};
+		class csat_vanilla_riflemannpanzer {};
+		class csat_vanilla_lmg {};
+		class csat_vanilla_teamleader {};
+		class csat_vanilla_squadleader {};
+		class csat_vanilla_medic {};
+		class csat_vanilla_offizier {};
+		class csat_vanilla_marksman {};
+		class csat_vanilla_crewman {};
+		class csat_vanilla_helipilot {};
+		class csat_vanilla_helicrew {};
+		class csat_vanilla_mmg {};
+		class csat_vanilla_mmgassist {};
+		class csat_vanilla_uav {};
+		class csat_vanilla_jetpilot {};
+		class csat_vanilla_jtac {};
+		class csat_vanilla_logistiker {};
+		class csat_vanilla_atsolider {};
+		class csat_vanilla_atassist {};
+		class csat_vanilla_aasolider {};
+		class csat_vanilla_aaassist {};
+		class csat_vanilla_eod {};
+		class csat_vanilla_sniper {};
+		class csat_vanilla_spotter {};
+	};
+	
+	class rus_emr
+	{
+		file = "functions\loadouts_opf\rus_emr";
+		class rus_emr_riflemann {};
+		class rus_emr_grenadier {};
+		class rus_emr_riflemannpanzer {};
+		class rus_emr_lmg {};
+		class rus_emr_teamleader {};
+		class rus_emr_squadleader {};
+		class rus_emr_medic {};
+		class rus_emr_offizier {};
+		class rus_emr_marksman {};
+		class rus_emr_crewman {};
+		class rus_emr_helipilot {};
+		class rus_emr_helicrew {};
+		class rus_emr_mmg {};
+		class rus_emr_mmgassist {};
+		class rus_emr_uav {};
+		class rus_emr_jetpilot {};
+		class rus_emr_jtac {};
+		class rus_emr_logistiker {};
+		class rus_emr_atsolider {};
+		class rus_emr_atassist {};
+		class rus_emr_aasolider {};
+		class rus_emr_aaassist {};
+		class rus_emr_eod {};
+		class rus_emr_sniper {};
+		class rus_emr_spotter {};
+	};
+			
+		
+		//=============GREENFOR Loadouts=============
+		
+	class aaf
+	{
+		file = "functions\loadouts_gre\aaf";
+		class aaf_riflemann {};
+		class aaf_grenadier {};
+		class aaf_riflemannpanzer {};
+		class aaf_lmg {};
+		class aaf_teamleader {};
+		class aaf_squadleader {};
+		class aaf_medic {};
+		class aaf_offizier {};
+		class aaf_marksman {};
+		class aaf_crewman {};
+		class aaf_helipilot {};
+		class aaf_helicrew {};
+		class aaf_mmg {};
+		class aaf_mmgassist {};
+		class aaf_uav {};
+		class aaf_jetpilot {};
+		class aaf_jtac {};
+		class aaf_logistiker {};
+		class aaf_atsolider {};
+		class aaf_atassist {};
+		class aaf_aasolider {};
+		class aaf_aaassist {};
+		class aaf_eod {};
+		class aaf_sniper {};
+		class aaf_spotter {};		
+	};		
+	class syndikat
+	{
+		file = "functions\loadouts_gre\syndikat";
+		class syndikat_riflemann {};
+		class syndikat_grenadier {};
+		class syndikat_riflemannpanzer {};
+		class syndikat_lmg {};
+		class syndikat_teamleader {};
+		class syndikat_squadleader {};
+		class syndikat_medic {};
+		class syndikat_offizier {};
+		class syndikat_marksman {};
+		class syndikat_crewman {};
+		class syndikat_helipilot {};
+		class syndikat_helicrew {};
+		class syndikat_mmg {};
+		class syndikat_mmgassist {};
+		class syndikat_uav {};
+		class syndikat_jetpilot {};
+		class syndikat_jtac {};
+		class syndikat_logistiker {};
+		class syndikat_atsolider {};
+		class syndikat_atassist {};
+		class syndikat_aasolider {};
+		class syndikat_aaassist {};
+		class syndikat_eod {};
+		class syndikat_sniper {};
+		class syndikat_spotter {};		
+	};		
 
 	class logistic
 	{
@@ -298,13 +446,28 @@ class TFW
 		class sto
 	{
 		file = "functions\logistic\sto"
-		class sto_munition {};
-		class sto_medizin {};
-		class sto_atmunition {};
-		class sto_granaten {};
-		class sto_sprengstoff {};
-		class sto_support {};
-
+		//Blufor Logistik		
+		class sto_munition_blu {};
+		class sto_medizin_blu {};
+		class sto_atmunition_blu {};
+		class sto_granaten_blu {};
+		class sto_sprengstoff_blu {};
+		class sto_support_blu {};
+		//Opfor Logistik		
+		class sto_munition_opf {};
+		class sto_medizin_opf {};
+		class sto_atmunition_opf {};
+		class sto_granaten_opf {};
+		class sto_sprengstoff_opf {};
+		class sto_support_opf {};
+		//Greenfor Logistik
+		class sto_munition_gre {};
+		class sto_medizin_gre {};
+		class sto_atmunition_gre {};
+		class sto_granaten_gre {};
+		class sto_sprengstoff_gre {};
+		class sto_support_gre {};
+		
 	};
 
 		class airlog
@@ -325,14 +488,33 @@ class TFW
 		class kistelog
 	{
 		file = "functions\logistic\kistelog"
-		class kistelog_munition {};
-		class kistelog_medizin {};
-		class kistelog_atmunition {};
-		class kistelog_mgmunition {};
-		class kistelog_granaten {};
-		class kistelog_sprengstoff {};
-		class kistelog_support {};
-		class kistelog_zigarette {};
+		//Blufor Logistik
+		class kistelog_munition_blu {};
+		class kistelog_medizin_blu {};
+		class kistelog_atmunition_blu {};
+		class kistelog_mgmunition_blu {};
+		class kistelog_granaten_blu {};
+		class kistelog_sprengstoff_blu {};
+		class kistelog_support_blu {};
+		class kistelog_zigarette_blu {};
+		//Opfor Logistik
+		class kistelog_munition_opf {};
+		class kistelog_medizin_opf {};
+		class kistelog_atmunition_opf {};
+		class kistelog_mgmunition_opf {};
+		class kistelog_granaten_opf {};
+		class kistelog_sprengstoff_opf {};
+		class kistelog_support_opf {};
+		class kistelog_zigarette_opf {};
+		//Greenfor Logistik
+		class kistelog_munition_gre {};
+		class kistelog_medizin_gre {};
+		class kistelog_atmunition_gre {};
+		class kistelog_mgmunition_gre {};
+		class kistelog_granaten_gre {};
+		class kistelog_sprengstoff_gre {};
+		class kistelog_support_gre {};
+		class kistelog_zigarette_gre {};
 
 	};
 
