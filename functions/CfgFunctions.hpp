@@ -41,7 +41,7 @@ class TFW
 		class loadoutmedicpack {};
 
 	};
-	
+
 	class loadouts_opf
 	{
 		file = "functions\loadouts_opf";
@@ -65,7 +65,7 @@ class TFW
 	};
 
 	//=============BLUFOR Loadouts=============
-	
+
 	class nato_vanilla
 	{
 		file = "functions\loadouts_blu\nato_vanilla";
@@ -322,7 +322,7 @@ class TFW
 		class csat_vanilla_sniper {};
 		class csat_vanilla_spotter {};
 	};
-	
+
 	class rus_emr
 	{
 		file = "functions\loadouts_opf\rus_emr";
@@ -352,10 +352,10 @@ class TFW
 		class rus_emr_sniper {};
 		class rus_emr_spotter {};
 	};
-			
-		
+
+
 		//=============GREENFOR Loadouts=============
-		
+
 	class aaf
 	{
 		file = "functions\loadouts_gre\aaf";
@@ -383,8 +383,8 @@ class TFW
 		class aaf_aaassist {};
 		class aaf_eod {};
 		class aaf_sniper {};
-		class aaf_spotter {};		
-	};		
+		class aaf_spotter {};
+	};
 	class syndikat
 	{
 		file = "functions\loadouts_gre\syndikat";
@@ -412,23 +412,52 @@ class TFW
 		class syndikat_aaassist {};
 		class syndikat_eod {};
 		class syndikat_sniper {};
-		class syndikat_spotter {};		
-	};		
+		class syndikat_spotter {};
+	};
 
-	class logistic
+	class logistic_blu
 	{
-		file = "functions\logistic"
-		class al6_spawn {};
-		class al6_init {};
+		file = "functions\logistic_blu"
+		class al6_spawn_blu {};
+		class al6_init_blu {};
 		class clearcargo {};
-		class sto_init {};
-		class sto_spawn {};
-		class airlog_init {};
-		class airlog_spawn {};
-		class kistelog_init {};
-		class kistelog_spawn {};
+		class sto_init_blu {};
+		class sto_spawn_blu {};
+		class airlog_init_blu {};
+		class airlog_spawn_blu {};
+		class kistelog_init_blu {};
+		class kistelog_spawn_blu {};
 
 	};
+
+	class logistic_gre
+	{
+		file = "functions\logistic_gre"
+		class al6_spawn_gre {};
+		class al6_init_gre {};
+		class sto_init_gre {};
+		class sto_spawn_gre {};
+		class airlog_init_gre {};
+		class airlog_spawn_gre {};
+		class kistelog_init_gre {};
+		class kistelog_spawn_gre {};
+
+	};
+
+	class logistic_opf
+	{
+		file = "functions\logistic_opf"
+		class al6_spawn_opf {};
+		class al6_init_opf {};
+		class sto_init_opf {};
+		class sto_spawn_opf {};
+		class airlog_init_opf {};
+		class airlog_spawn_opf {};
+		class kistelog_init_opf {};
+		class kistelog_spawn_opf {};
+
+	};
+
 
 	class al_6
 	{
@@ -443,31 +472,46 @@ class TFW
 
 	};
 
-		class sto
+		class sto_blu
 	{
-		file = "functions\logistic\sto"
-		//Blufor Logistik		
+		file = "functions\logistic_blu\sto"
 		class sto_munition_blu {};
 		class sto_medizin_blu {};
 		class sto_atmunition_blu {};
 		class sto_granaten_blu {};
 		class sto_sprengstoff_blu {};
 		class sto_support_blu {};
-		//Opfor Logistik		
-		class sto_munition_opf {};
-		class sto_medizin_opf {};
-		class sto_atmunition_opf {};
-		class sto_granaten_opf {};
-		class sto_sprengstoff_opf {};
-		class sto_support_opf {};
-		//Greenfor Logistik
+
+	};
+
+
+		class sto_gre
+	{
+		file = "functions\logistic_gre\sto"
+
+
 		class sto_munition_gre {};
 		class sto_medizin_gre {};
 		class sto_atmunition_gre {};
 		class sto_granaten_gre {};
 		class sto_sprengstoff_gre {};
 		class sto_support_gre {};
-		
+
+	};
+
+		class sto_opf
+	{
+		file = "functions\logistic_opf\sto"
+
+
+		class sto_munition_opf {};
+		class sto_medizin_opf {};
+		class sto_atmunition_opf {};
+		class sto_granaten_opf {};
+		class sto_sprengstoff_opf {};
+		class sto_support_opf {};
+
+
 	};
 
 		class airlog
@@ -485,10 +529,10 @@ class TFW
 
 	};
 
-		class kistelog
+		class kistelog_blu
 	{
-		file = "functions\logistic\kistelog"
-		//Blufor Logistik
+		file = "functions\logistic_blu\kistelog"
+
 		class kistelog_munition_blu {};
 		class kistelog_medizin_blu {};
 		class kistelog_atmunition_blu {};
@@ -497,16 +541,13 @@ class TFW
 		class kistelog_sprengstoff_blu {};
 		class kistelog_support_blu {};
 		class kistelog_zigarette_blu {};
-		//Opfor Logistik
-		class kistelog_munition_opf {};
-		class kistelog_medizin_opf {};
-		class kistelog_atmunition_opf {};
-		class kistelog_mgmunition_opf {};
-		class kistelog_granaten_opf {};
-		class kistelog_sprengstoff_opf {};
-		class kistelog_support_opf {};
-		class kistelog_zigarette_opf {};
-		//Greenfor Logistik
+
+	};
+
+		class kistelog_gre
+	{
+		file = "functions\logistic_gre\kistelog"
+
 		class kistelog_munition_gre {};
 		class kistelog_medizin_gre {};
 		class kistelog_atmunition_gre {};
@@ -515,6 +556,21 @@ class TFW
 		class kistelog_sprengstoff_gre {};
 		class kistelog_support_gre {};
 		class kistelog_zigarette_gre {};
+
+	};
+
+		class kistelog_opf
+	{
+		file = "functions\logistic_opf\kistelog"
+
+		class kistelog_munition_opf {};
+		class kistelog_medizin_opf {};
+		class kistelog_atmunition_opf {};
+		class kistelog_mgmunition_opf {};
+		class kistelog_granaten_opf {};
+		class kistelog_sprengstoff_opf {};
+		class kistelog_support_opf {};
+		class kistelog_zigarette_opf {};
 
 	};
 
