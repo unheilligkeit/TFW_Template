@@ -8,14 +8,14 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=1105;
+		nextID=1107;
 	};
 	class Camera
 	{
-		pos[]={15193.244,31.872524,17361.875};
-		dir[]={-0.51592749,-0.29076222,-0.80592847};
-		up[]={-0.15682824,0.95665485,-0.2449678};
-		aside[]={-0.84229302,-2.5921036e-006,0.53923029};
+		pos[]={15131.489,25.902283,17192.717};
+		dir[]={-0.66625935,-0.36921427,0.64809173};
+		up[]={-0.26471573,0.92918015,0.25750735};
+		aside[]={0.69736785,-1.4959369e-008,0.71688801};
 	};
 };
 binarizationWanted=0;
@@ -71,10 +71,10 @@ addons[]=
 	"A3_Supplies_F_Heli_Fuel",
 	"A3_Supplies_F_Heli_Slingload",
 	"ace_rearm",
+	"ace_cargo",
 	"A3_Structures_F_Ind_AirPort",
 	"A3_Structures_F_Ind_FuelStation_Small",
 	"ace_refuel",
-	"ace_cargo",
 	"A3_Structures_F_Mil_Shelters",
 	"A3_Structures_F_Heli_Items_Airport",
 	"A3_Structures_F_Heli_Civ_Market",
@@ -270,15 +270,15 @@ class AddonsMetaData
 		};
 		class Item26
 		{
-			className="ace_refuel";
-			name="ACE3 - Refuel";
+			className="ace_cargo";
+			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item27
 		{
-			className="ace_cargo";
-			name="ACE3 - Cargo";
+			className="ace_refuel";
+			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
@@ -488,7 +488,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 		class Item3
@@ -524,7 +543,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 		class Item4
@@ -905,6 +943,7 @@ class Mission
 			};
 			id=159;
 			type="Land_CampingTable_white_F";
+			atlOffset=-0.0012969971;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1195,13 +1234,13 @@ class Mission
 				angles[]={0,6.2140779,0.0012918708};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
 			};
 			id=167;
 			type="Land_EmergencyBlanket_01_F";
+			atlOffset=0.81299973;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1371,13 +1410,14 @@ class Mission
 				angles[]={0,2.3625302,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
 			};
 			id=175;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.5890007;
+			atlOffset=0.0007686615;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1594,7 +1634,7 @@ class Mission
 			};
 			id=184;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.0026035309;
+			atlOffset=0.00390625;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1816,7 +1856,7 @@ class Mission
 			};
 			id=193;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.00029754639;
+			atlOffset=0.0016002655;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2036,7 +2076,7 @@ class Mission
 			};
 			id=202;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.00011062622;
+			atlOffset=0.0014133453;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2253,7 +2293,7 @@ class Mission
 			};
 			id=211;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.0014362335;
+			atlOffset=0.0027389526;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2470,7 +2510,7 @@ class Mission
 			};
 			id=220;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.58944702;
+			atlOffset=0.59074974;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2688,7 +2728,7 @@ class Mission
 			};
 			id=229;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.58364868;
+			atlOffset=0.5849514;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2908,7 +2948,7 @@ class Mission
 			};
 			id=256;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.58742523;
+			atlOffset=0.58872604;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3128,7 +3168,7 @@ class Mission
 			};
 			id=265;
 			type="Land_CampingTable_small_F";
-			atlOffset=0.5882988;
+			atlOffset=0.58959961;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4541,7 +4581,7 @@ class Mission
 			};
 			id=341;
 			type="Land_CampingTable_F";
-			atlOffset=0.6060009;
+			atlOffset=0.6047039;
 		};
 		class Item141
 		{
@@ -4552,12 +4592,12 @@ class Mission
 				angles[]={0,0.86887556,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=343;
 			type="Land_CampingTable_F";
+			atlOffset=0.60403442;
 		};
 		class Item142
 		{
@@ -4648,12 +4688,12 @@ class Mission
 				angles[]={0,5.5159674,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=350;
 			type="Land_Laptop_unfolded_F";
+			atlOffset=0.81300545;
 		};
 		class Item148
 		{
@@ -11689,6 +11729,25 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="#name";
+					expression="_this setVariable [""#name"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="#filter";
 					expression="_this setVariable [""#filter"",_value]";
 					class Value
@@ -11706,7 +11765,26 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
+				{
+					property="#initServer";
+					expression="_this setVariable [""#initServer"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
 				{
 					property="#state";
 					expression="_this setVariable [""#state"",_value]";
@@ -11725,7 +11803,26 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute4
+				{
+					property="#allowDamage";
+					expression="_this setVariable [""#allowDamage"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
 				{
 					property="#doorStates";
 					expression="_this setVariable [""#doorStates"",_value]";
@@ -11744,7 +11841,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=3;
+				class Attribute6
+				{
+					property="#init";
+					expression="_this setVariable [""#init"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=7;
 			};
 		};
 		class Item266

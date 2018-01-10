@@ -30,37 +30,36 @@ class TFW
 		class fpszeus {};
 	};
 
-	class loadouts_blu
+	class loadouts
 	{
-		file = "functions\loadouts_blu";
-		class loadoutselect {};
+		file = "functions\loadouts";
 		class loadoutentfernen {};
 		class loadoutmedickit {};
 		class loadoutgranaten {};
-		class loadoutgranaten_vietnam {};
 		class loadoutmedicpack {};
+
+	};
+
+	class loadouts_blu
+	{
+		file = "functions\loadouts_blu";
+		class loadoutselect_blu {};
+		class loadoutgranaten_vietnam {};
 
 	};
 
 	class loadouts_opf
 	{
 		file = "functions\loadouts_opf";
-		class loadoutselect {};
-		class loadoutentfernen {};
-		class loadoutmedickit {};
-		class loadoutgranaten {};
-		class loadoutmedicpack {};
+		class loadoutselect_opf {};
+
 
 	};
 
 	class loadouts_gre
 	{
 		file = "functions\loadouts_gre";
-		class loadoutselect {};
-		class loadoutentfernen {};
-		class loadoutmedickit {};
-		class loadoutgranaten {};
-		class loadoutmedicpack {};
+		class loadoutselect_gre {};
 
 	};
 
@@ -459,16 +458,42 @@ class TFW
 	};
 
 
-	class al_6
+	class al_6_blu
 	{
-		file = "functions\logistic\al_6"
-		class al6_munition {};
-		class al6_medizin {};
-		class al6_mgmunition {};
-		class al6_granaten {};
-		class al6_sprengstoff {};
-		class al6_support {};
-		class al6_fruchtkorb {};
+		file = "functions\logistic_blu\al_6"
+		class al6_munition_blu {};
+		class al6_medizin_blu {};
+		class al6_mgmunition_blu {};
+		class al6_granaten_blu {};
+		class al6_sprengstoff_blu {};
+		class al6_support_blu {};
+		class al6_fruchtkorb_blu {};
+
+	};
+
+	class al_6_gre
+	{
+		file = "functions\logistic_gre\al_6"
+		class al6_munition_gre {};
+		class al6_medizin_gre {};
+		class al6_mgmunition_gre {};
+		class al6_granaten_gre {};
+		class al6_sprengstoff_gre {};
+		class al6_support_gre {};
+		class al6_fruchtkorb_gre {};
+
+	};
+
+	class al_6_opf
+	{
+		file = "functions\logistic_opf\al_6"
+		class al6_munition_opf {};
+		class al6_medizin_opf {};
+		class al6_mgmunition_opf {};
+		class al6_granaten_opf {};
+		class al6_sprengstoff_opf {};
+		class al6_support_opf {};
+		class al6_fruchtkorb_opf {};
 
 	};
 
@@ -514,18 +539,48 @@ class TFW
 
 	};
 
-		class airlog
+		class airlog_blu
 	{
-		file = "functions\logistic\airlog"
-		class airlog_munition {};
-		class airlog_medizin {};
-		class airlog_atmunition {};
-		class airlog_granaten {};
-		class airlog_sprengstoff {};
-		class airlog_support {};
-		class airlog_fob {};
-		class airlog_lazarett {};
-		class airlog_repair {};
+		file = "functions\logistic_blu\airlog"
+		class airlog_munition_blu {};
+		class airlog_medizin_blu {};
+		class airlog_atmunition_blu {};
+		class airlog_granaten_blu {};
+		class airlog_sprengstoff_blu {};
+		class airlog_support_blu {};
+		class airlog_fob_blu {};
+		class airlog_lazarett_blu {};
+		class airlog_repair_blu {};
+
+	};
+
+		class airlog_gre
+	{
+		file = "functions\logistic_gre\airlog"
+		class airlog_munition_gre {};
+		class airlog_medizin_gre {};
+		class airlog_atmunition_gre {};
+		class airlog_granaten_gre {};
+		class airlog_sprengstoff_gre {};
+		class airlog_support_gre {};
+		class airlog_fob_gre {};
+		class airlog_lazarett_gre {};
+		class airlog_repair_gre {};
+
+	};
+
+		class airlog_opf
+	{
+		file = "functions\logistic_opf\airlog"
+		class airlog_munition_opf {};
+		class airlog_medizin_opf {};
+		class airlog_atmunition_opf {};
+		class airlog_granaten_opf {};
+		class airlog_sprengstoff_opf {};
+		class airlog_support_opf {};
+		class airlog_fob_opf {};
+		class airlog_lazarett_opf {};
+		class airlog_repair_opf {};
 
 	};
 
