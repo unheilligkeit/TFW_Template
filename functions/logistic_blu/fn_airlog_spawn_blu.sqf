@@ -1,102 +1,102 @@
 _airlogkiste = _this select 0;
-airlogcenter = getPosATL airlog_spawn_blu;
+airlogcenter_blu = getPosATL airlog_spawn_blu;
 
 
 switch (_airlogkiste) do
 {
 	case 0: // Medizin
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"CargoNet_01_box_F"];
-		airlog = "CargoNet_01_box_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_medizin;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"CargoNet_01_box_F"];
+		airlog_blu = "CargoNet_01_box_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_medizin_blu;
 
 	};
 
 	case 1: // Munition
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
-		airlog = "B_CargoNet_01_ammo_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_munition;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
+		airlog_blu = "B_CargoNet_01_ammo_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_munition_blu;
 
 	};
 
 	case 2: // At Munition
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
-		airlog = "B_CargoNet_01_ammo_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_atmunition;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
+		airlog_blu = "B_CargoNet_01_ammo_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_atmunition_blu;
 
 	};
 
 	case 3: // Granten
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
-		airlog = "B_CargoNet_01_ammo_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_granaten;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
+		airlog_blu = "B_CargoNet_01_ammo_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_granaten_blu;
 
 	};
 
 	case 4: // Sprengstoff
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
-		airlog = "B_CargoNet_01_ammo_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_sprengstoff;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_CargoNet_01_ammo_F"];
+		airlog_blu = "B_CargoNet_01_ammo_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_sprengstoff_blu;
 
 	};
 
 	case 5: // Support
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"CargoNet_01_box_F"];
-		airlog = "CargoNet_01_box_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_support;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"CargoNet_01_box_F"];
+		airlog_blu = "CargoNet_01_box_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_support_blu;
 
 	};
 
 	case 6: // Leere Kiste
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"CargoNet_01_box_F"];
-		airlog = "CargoNet_01_box_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_clearcargo;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"CargoNet_01_box_F"];
+		airlog_blu = "CargoNet_01_box_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_clearcargo_blu;
 
 	};
 
 	case 7: // Fob
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_Slingload_01_Cargo_F"];
-		airlog = "B_Slingload_01_Cargo_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_fob;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_Slingload_01_Cargo_F"];
+		airlog_blu = "B_Slingload_01_Cargo_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_fob_blu;
 
 	};
 
 	case 8: // Lazarett
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_Slingload_01_Medevac_F"];
-		airlog = "B_Slingload_01_Medevac_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_lazarett;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_Slingload_01_Medevac_F"];
+		airlog_blu = "B_Slingload_01_Medevac_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_lazarett_blu;
 
 	};
 
 	case 9: // Fahrzeug Munition
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_Slingload_01_Ammo_F"];
-		airlog = "B_Slingload_01_Ammo_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_clearcargo;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_Slingload_01_Ammo_F"];
+		airlog_blu = "B_Slingload_01_Ammo_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_clearcargo_blu;
 
 	};
 
 	case 10: // Repair
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_Slingload_01_Repair_F"];
-		airlog = "B_Slingload_01_Repair_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_airlog_repair;
+		airlogspawn_blu = airlogcenter_blu findEmptyPosition [0,20,"B_Slingload_01_Repair_F"];
+		airlog_blu = "B_Slingload_01_Repair_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_airlog_repair_blu;
 
 	};
 
 	case 11: // Treibstoff
 	{
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"B_Slingload_01_Fuel_F"];
-		airlog = "B_Slingload_01_Fuel_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_clearcargo;
+		airlogspawn_blu = airlogcenter findEmptyPosition [0,20,"B_Slingload_01_Fuel_F"];
+		airlog_blu = "B_Slingload_01_Fuel_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_clearcargo_blu;
 
 	};
 
@@ -104,8 +104,8 @@ switch (_airlogkiste) do
 	default
 	{
 
-		airlogspawn = airlogcenter findEmptyPosition [0,20,"CargoNet_01_box_F"];
-		airlog = "CargoNet_01_box_F" createVehicle airlogspawn;
-		[airlog] call TFW_fnc_al6_fruchtkorb;
+		airlogspawn_blu = airlogcenter findEmptyPosition [0,20,"CargoNet_01_box_F"];
+		airlog_blu = "CargoNet_01_box_F" createVehicle airlogspawn_blu;
+		[airlog_blu] call TFW_fnc_al6_fruchtkorb_blu;
 	};
 };

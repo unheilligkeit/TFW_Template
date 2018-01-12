@@ -1,77 +1,77 @@
-_controller = _this select 0;
+_controller_opf = _this select 0;
 
 if (isServer) then
 {
-	al6count = 0
+	al6count_opf = 0
 };
 
 
 
 
-if ((_controller isKindOf "Man") or (_controller isKindOf "LandVehicle")) then
+if ((_controller_opf isKindOf "Man") or (_controller_opf isKindOf "LandVehicle")) then
 	{
 
 
-		_log_al6_main = ["log_al6_main", "AL 6 Logistik", "", {}, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions"], _log_al6_main] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_main_opf = ["log_al6_main_opf", "AL 6 Logistik", "", {}, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions"], _log_al6_main_opf] call ace_interact_menu_fnc_addActionToObject;
 
 
-		_log_al6_medizin = ["log_al6_medizin", "Medic", "", { [ 0 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_medizin] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_medizin_opf = ["log_al6_medizin_opf", "Medic", "", { [ 0 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_medizin_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_munition = ["log_al6_munition", "Munition", "", { [ 1 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_munition] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_munition_opf = ["log_al6_munition_opf", "Munition", "", { [ 1 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_munition_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_mgmunition = ["log_al6_mgmunition", "MG Munition", "", { [ 2 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_mgmunition] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_mgmunition_opf = ["log_al6_mgmunition_opf", "MG Munition", "", { [ 2 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_mgmunition_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_granaten = ["log_al6_granaten", "Granaten", "", { [ 3 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_granaten] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_granaten_opf = ["log_al6_granaten_opf", "Granaten", "", { [ 3 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_granaten_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_sprengstoff = ["log_al6_sprengstoff", "Sprengstoff", "", { [ 4 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_sprengstoff] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_sprengstoff_opf = ["log_al6_sprengstoff_opf", "Sprengstoff", "", { [ 4 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_sprengstoff_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_support = ["log_al6_support", "Support", "", { [ 5 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_support] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_support_opf = ["log_al6_support_opf", "Support", "", { [ 5 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_support_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_flugblatter = ["log_al6_flugblatter", "Flugblätter", "", { [ 6 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_flugblatter] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_flugblatter_opf = ["log_al6_flugblatter_opf", "Flugblätter", "", { [ 6 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_flugblatter_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_leer = ["log_al6_leer", "Leere Drohe", "", { [ 7 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 1, ["ACE_SelfActions", "log_al6_main"], _log_al6_leer] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_leer_opf = ["log_al6_leer_opf", "Leere Drohe", "", { [ 7 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 1, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_leer_opf] call ace_interact_menu_fnc_addActionToObject;
 
 
 	} else {
 
 
 
-		_log_al6_main = ["log_al6_main", "AL 6 Logistik", "", {}, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions"], _log_al6_main] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_main_opf = ["log_al6_main_opf", "AL 6 Logistik", "", {}, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions"], _log_al6_main_opf] call ace_interact_menu_fnc_addActionToObject;
 
 
-		_log_al6_medizin = ["log_al6_medizin", "Medic", "", { [ 0 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_medizin] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_medizin_opf = ["log_al6_medizin_opf", "Medic", "", { [ 0 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_medizin_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_munition = ["log_al6_munition", "Munition", "", { [ 1 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_munition] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_munition_opf = ["log_al6_munition_opf", "Munition", "", { [ 1 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_munition_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_mgmunition = ["log_al6_mgmunition", "MG Munition", "", { [ 2 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_mgmunition] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_mgmunition_opf = ["log_al6_mgmunition_opf", "MG Munition", "", { [ 2 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_mgmunition_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_granaten = ["log_al6_granaten", "Granaten", "", { [ 3 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_granaten] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_granaten_opf = ["log_al6_granaten_opf", "Granaten", "", { [ 3 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_granaten_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_sprengstoff = ["log_al6_sprengstoff", "Sprengstoff", "", { [ 4 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_sprengstoff] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_sprengstoff_opf = ["log_al6_sprengstoff_opf", "Sprengstoff", "", { [ 4 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_sprengstoff_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_support = ["log_al6_support", "Support", "", { [ 5 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_support] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_support_opf = ["log_al6_support_opf", "Support", "", { [ 5 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_support_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_flugblatter = ["log_al6_flugblatter", "Flugblätter", "", { [ 6 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_flugblatter] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_flugblatter_opf = ["log_al6_flugblatter_opf", "Flugblätter", "", { [ 6 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_flugblatter_opf] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_al6_leer = ["log_al6_leer", "Leere Drohe", "", { [ 7 ] call TFW_fnc_al6_spawn }, {true}] call ace_interact_menu_fnc_createAction;
-		[_controller, 0, ["ACE_MainActions", "log_al6_main"], _log_al6_leer] call ace_interact_menu_fnc_addActionToObject;
+		_log_al6_leer_opf = ["log_al6_leer_opf", "Leere Drohe", "", { [ 7 ] call TFW_fnc_al6_spawn_opf }, {true}] call ace_interact_menu_fnc_createAction;
+		[_controller_opf, 0, ["ACE_SelfActions", "log_al6_main_opf"], _log_al6_leer_opf] call ace_interact_menu_fnc_addActionToObject;
 
 
 	};

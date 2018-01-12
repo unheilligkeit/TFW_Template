@@ -1,78 +1,78 @@
 _kistelogkiste = _this select 0;
-kistelogcenter = getPosATL kistelog_spawn;
+kistelogcenter_gre = getPosATL kistelog_spawn_gre;
 
 
 switch (_kistelogkiste) do
 {
 	case 0: // Medizin
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"ACE_medicalSupplyCrate_advanced"];
-		kistelog = "ACE_medicalSupplyCrate_advanced" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_medizin;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"ACE_medicalSupplyCrate_advanced"];
+		kistelog_gre = "ACE_medicalSupplyCrate_advanced" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_medizin_gre;
 
 	};
 
 	case 1: // Munition
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Box_NATO_Ammo_F"];
-		kistelog = "Box_NATO_Ammo_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_munition;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Box_NATO_Ammo_F"];
+		kistelog_gre = "Box_NATO_Ammo_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_munition_gre;
 
 	};
 
 	case 2: //MG Munition
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Box_NATO_WpsSpecial_F"];
-		kistelog = "Box_NATO_WpsSpecial_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_mgmunition;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Box_NATO_WpsSpecial_F"];
+		kistelog_gre = "Box_NATO_WpsSpecial_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_mgmunition_gre;
 
 	};
 
 	case 3: // At Munition
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Box_NATO_WpsLaunch_F"];
-		kistelog = "Box_NATO_WpsLaunch_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_atmunition;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Box_NATO_WpsLaunch_F"];
+		kistelog_gre = "Box_NATO_WpsLaunch_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_atmunition_gre;
 
 	};
 
 	case 4: // Granten
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Box_NATO_Grenades_F"];
-		kistelog = "Box_NATO_Grenades_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_granaten;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Box_NATO_Grenades_F"];
+		kistelog_gre = "Box_NATO_Grenades_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_granaten_gre;
 
 	};
 
 	case 5: // Sprengstoff
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Land_PlasticCase_01_medium_F"];
-		kistelog = "Land_PlasticCase_01_medium_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_sprengstoff;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Land_PlasticCase_01_medium_F"];
+		kistelog_gre = "Land_PlasticCase_01_medium_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_sprengstoff_gre;
 
 	};
 
 	case 6: // Support
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Box_NATO_Support_F"];
-		kistelog = "Box_NATO_Support_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_support;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Box_NATO_Support_F"];
+		kistelog_gre = "Box_NATO_Support_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_support_gre;
 
 	};
 
 	case 7: // Zigaretten
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Land_PlasticCase_01_small_F"];
-		kistelog = "Land_PlasticCase_01_small_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_kistelog_zigarette;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Land_PlasticCase_01_small_F"];
+		kistelog_gre = "Land_PlasticCase_01_small_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_kistelog_zigarette_gre;
 
 	};
 
 	case 8: // Leer
 	{
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Land_MetalCase_01_medium_F"];
-		kistelog = "Land_MetalCase_01_medium_F" createVehicle kistelogspawn;
-		[kistelog] call TFW_fnc_clearcargo;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Land_MetalCase_01_medium_F"];
+		kistelog_gre = "Land_MetalCase_01_medium_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_clearcargo;
 
 	};
 
@@ -80,8 +80,8 @@ switch (_kistelogkiste) do
 	default
 	{
 
-		kistelogspawn = kistelogcenter findEmptyPosition [0,10,"Land_PlasticCase_01_large_F"];
-		kistelog = "Land_PlasticCase_01_large_F" createVehicle kistelogspawn;
-		[airlog] call TFW_fnc_al6_fruchtkorb;
+		kistelogspawn_gre = kistelogcenter_gre findEmptyPosition [0,10,"Land_PlasticCase_01_large_F"];
+		kistelog_gre = "Land_PlasticCase_01_large_F" createVehicle kistelogspawn_gre;
+		[kistelog_gre] call TFW_fnc_al6_fruchtkorb_gre;
 	};
 };

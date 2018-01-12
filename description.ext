@@ -29,10 +29,7 @@ class CfgFunctions
 	#include "functions\CfgFunctions.hpp"
 };
 
-class ACE_Settings
-{
-	#include "settings\CfgACE.hpp"
-};
+
 
 
 /*================== Prameter ============ */
@@ -47,7 +44,7 @@ class Params
 		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP","BW Flecktarn","BW Tropentarn","US Marine Woodland","'68s Vietnam US Army (Air Cav)"};
 		default = 0;
 	};
-	
+
 	class param_loadout_opf
 	{
 		title="Loadout Fraktion Opfor";
@@ -63,7 +60,7 @@ class Params
 		texts[] = {"Vanilla AAF","Syndikat"};
 		default = 0;
 	};
-	
+
 		class param_intro
 	{
 		title="Intro Video";
