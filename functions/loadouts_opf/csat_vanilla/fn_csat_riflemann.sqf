@@ -16,7 +16,7 @@ _uniformarray = selectRandom ["U_O_officer_noInsignia_hex_F"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
-_westenarray = selectRandom ["V_PlateCarrierSpec_rgr","V_Chestrig_rgr","V_PlateCarrier1_rgr"];
+_westenarray = selectRandom ["V_HarnessO_brn","V_HarnessOGL_brn","V_TacVest_khk"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
