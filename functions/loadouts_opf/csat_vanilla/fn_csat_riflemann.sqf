@@ -12,7 +12,7 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_worn","U_B_CombatUniform_mcam_tshirt","U_B_CombatUniform_mcam_vest"];
+_uniformarray = selectRandom ["U_O_officer_noInsignia_hex_F"];
 _unit forceAddUniform _uniformarray ;
 
 // Westen
@@ -20,11 +20,11 @@ _westenarray = selectRandom ["V_PlateCarrierSpec_rgr","V_Chestrig_rgr","V_PlateC
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["B_AssaultPack_mcamo"];
+_rucksackearray = selectRandom ["B_AssaultPack_ocamo"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
-_helmearray = selectRandom ["H_HelmetB_light","H_HelmetB_camo","H_HelmetB_grass","H_HelmetB_sand","H_HelmetB_snakeskin","H_HelmetB_black","H_HelmetB_desert","H_HelmetB_light","H_HelmetB_light_grass","H_HelmetB_light_sand","H_HelmetB_snakeskin","H_HelmetB_light_black"];
+_helmearray = selectRandom ["H_HelmetO_ocamo","H_HelmetLeaderO_ocamo"];
 _unit addHeadgear _helmearray;
 
 // Brillen
@@ -58,7 +58,7 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["arifle_MX_F","30Rnd_65x39_caseless_mag"],["arifle_MX_Black_F","30Rnd_65x39_caseless_mag"]];
+_waffenarray = selectRandom [["arifle_Katiba_F","30Rnd_65x39_caseless_green"],["arifle_Katiba_C_F","30Rnd_65x39_caseless_green"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
@@ -77,7 +77,7 @@ _unit addPrimaryWeaponItem "acc_pointer_IR";
 
 
 // Sekundär Waffe und Munition
-_sekwaffenarray = selectRandom [["hgun_Pistol_heavy_01_F","11Rnd_45ACP_Mag"]];
+_sekwaffenarray = selectRandom [["hgun_Rook40_F","16Rnd_9x21_Mag"]];
 _sekwaffe = _sekwaffenarray select 0;
 _sekmunition = _sekwaffenarray select 1;
 
@@ -86,7 +86,7 @@ for "_i" from 1 to 2 do {_unit addMagazine _sekmunition;};
 
 
 // Sekundär Waffe Items
-_unit addHandgunItem "optic_MRD";
+_unit addHandgunItem "";
 
 
 
