@@ -29,10 +29,7 @@ class CfgFunctions
 	#include "functions\CfgFunctions.hpp"
 };
 
-class ACE_Settings
-{
-	#include "settings\CfgACE.hpp"
-};
+
 
 
 /*================== Prameter ============ */
