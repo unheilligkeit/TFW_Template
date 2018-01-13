@@ -6,22 +6,7 @@
 [player] execVM "mission\briefing.sqf";
 
 // Loadout Auswahl
-
-if (side player == west) then
-{
-	[player] call TFW_fnc_loadoutselect_blu ;
-};
-
-if (side player == resistance) then
-{
-	[player] call TFW_fnc_loadoutselect_gre ;
-};
-
-if (side player == east) then
-{
-	[player] call TFW_fnc_loadoutselect_opf ;
-};
-
+[player] call TFW_fnc_loadoutselect ;
 
 
 // Intro Film

@@ -29,7 +29,10 @@ class CfgFunctions
 	#include "functions\CfgFunctions.hpp"
 };
 
-
+class ACE_Settings
+{
+	#include "settings\CfgACE.hpp"
+};
 
 
 /*================== Prameter ============ */
@@ -37,27 +40,11 @@ class CfgFunctions
 class Params
 {
 
-	class param_loadout_blu
+	class param_loadout
 	{
-		title="Loadout Fraktion Blufor";
+		title="Loadout Fraktion";
 		values[] = {0,1,2,3,4,5,6};
 		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP","BW Flecktarn","BW Tropentarn","US Marine Woodland","'68s Vietnam US Army (Air Cav)"};
-		default = 0;
-	};
-
-	class param_loadout_opf
-	{
-		title="Loadout Fraktion Opfor";
-		values[] = {0,1};
-		texts[] = {"Vanilla CSAT","RHS Russland EMR"};
-		default = 0;
-	};
-
-	class param_loadout_gre
-	{
-		title="Loadout Fraktion Greenfor";
-		values[] = {0,1};
-		texts[] = {"Vanilla AAF","Syndikat"};
 		default = 0;
 	};
 
