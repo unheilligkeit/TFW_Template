@@ -61,12 +61,21 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["rhs_fgm148_magazine_AT", 3];
 		_fm_drohen addMagazineCargoGlobal ["rhs_fim92_mag", 3];
 	};
-	
+
 	case 6: //---- '68s Vietnam Army ----
 	{
 		_fm_drohen addWeaponCargoGlobal ["uns_m72", 5];
 		_fm_drohen addMagazineCargoGlobal ["uns_m72rocket", 5];
 	};
-	
+
+	case 7: //---- Swiss Army ----
+	{
+		_fm_drohen addWeaponCargoGlobal ["BWA3_RGW90", 2];
+		_fm_drohen addWeaponCargoGlobal ["launch_B_Titan_short_F", 1];
+		_fm_drohen addWeaponCargoGlobal ["launch_B_Titan_F", 1];
+		_fm_drohen addMagazineCargoGlobal ["Titan_AT", 3];
+		_fm_drohen addMagazineCargoGlobal ["Titan_AA", 3];
+	};
+
 
 };

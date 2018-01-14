@@ -50,4 +50,11 @@ switch (_kistefraktion) do
 		_log_kiste addMagazineCargoGlobal ["uns_30Rnd_556x45_Stanag_T", 15];
 	};
 
+	case 7: //---- Swiss Army ----
+	{
+		_log_kiste addMagazineCargoGlobal ["BWA3_200Rnd_556x45", 5];
+		_log_kiste addMagazineCargoGlobal ["BWA3_120Rnd_762x51_soft", 5];
+	};
+
+
 };

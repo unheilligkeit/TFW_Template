@@ -62,4 +62,13 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["rhsusf_5Rnd_300winmag_xm2010", 10];
 	};
 
+	case 7: //---- Swiss Army ----
+	{
+		_fm_drohen addMagazineCargoGlobal ["30Rnd_56x45_GP90_Armour_Piercing", 40];
+		_fm_drohen addMagazineCargoGlobal ["BWA3_200Rnd_556x45", 20];
+		_fm_drohen addMagazineCargoGlobal ["20Rnd_762x51_Mag", 10];
+		_fm_drohen addMagazineCargoGlobal ["7Rnd_408_Mag", 10];
+		_fm_drohen addMagazineCargoGlobal ["BWA3_120Rnd_762x51_soft", 10];
+	};
+
 };

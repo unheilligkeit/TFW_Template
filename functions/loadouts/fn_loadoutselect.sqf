@@ -475,3 +475,69 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
             };
 
     };
+
+//=================================================== Vanilla Nato ================================================================//
+
+    if(_loadoutfraktion == 7) then
+    {
+
+            switch (_playerclass) do
+            {
+
+
+                    case "B_Soldier_F": { [_unit] call TFW_fnc_swiss_riflemann; };
+
+                    case "B_Soldier_GL_F": { [_unit] call TFW_fnc_swiss_grenadier; };
+
+                    case "B_soldier_LAT_F": { [_unit] call TFW_fnc_swiss_riflemannpanzer; };
+
+                    case "B_soldier_AR_F": { [_unit] call TFW_fnc_swiss_lmg; };
+
+                    case "B_Soldier_TL_F": { [_unit] call TFW_fnc_swiss_teamleader; };
+
+                    case "B_Soldier_SL_F": { [_unit] call TFW_fnc_swiss_squadleader; };
+
+                    case "B_medic_F": { [_unit] call TFW_fnc_swiss_medic; };
+
+                    case "B_officer_F": { [_unit] call TFW_fnc_swiss_offizier; };
+
+                    case "B_soldier_M_F": { [_unit] call TFW_fnc_swiss_marksman; };
+
+                    case "B_crew_F": { [_unit] call TFW_fnc_swiss_crewman; };
+
+                    case "B_Helipilot_F": { [_unit] call TFW_fnc_swiss_helipilot; };
+
+                    case "B_helicrew_F": { [_unit] call TFW_fnc_swiss_helicrew; };
+
+                    case "B_soldier_repair_F": { [_unit] call TFW_fnc_swiss_logistiker; };
+
+                    case "B_HeavyGunner_F": { [_unit] call TFW_fnc_swiss_mmg; };
+
+                    case "B_soldier_AAR_F": { [_unit] call TFW_fnc_swiss_mmgassist; };
+
+                    case "B_soldier_AT_F": { [_unit] call TFW_fnc_swiss_atsoldier; };
+
+                    case "B_soldier_AAT_F": { [_unit] call TFW_fnc_swiss_atassist; };
+
+                    case "B_soldier_AA_F": { [_unit] call TFW_fnc_swiss_aasoldier; };
+
+                    case "B_soldier_AAA_F": { [_unit] call TFW_fnc_swiss_aaassist; };
+
+                    case "B_soldier_UAV_F": { [_unit] call TFW_fnc_swiss_uav; };
+
+                    case "B_soldier_exp_F": { [_unit] call TFW_fnc_swiss_eod; };
+
+                    case "B_Fighter_Pilot_F": { [_unit] call TFW_fnc_swiss_jetpilot; };
+
+                    case "B_sniper_F": { [_unit] call TFW_fnc_swiss_sniper; };
+
+                    case "B_spotter_F": { [_unit] call TFW_fnc_swiss_spotter; };
+
+                    case "B_recon_JTAC_F": { [_unit] call TFW_fnc_swiss_jtac; };
+
+
+
+                    default { [_unit] call TFW_fnc_loadoutentfernen ; };
+            };
+
+    };

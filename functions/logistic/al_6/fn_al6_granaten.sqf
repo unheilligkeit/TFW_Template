@@ -50,5 +50,13 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["rhs_mag_M433_HEDP", 8];
 	};
 
+	case 7: //---- Swiss Army ----
+	{
+		_fm_drohen addMagazineCargoGlobal ["SmokeShell", 5];
+		_fm_drohen addMagazineCargoGlobal ["HandGrenade", 5];
+		_fm_drohen addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 10];
+	};
+
+
 
 };

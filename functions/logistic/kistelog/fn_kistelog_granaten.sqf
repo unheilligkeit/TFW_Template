@@ -77,6 +77,16 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["uns_m61gren", 10];
 		_fm_drohen addMagazineCargoGlobal ["uns_m18Purple", 4];
 	};
-	
+
+	case 7: //---- Swiss Army ----
+	{
+		_fm_drohen addMagazineCargoGlobal ["SmokeShell", 8];
+		_fm_drohen addMagazineCargoGlobal ["HandGrenade", 8];
+		_fm_drohen addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 12];
+		_fm_drohen addMagazineCargoGlobal ["SmokeShellPurple", 4];
+		_fm_drohen addMagazineCargoGlobal ["SmokeShellRed", 4];
+		_fm_drohen addMagazineCargoGlobal ["SmokeShellGreen", 4];
+	};
+
 
 };

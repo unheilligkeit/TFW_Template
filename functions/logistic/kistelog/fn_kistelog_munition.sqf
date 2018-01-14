@@ -48,9 +48,15 @@ switch (_kistefraktion) do
 	case 6: //---- '68s Vietnam Army ----
 	{
 		_log_kiste addMagazineCargoGlobal ["uns_20Rnd_556x45_Stanag", 35];
-		_log_kiste addMagazineCargoGlobal ["uns_m40mag_T", 10];				
+		_log_kiste addMagazineCargoGlobal ["uns_m40mag_T", 10];
 		_log_kiste addMagazineCargoGlobal ["uns_m870mag", 10];
 		_log_kiste addMagazineCargoGlobal ["uns_12gaugemag_6f", 5];
 	};
-		
+
+	case 7: //---- Swiss Army ----
+	{
+		_log_kiste addMagazineCargoGlobal ["30Rnd_56x45_GP90_Armour_Piercing", 20];
+		_log_kiste addMagazineCargoGlobal ["20Rnd_762x51_Mag", 10];
+	};
+
 };

@@ -39,4 +39,9 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["rhs_mag_30Rnd_556x45_Mk318_Stanag", 12];
 	};
 
+	case 7: //---- Swiss Army ----
+	{
+		_fm_drohen addMagazineCargoGlobal ["30Rnd_56x45_GP90_Armour_Piercing", 12];
+	};
+
 };

@@ -62,4 +62,13 @@ switch (_kistefraktion) do
 		_fm_drohen addMagazineCargoGlobal ["rhs_fim92_mag", 6];
 	};
 
+	case 7: //---- Swiss Army ----
+	{
+		_fm_drohen addWeaponCargoGlobal ["BWA3_RGW90", 4];
+		_fm_drohen addWeaponCargoGlobal ["launch_B_Titan_short_F", 2];
+		_fm_drohen addWeaponCargoGlobal ["launch_B_Titan_F", 2];
+		_fm_drohen addMagazineCargoGlobal ["Titan_AT", 6];
+		_fm_drohen addMagazineCargoGlobal ["Titan_AA", 6];
+	};
+
 };

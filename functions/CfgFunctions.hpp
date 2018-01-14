@@ -267,6 +267,35 @@ class TFW
 
 	};
 
+	class swiss_army
+	{
+		file = "functions\loadouts\swiss_army";
+		class swiss_riflemann {};
+		class swiss_grenadier {};
+		class swiss_riflemannpanzer {};
+		class swiss_lmg {};
+		class swiss_teamleader {};
+		class swiss_squadleader {};
+		class swiss_medic {};
+		class swiss_offizier {};
+		class swiss_marksman {};
+		class swiss_crewman {};
+		class swiss_helipilot {};
+		class swiss_helicrew {};
+		class swiss_logistiker {};
+		class swiss_mmg {};
+		class swiss_mmgassist {};
+		class swiss_atsoldier {};
+		class swiss_atassist {};
+		class swiss_aasoldier {};
+		class swiss_aaassist {};
+		class swiss_uav {};
+		class swiss_eod {};
+		class swiss_jetpilot {};
+		class swiss_sniper {};
+		class swiss_spotter {};
+		class swiss_jtac {};
+
 	class logistic
 	{
 		file = "functions\logistic"
