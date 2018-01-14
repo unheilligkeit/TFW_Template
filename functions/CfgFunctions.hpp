@@ -296,6 +296,8 @@ class TFW
 		class swiss_spotter {};
 		class swiss_jtac {};
 
+	};
+
 	class logistic
 	{
 		file = "functions\logistic"
