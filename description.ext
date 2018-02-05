@@ -53,6 +53,14 @@ class Params
 		default = 0;
 	};
 
+		class param_hc
+	{
+		title="Headless Client";
+		values[] = {0,1};
+		texts[] = {"Deaktiviert","Aktiviert"};
+		default = 0;
+	};
+
 		class param_zeus
 	{
 		title="Zeus";
