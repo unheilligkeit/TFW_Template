@@ -66,10 +66,9 @@ _unit setVariable ["ACE_medical_medicClass", 2];
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["arifle_MX_F","30Rnd_65x39_caseless_mag"],["arifle_MX_Black_F","30Rnd_65x39_caseless_mag"]];
+_waffenarray = selectRandom [["KA_SG_550","KA_SIG_30rnd_M995_AP_mag"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
-
 _unit addWeapon _waffe;
 for "_i" from 1 to 8 do {_unit addMagazine _munition;};
 
@@ -80,8 +79,7 @@ for "_i" from 1 to 8 do {_unit addMagazine _munition;};
 _visierarray = selectRandom ["optic_Aco","optic_Aco_grn","optic_Arco","optic_mrco","optic_hamr","optic_Holosight",""];
 _unit addPrimaryWeaponItem  _visierarray;
 
-// Primär Waffe Items
-_unit addPrimaryWeaponItem "acc_pointer_IR";
+
 
 
 // Sekundär Waffe und Munition

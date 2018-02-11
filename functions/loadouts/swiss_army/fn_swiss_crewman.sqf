@@ -61,21 +61,11 @@ _unit setVariable ["ACE_IsEngineer", 1];
 // =========== Waffen verteilen ============ //
 
 // Primär Waffe und Munition
-_waffenarray = selectRandom [["SG553","30Rnd_56x45_GP90_Armour_Piercing"],["SG553_CQB","30Rnd_56x45_GP90_Armour_Piercing"]];
+_waffenarray = selectRandom [["KA_SG_550","KA_SIG_30rnd_M995_AP_mag"]];
 _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 _unit addWeapon _waffe;
 for "_i" from 1 to 8 do {_unit addMagazine _munition;};
-
-
-
-
-// Primär Waffe Visire
-_visierarray = selectRandom ["optic_Arco","optic_mrco","optic_hamr","optic_Holosight"];
-_unit addPrimaryWeaponItem  _visierarray;
-
-// Primär Waffe Items
-_unit addPrimaryWeaponItem "acc_pointer_IR";
 
 
 // Sekundär Waffe und Munition
