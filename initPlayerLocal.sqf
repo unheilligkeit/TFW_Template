@@ -20,6 +20,16 @@ if ( _introvar == 1 ) then {
 
 };
 
+// Auto Respawn to Group
+
+_respawnvar = "param_respawntime" call BIS_fnc_getParamValue;
+if (serverTime > _respawnvar) then {
+
+	[player] call TFW_fnc_teleport_to_group;
+	systemChat "Automatisch zur Gruppe Teleportiert."
+
+};
+
 // Techcheck Funktion
 
 _techcheckvar = "param_techcheck" call BIS_fnc_getParamValue;

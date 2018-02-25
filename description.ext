@@ -72,6 +72,14 @@ class Params
 		default = 1;
 	};
 
+		class param_respawntime
+	{
+		title="Auto Teleport zur Gruppe";
+		values[] = {300,600,1200,1800,3600,5400,7200,28000};
+		texts[] = {"5 min","10 min","20 min","30 min","1 std","1.5 std","2 std","8 std"};
+		default = 300;
+	};
+
 		class param_radiochatter
 	{
 		title="Radio Chatter";
