@@ -31,49 +31,7 @@ if (isClass (configFile >> "CfgPatches" >> "task_force_radio")) exitWith {
 	TF_defaultEastRiflemanRadio = "tf_pnr1000a";
 	TF_defaultGuerRiflemanRadio = "tf_anprc154";
 
-	//frequencies
-	//blufor
-	_settingsSwWest = [false] call TFAR_fnc_generateSwSettings;
-	_settingsSwEast = [false] call TFAR_fnc_generateSwSettings;
-	_settingsSwGuer = [false] call TFAR_fnc_generateSwSettings;
 
-	_settingsLrWest = [false] call TFAR_fnc_generateLrSettings;
-	_settingsLrEast = [false] call TFAR_fnc_generateLrSettings;
-	_settingsLrGuer = [false] call TFAR_fnc_generateLrSettings;
-
-
-		_settingsSwWest set [2, ["41","42","43","44","45","46","47","48"]];
-		_settingsLrWest set [2, ["51","52","53","54","55","56","57","58","59"]];
-
-		_settingsSwEast set [2, ["41","42","43","44","45","46","47","48"]];
-		_settingsLrEast set [2, ["51","52","53","54","55","56","57","58","59"]];
-
-		_settingsSwGuer set [2, ["61","62","63","64","65","66","67","68"]];
-		_settingsLrGuer set [2, ["71","72","73","74","75","76","77","78","79"]];
-
-
-	_settingsSwWest set [4, "_bluefor"];
-	_settingsLrWest set [4, "_bluefor"];
-	tf_freq_west = _settingsSwWest;
-	tf_freq_west_lr = _settingsLrWest;
-
-	_settingsSwEast set [4, "_opfor"];
-	_settingsLrEast set [4, "_opfor"];
-	tf_freq_east = _settingsSwEast;
-	tf_freq_east_lr = _settingsLrEast;
-
-	if ((independent getFriend west)>0.6) then {_settingsSWGuer set [4, "_bluefor"];} else {
-		if ((independent getFriend east)>0.6) then {_settingsSWGuer set [4, "_opfor"];} else {
-			_settingsSWGuer set [4, "_indfor"];
-		};
-	};
-	if ((independent getFriend west)>0.6) then {_settingsLrGuer set [4, "_bluefor"];} else {
-		if ((independent getFriend east)>0.6) then {_settingsLrGuer set [4, "_opfor"];} else {
-			_settingsLrGuer set [4, "_indfor"];
-		};
-	};
-	tf_freq_guer = _settingsSwGuer;
-	tf_freq_guer_lr = _settingsLrGuer;
 
 
 };

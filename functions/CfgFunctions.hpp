@@ -20,6 +20,8 @@ class TFW
 		class grouppatrol {};
 		class hunting {};
 		class spawnjet {};
+		class farming {};
+
 	};
 
 	class client
@@ -28,6 +30,7 @@ class TFW
 		class disco {};
 		class aircommander {};
 		class fpszeus {};
+		class teleport_to_group {};
 	};
 
 	class loadouts

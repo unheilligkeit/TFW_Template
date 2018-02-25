@@ -12,8 +12,9 @@ _unit = _this select 0;
 // =========== Equipment verteilen ============ //
 
 // Uniform
-_uniformarray = selectRandom ["SWISS_WOODLAND_Uniform","SWISS_WOODLAND_Uniform_rolledup","SWISS_WOODLAND_Uniform_tshirt"];
+_uniformarray = selectRandom ["SWISS_WOODLAND_TAZ","SWISS_WOODLAND_TAZ_rolledup"];
 _unit forceAddUniform _uniformarray ;
+
 
 // Westen
 _westenarray = selectRandom ["V_Safety_yellow_F"];
