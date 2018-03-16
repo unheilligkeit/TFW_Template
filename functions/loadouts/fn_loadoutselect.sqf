@@ -476,7 +476,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
     };
 
-//=================================================== Vanilla Nato ================================================================//
+//=================================================== Schweizer Armee ================================================================//
 
     if(_loadoutfraktion == 7) then
     {
@@ -536,6 +536,50 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
                     case "B_recon_JTAC_F": { [_unit] call TFW_fnc_swiss_jtac; };
 
 
+
+                    default { [_unit] call TFW_fnc_loadoutentfernen ; };
+            };
+
+    };
+
+//=================================================== CSAT Viper Hex ================================================================//
+
+    if(_loadoutfraktion == 8) then
+    {
+
+            switch (_playerclass) do
+            {
+
+
+                    case "O_Soldier_F": { [_unit] call TFW_fnc_csat_viper_hex_riflemann; };
+
+                    case "O_soldier_LAT_F": { [_unit] call TFW_fnc_csat_viper_hex_riflemannpanzer; };
+
+                    case "O_Soldier_TL_F": { [_unit] call TFW_fnc_csat_viper_hex_teamleader; };
+
+                    case "O_medic_F": { [_unit] call TFW_fnc_csat_viper_hex_medic; };
+
+                    default { [_unit] call TFW_fnc_loadoutentfernen ; };
+            };
+
+    };
+	
+//=================================================== CSAT Viper Grün Hex ================================================================//
+
+    if(_loadoutfraktion == 9) then
+    {
+
+            switch (_playerclass) do
+            {
+
+
+                    case "O_Soldier_F": { [_unit] call TFW_fnc_csat_viper_ghex_riflemann; };
+
+                    case "O_soldier_LAT_F": { [_unit] call TFW_fnc_csat_viper_ghex_riflemannpanzer; };
+
+                    case "O_Soldier_TL_F": { [_unit] call TFW_fnc_csat_viper_ghex_teamleader; };
+
+                    case "O_medic_F": { [_unit] call TFW_fnc_csat_viper_ghex_medic; };
 
                     default { [_unit] call TFW_fnc_loadoutentfernen ; };
             };
