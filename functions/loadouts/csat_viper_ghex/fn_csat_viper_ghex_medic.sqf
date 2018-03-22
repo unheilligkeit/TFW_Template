@@ -50,6 +50,7 @@ _unit linkItem "tf_fadak_1";
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
 [_unit] call TFW_fnc_loadoutmedicpack;
+for "_i" from 1 to 3 do {_unit addItemToBackpack "10Rnd_50BW_Mag_F";};
 
 
 

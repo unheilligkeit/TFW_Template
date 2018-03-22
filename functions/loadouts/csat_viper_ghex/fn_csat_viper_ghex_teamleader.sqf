@@ -47,6 +47,7 @@ _unit linkItem "tf_fadak_1";
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
+for "_i" from 1 to 3 do {_unit addItemToBackpack "10Rnd_50BW_Mag_F";};
 
 
 

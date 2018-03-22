@@ -553,7 +553,7 @@ _loadoutfraktion = "param_loadout" call BIS_fnc_getParamValue;
 
                     case "O_Soldier_F": { [_unit] call TFW_fnc_csat_viper_hex_riflemann; };
 
-                    case "O_soldier_LAT_F": { [_unit] call TFW_fnc_csat_viper_hex_riflemannpanzer; };
+                    case "O_Soldier_LAT_F": { [_unit] call TFW_fnc_csat_viper_hex_riflemannpanzer; };
 
                     case "O_Soldier_TL_F": { [_unit] call TFW_fnc_csat_viper_hex_teamleader; };
 
