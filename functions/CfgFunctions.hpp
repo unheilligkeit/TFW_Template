@@ -307,6 +307,7 @@ class TFW
 		class csat_viper_hex_riflemann {};
 		class csat_viper_hex_riflemannpanzer {};
 		class csat_viper_hex_teamleader {};
+		class csat_viper_hex_squadleader {};
 		class csat_viper_hex_medic {};
 
 	};
@@ -317,6 +318,7 @@ class TFW
 		class csat_viper_ghex_riflemann {};
 		class csat_viper_ghex_riflemannpanzer {};
 		class csat_viper_ghex_teamleader {};
+		class csat_viper_ghex_squadleader {};
 		class csat_viper_ghex_medic {};
 
 	};
