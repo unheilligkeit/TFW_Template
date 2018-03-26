@@ -43,8 +43,8 @@ class Params
 	class param_loadout
 	{
 		title="Loadout Fraktion";
-		values[] = {0,1,2,3,4,5,6,7};
-		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP","BW Flecktarn","BW Tropentarn","US Marine Woodland","'68s Vietnam US Army (Air Cav)","Schweizer Armee"};
+		values[] = {0,1,2,3,4,5,6,7,8,9};
+		texts[] = {"Vanilla Nato","US Army OCP","US Army UCP","BW Flecktarn","BW Tropentarn","US Marine Woodland","'68s Vietnam US Army (Air Cav)","Schweizer Armee","CSAT Viper Hex","CSAT Viper GHex"};
 		default = 0;
 	};
 
