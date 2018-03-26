@@ -66,7 +66,6 @@ if (isServer) then {execVM "mission\task.sqf"};
 
 
 
-
 //TFAR Settings
 
 call TFW_fnc_tfarsettings;
