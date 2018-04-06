@@ -20,7 +20,7 @@ _westenarray = selectRandom ["V_PlateCarrierSpec_rgr","V_Chestrig_rgr","V_PlateC
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["tf_rt1523g_big"];
+_rucksackearray = selectRandom ["tfw_ilbe_blade_coy"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -43,7 +43,8 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit linkItem "tf_anprc152";
+_unit addItem "ACRE_PRC343";
+_unit addItem "ACRE_PRC117F";
 
 
 // Sonstiges - Zusatzausrüstung

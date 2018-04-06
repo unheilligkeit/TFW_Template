@@ -20,7 +20,7 @@ _westenarray = selectRandom ["V_TacVest_oli","V_TacVest_khk","V_TacVest_brn","V_
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["B_Parachute"];
+_rucksackearray = selectRandom ["B_AssaultPack_rgr"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -43,7 +43,8 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit linkItem "tf_anprc152";
+_unit addItem "ACRE_PRC343";
+_unit addItem "ACRE_PRC117F";
 
 
 // Sonstiges - Zusatzausrüstung

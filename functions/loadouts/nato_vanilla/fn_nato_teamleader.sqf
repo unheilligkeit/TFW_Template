@@ -43,7 +43,8 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit linkItem "tf_anprc152";
+_unit addItem "ACRE_PRC343";
+_unit addItem "ACRE_PRC148";
 
 
 // Sonstiges - Zusatzausrüstung
@@ -66,7 +67,7 @@ _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
 _unit addWeapon _waffe;
-for "_i" from 1 to 5 do {_unit addMagazine _munition;};
+for "_i" from 1 to 10 do {_unit addMagazine _munition;};
 
 
 

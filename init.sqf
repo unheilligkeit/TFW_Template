@@ -4,7 +4,8 @@ if (!isServer && isNull player) then {isJIP=true;} else {isJIP=false;};
 enableSaving [false, false];
 
 setViewDistance 3500; //Max. Sichtweite setzen
-
+adv_aceCPR_probabilities = [40,15,5,85]
+adv_aceCPR_addTime = 30;
 
 
 // Zeus Settings
