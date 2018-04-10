@@ -27,7 +27,7 @@ Gibt es ein Wiki ?
 
 - Unheilligkeit / Florian [TFW]
 - Isaac  [TFW]
-- LiquidBlaze [TacCorp]
+- LiquidBlaze [10th MntD]
 - Belbo [SeL]
 - Buur [SeL]
 - DriftingNitro
