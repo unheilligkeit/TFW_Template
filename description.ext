@@ -18,6 +18,7 @@ DisabledAI = true;
 loadScreen = "images\loadscreen.jpg";
 overviewPicture = "";
 enableDebugConsole = 1;
+cba_settings_hasSettingsFile = 1;
 
 
 /* ================ Includes =============== */

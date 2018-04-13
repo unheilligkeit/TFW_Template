@@ -8,7 +8,7 @@ class TFW
 		file = "functions\server";
 		class drohnspawn {};
 		class radiochatter {};
-		class tfarsettings {};
+		class acresettings {};
 
 	};
 
@@ -300,7 +300,7 @@ class TFW
 		class swiss_jtac {};
 
 	};
-	
+
 	class csat_viper_hex
 	{
 		file = "functions\loadouts\csat_viper_hex";
