@@ -53,6 +53,8 @@ Die verschieden Fraktionen können einfach in der Lobby bei denn Parameter geän
 - 1968s US Army Vietnam Unsung
 - Schweizer Armee
 
+
+
 ### Logistik System
 
 Logistik in Arma ist vielfältig und abwechslungsreich.
