@@ -20,7 +20,7 @@ _westenarray = selectRandom ["BWA3_Vest_Tropen","BWA3_Vest_Grenadier_Tropen","BW
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["tf_rt1523g_big_bwmod_tropen"];
+_rucksackearray = selectRandom ["tfw_ilbe_blade_coy"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -42,7 +42,9 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit linkItem "tf_anprc152";
+_unit addItem "ACRE_PRC343";
+_unit addItem "ACRE_PRC148";
+_unit addItem "ACRE_PRC117F";
 
 
 
@@ -68,7 +70,7 @@ _waffe = _waffenarray select 0;
 _munition = _waffenarray select 1;
 
 _unit addWeapon _waffe;
-for "_i" from 1 to 6 do {_unit addMagazine _munition;};
+for "_i" from 1 to 8 do {_unit addMagazine _munition;};
 
 
 

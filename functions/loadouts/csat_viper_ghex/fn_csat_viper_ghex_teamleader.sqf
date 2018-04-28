@@ -42,7 +42,8 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit linkItem "tf_fadak_1";
+_unit addItem "ACRE_PRC343";
+_unit addItem "ACRE_PRC148";
 
 
 // Sonstiges - Zusatzausrüstung
