@@ -285,7 +285,7 @@ class ace_medical_enableRevive {
     force = 0;
 };
 class ace_medical_maxReviveTime {
-    value = 120;
+    value = 1800;
     typeName = "SCALAR";
     force = 0;
 };
@@ -455,7 +455,7 @@ class ace_nametags_playerNamesMaxAlpha {
     force = 0;
 };
 class ace_nightvision_disableNVGsWithSights {
-    value = 1;
+    value = 0;
     typeName = "BOOL";
     force = 0;
 };
