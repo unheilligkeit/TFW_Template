@@ -27,7 +27,7 @@ achilles_curator_vision_whitehotredcold = false;
 // ACRE2
 force force acre_sys_core_fullDuplex = false;
 force force acre_sys_core_ignoreAntennaDirection = true;
-force force acre_sys_core_interference = true;
+force force acre_sys_core_interference = false;
 acre_sys_core_postmixGlobalVolume = 1;
 acre_sys_core_premixGlobalVolume = 1;
 force force acre_sys_core_revealToAI = true;
