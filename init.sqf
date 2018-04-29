@@ -8,6 +8,16 @@ adv_aceCPR_probabilities = [40,15,5,85];
 adv_aceCPR_addTime = 30;
 
 
+babe_em_blacklist = [
+    "Land_ChairWood_F",
+    "Land_ChairPlastic_F",
+    "Land_CampingChair_V1_F",
+    "Land_CampingChair_V2_F",
+    "Land_CampingChair_V2_white_F",
+    "Land_RattanChair_01_F",
+    "Land_OfficeChair_01_F"
+];
+
 // Zeus Settings
 
 _zeusvar = "param_zeus" call BIS_fnc_getParamValue;
