@@ -43,12 +43,12 @@ _unit addGoggles _brillenarray;
 [_unit] call TFW_fnc_loadoutgranaten ;
 
 // Funkgeräte
-_unit linkItem "tf_anprc152";
+_unit addItem "ACRE_PRC343";
 
 
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
-for "_i" from 1 to 6 do {_unit addItemToVest "rhs_mag_M433_HEDP";};
+for "_i" from 1 to 10 do {_unit addItemToVest "rhs_mag_M433_HEDP";};
 
 
 

@@ -47,7 +47,6 @@ _unit addItem "ACRE_PRC343";
 _unit addItem "ACRE_PRC148";
 _unit addItem "ACRE_PRC117F";
 
-
 // Sonstiges - Zusatzausrüstung
 _unit addItemToUniform "ACE_Flashlight_XL50";
 for "_i" from 1 to 4 do {_unit addItemToVest "ACE_HuntIR_M203";};

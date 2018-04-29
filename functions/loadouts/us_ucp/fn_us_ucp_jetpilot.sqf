@@ -42,7 +42,7 @@ _unit addGoggles _brillenarray;
 
 
 // Funkgeräte
-_unit linkItem "tf_anprc152";
+_unit addItem "ACRE_PRC343";
 
 
 // Sonstiges - Zusatzausrüstung
