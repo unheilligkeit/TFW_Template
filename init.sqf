@@ -15,7 +15,8 @@ babe_em_blacklist = [
     "Land_CampingChair_V2_F",
     "Land_CampingChair_V2_white_F",
     "Land_RattanChair_01_F",
-    "Land_OfficeChair_01_F"
+    "Land_OfficeChair_01_F",
+    "ARM_CHE_ChessTableMarble_1"
 ];
 
 // Zeus Settings

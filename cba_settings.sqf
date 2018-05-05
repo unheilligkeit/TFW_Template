@@ -37,3 +37,9 @@ force force acre_sys_core_ts3ChannelName = "Missions Server TFW";
 force force acre_sys_core_ts3ChannelPassword = "123";
 force force acre_sys_core_ts3ChannelSwitch = true;
 force force acre_sys_core_unmuteClients = true;
+
+// KLPQ Music Radio
+klpq_musicRadio_displayTilesOnLoudRadio = true;
+klpq_musicRadio_enableBackpackRadioSP = false;
+klpq_musicRadio_loudspeakerVolume = 2;
+klpq_musicRadio_radioVolumePercent = 20;
