@@ -8,6 +8,7 @@ class TFW
 		file = "functions\server";
 		class drohnspawn {};
 		class radiochatter {};
+		class ambient_sounds {};
 	};
 
 	class ai
