@@ -41,6 +41,7 @@ class TFW
 		class loadoutgranaten {};
 		class loadoutgranaten_vietnam {};
 		class loadoutmedicpack {};
+		class loadoutchest {};
 
 	};
 
