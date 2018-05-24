@@ -101,3 +101,5 @@ _unit linkItem "ItemAndroid";
 
 // Nachtsichtgeräte
 _unit linkItem "ACE_NVG_Gen1";
+
+[_unit,"ACE_NVG_Gen1"] call TFW_fnc_loadout_specialtfw;

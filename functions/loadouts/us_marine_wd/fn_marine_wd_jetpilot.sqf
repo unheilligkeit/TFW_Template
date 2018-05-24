@@ -94,3 +94,5 @@ _unit linkItem "ItemMicroDAGR";
 
 // Nachtsichtgeräte
 _unit linkItem "ACE_NVG_Wide";
+
+[_unit,"ACE_NVG_Wide"] call TFW_fnc_loadout_specialtfw;

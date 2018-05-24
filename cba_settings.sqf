@@ -43,3 +43,11 @@ klpq_musicRadio_displayTilesOnLoudRadio = true;
 klpq_musicRadio_enableBackpackRadioSP = false;
 klpq_musicRadio_loudspeakerVolume = 2;
 klpq_musicRadio_radioVolumePercent = 20;
+
+// Tactical Weapon Swap Option
+Swap the gun quickly without an animation process. = true;
+You can wear another weapon in the state of a pistol. = false;
+
+// GRAD slingHelmet
+force GRAD_slingHelmet_additionalList = "";
+force force GRAD_slingHelmet_allowAll = true;

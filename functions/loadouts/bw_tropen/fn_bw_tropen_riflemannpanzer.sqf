@@ -110,3 +110,5 @@ _unit linkItem "ItemMicroDAGR";
 
 // Nachtsichtgeräte
 _unit linkItem "dsk_nsv";
+
+[_unit,"dsk_nsv"] call TFW_fnc_loadout_specialtfw;

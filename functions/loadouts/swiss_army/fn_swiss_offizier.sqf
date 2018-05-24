@@ -96,3 +96,4 @@ _unit linkItem "ItemWatch";
 _unit linkItem "ItemAndroid";
 
 
+[_unit,""] call TFW_fnc_loadout_specialtfw;

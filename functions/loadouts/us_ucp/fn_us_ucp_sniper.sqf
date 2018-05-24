@@ -124,4 +124,6 @@ _unit linkItem "ACE_Altimeter";
 _unit linkItem "ItemAndroid";
 
 // Nachtsichtgeräte
-_unit linkItem "ACE_NVG_Gen1";
+_unit linkItem "rhsusf_ANPVS_15";
+
+[_unit,"rhsusf_ANPVS_15"] call TFW_fnc_loadout_specialtfw;

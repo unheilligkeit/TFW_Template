@@ -119,3 +119,5 @@ _unit linkItem "ItemMicroDAGR";
 
 // Nachtsichtgeräte
 _unit linkItem "rhsusf_ANPVS_15";
+
+[_unit,"rhsusf_ANPVS_15"] call TFW_fnc_loadout_specialtfw;

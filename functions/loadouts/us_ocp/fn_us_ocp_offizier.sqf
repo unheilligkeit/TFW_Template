@@ -116,4 +116,6 @@ _unit linkItem "ItemWatch";
 // GPS
 _unit linkItem "ItemAndroid";
 
+[_unit,""] call TFW_fnc_loadout_specialtfw;
+
 
