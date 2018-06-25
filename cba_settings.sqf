@@ -434,14 +434,14 @@ acre_sys_core_premixGlobalVolume = 1;
 force force acre_sys_core_revealToAI = true;
 acre_sys_core_spectatorVolume = 1;
 force force acre_sys_core_terrainLoss = 0.4;
-force force acre_sys_core_ts3ChannelName = "Ausbildungs Server TFW";
+force force acre_sys_core_ts3ChannelName = "Missions Server TFW";
 force force acre_sys_core_ts3ChannelPassword = "123";
 force force acre_sys_core_ts3ChannelSwitch = true;
 force force acre_sys_core_unmuteClients = true;
 
 
 // KLPQ Music Radio
-klpq_musicRadio_displayTilesOnLoudRadio = true;
+klpq_musicRadio_displayTilesOnLoudRadio = false;
 klpq_musicRadio_enableBackpackRadioSP = false;
 klpq_musicRadio_loudspeakerVolume = 2;
 klpq_musicRadio_radioVolumePercent = 20;
