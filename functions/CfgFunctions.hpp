@@ -1,7 +1,7 @@
-class TFW
+class TF133
 {
 
-	tag = "TFW";
+	tag = "TF133";
 
 	class server
 	{
@@ -42,7 +42,6 @@ class TFW
 		class loadoutgranaten_vietnam {};
 		class loadoutmedicpack {};
 		class loadoutchest {};
-		class loadout_specialtfw {};
 
 	};
 

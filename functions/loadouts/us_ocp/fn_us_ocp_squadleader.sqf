@@ -6,7 +6,7 @@ _unit = _this select 0;
 
 // ========== Waffen entfernen =============== //
 
-[_unit] call TFW_fnc_loadoutentfernen ;
+[_unit] call TF133_fnc_loadoutentfernen ;
 
 
 // =========== Equipment verteilen ============ //
@@ -20,7 +20,7 @@ _westenarray = selectRandom ["rhsusf_iotv_ocp_Squadleader"];
 _unit addVest _westenarray ;
 
 // Rücksäcke
-_rucksackearray = selectRandom ["tfw_ilbe_blade_coy"];
+_rucksackearray = selectRandom ["TF133_ilbe_blade_coy"];
 _unit addBackpack _rucksackearray ;
 
 // Helme
@@ -37,10 +37,10 @@ _unit addGoggles _brillenarray;
 // =========== Item verteilen ============ //
 
 // Medikit
-[_unit] call TFW_fnc_loadoutmedickit ;
+[_unit] call TF133_fnc_loadoutmedickit ;
 
 // Grantenkit
-[_unit] call TFW_fnc_loadoutgranaten ;
+[_unit] call TF133_fnc_loadoutgranaten ;
 
 // Funkgeräte
 _unit addItem "ACRE_PRC343";
@@ -117,4 +117,4 @@ _unit linkItem "ItemAndroid";
 // Nachtsichtgeräte
 _unit linkItem "rhsusf_ANPVS_15";
 
-[_unit,"rhsusf_ANPVS_15"] call TFW_fnc_loadout_specialtfw;
+

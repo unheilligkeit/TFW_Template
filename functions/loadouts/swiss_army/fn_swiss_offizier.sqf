@@ -6,7 +6,7 @@ _unit = _this select 0;
 
 // ========== Waffen entfernen =============== //
 
-[_unit] call TFW_fnc_loadoutentfernen ;
+[_unit] call TF133_fnc_loadoutentfernen ;
 
 
 // =========== Equipment verteilen ============ //
@@ -37,10 +37,10 @@ _unit addGoggles _brillenarray;
 // =========== Item verteilen ============ //
 
 // Medikit
-[_unit] call TFW_fnc_loadoutmedickit ;
+[_unit] call TF133_fnc_loadoutmedickit ;
 
 // Grantenkit
-[_unit] call TFW_fnc_loadoutgranaten ;
+[_unit] call TF133_fnc_loadoutgranaten ;
 
 // Funkgeräte
 _unit linkItem "tf_anprc152";
@@ -96,4 +96,4 @@ _unit linkItem "ItemWatch";
 _unit linkItem "ItemAndroid";
 
 
-[_unit,""] call TFW_fnc_loadout_specialtfw;
+[_unit,""] call TF133_fnc_loadout_specialTF133;
