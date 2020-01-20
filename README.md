@@ -45,6 +45,7 @@ Die verschieden Fraktionen können einfach in der Lobby bei denn Parameter geän
 
 #### Fraktionen
 - Vanilla Nato
+- Vanilla CSAT
 - US Army OCP
 - US Army UCP
 - Bundeswehr Flecktarn
